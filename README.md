@@ -84,9 +84,37 @@ Every interactive card uses the Imperial Golden Age theme — gold accents on da
 
 All decks are hosted on Google Cloud Storage. Direct download — no signup. Import into Anki Desktop with **File → Import**.
 
-### 🌐 Global decks — one file, all four languages
+### 🌐 Global decks — one file, all four languages, level-tiered
 
-Each global deck is a single `.apkg` containing 4 nested subdecks (`{Type}::Spanish`, `{Type}::Japanese`, `{Type}::Chinese`, `{Type}::Korean`). Import once, get every language.
+Each global deck is a single `.apkg` with a 3-tier nested structure:
+
+```
+{Type}.apkg
+  └── {Type}::Spanish
+        ├── {Type}::Spanish::A1   ← cards sorted by frequency rank (most common first)
+        ├── {Type}::Spanish::A2
+        ├── {Type}::Spanish::B1
+        └── {Type}::Spanish::B2
+  └── {Type}::Japanese / Chinese / Korean (same A1→B2 split)
+```
+
+Inside each level subdeck, cards are sorted **by frequency** — top-1000 words first, then 1K-3K, etc. Anki's review order respects this, so you learn high-frequency / lower-CEFR cards before rare / higher-CEFR ones automatically.
+
+**Level assignment per deck type:**
+
+| Deck | Level signal | A1 | A2 | B1 | B2 |
+|------|----|----|----|----|----|
+| Vocabulary-Classic, Vocab-MCQ-* | frequency rank | rank 1–1000 | 1001–3000 | 3001–6000 | 6001–10K |
+| Sentence-Mining, Synonyms | frequency rank | same | same | same | same |
+| Grammar-Patterns | explicit CEFR tag | ~250 ES (A1) | ~1750 (A2) | — | — |
+| Numbers | card subtype | cardinals 1–20 | cardinals 21–100, ordinals, sound-changes, ZH/ES special rules, Native+counter | KO dual-system selection, large numbers (10K+) | — |
+| Conjugation | verb form | present, te-form, past-polite, completed (了) | preterite, imperfect, negative casual, experiential (过) | future, subjunctive, potential, imperative, conditional | — |
+| Function-Words | (basic — all A1) | all 1000 | — | — | — |
+| Counters | (basic-intermediate) | — | all 760 | — | — |
+| Register | (intermediate) | — | — | all 400 | — |
+
+<details>
+<summary><b>🌐 Click to expand global multi-language decks</b></summary>
 
 <details>
 <summary><b>🌐 Click to expand global multi-language decks</b></summary>
