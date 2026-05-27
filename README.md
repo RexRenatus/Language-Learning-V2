@@ -42,6 +42,7 @@ For the Japanese rebuild story, see [`docs/ja-unidic-rebuild.md`](docs/ja-unidic
 | **Counter / Measure-Word** | Counter–noun pairing                     | ja / zh / ko       | 760 |
 | **Synonyms**            | Closest synonym (Gemini-verified)          | es / ja / zh / ko | 7,978 |
 | **Honorifics / Register**| Speech-level appropriateness              | ja / ko            | 400 |
+| **Numbers**             | Cardinals, ordinals, sound changes, dual systems | es / ja / zh / ko | 1,453 |
 
 Per-language pages: **[Spanish](es/) · [Japanese](ja/) · [Chinese](zh/) · [Korean](ko/)**
 
@@ -82,6 +83,31 @@ Every interactive card uses the Imperial Golden Age theme — gold accents on da
 ## Downloads
 
 All decks are hosted on Google Cloud Storage. Direct download — no signup. Import into Anki Desktop with **File → Import**.
+
+### 🌐 Global decks — one file, all four languages
+
+Each global deck is a single `.apkg` containing 4 nested subdecks (`{Type}::Spanish`, `{Type}::Japanese`, `{Type}::Chinese`, `{Type}::Korean`). Import once, get every language.
+
+<details>
+<summary><b>🌐 Click to expand global multi-language decks</b></summary>
+
+| Deck (all 4 langs) | Cards | File |
+|--------------------|------:|------|
+| **Numbers** _(NEW)_ | 1,453 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.3 MB) |
+| **Vocabulary-Classic** | 40,000 | [⬇ Vocabulary-Classic.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocabulary-Classic.apkg) (19 MB) |
+| **Vocab-MCQ-Recognition** | 40,000 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (170 MB) |
+| **Vocab-MCQ-Recall** | 40,000 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (96 MB) |
+| **Function-Words** | 1,000 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.3 MB) |
+| **Grammar-Patterns** | 2,000 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.4 MB) |
+| **Sentence-Mining** | 37,745 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (83 MB) |
+| **Conjugation** | 1,974 | [⬇ Conjugation.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Conjugation.apkg) (4.4 MB) |
+| **Counters** _(ja/zh/ko)_ | 760 | [⬇ Counters.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Counters.apkg) (1.7 MB) |
+| **Synonyms** | 7,978 | [⬇ Synonyms.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Synonyms.apkg) (17 MB) |
+| **Register** _(ja/ko)_ | 400 | [⬇ Register.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Register.apkg) (1.0 MB) |
+
+</details>
+
+### 📦 Per-language decks (if you only want one language)
 
 <details>
 <summary><b>📦 Vocabulary decks (one row per language) — click to expand</b></summary>
