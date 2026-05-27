@@ -123,17 +123,47 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 
 | Deck (all 4 langs) | Cards | File |
 |--------------------|------:|------|
-| **Numbers** _(NEW)_ | 1,453 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.3 MB) |
-| **Vocabulary-Classic** | 40,000 | [⬇ Vocabulary-Classic.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocabulary-Classic.apkg) (19 MB) |
-| **Vocab-MCQ-Recognition** | 40,000 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (170 MB) |
-| **Vocab-MCQ-Recall** | 40,000 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (96 MB) |
-| **Function-Words** | 1,000 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.3 MB) |
-| **Grammar-Patterns** | 2,000 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.4 MB) |
-| **Sentence-Mining** | 37,745 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (83 MB) |
-| **Conjugation** | 1,974 | [⬇ Conjugation.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Conjugation.apkg) (4.4 MB) |
+| **Numbers** | 1,258 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.1 MB) |
+| **Vocabulary-Classic** | 39,906 | [⬇ Vocabulary-Classic.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocabulary-Classic.apkg) (18 MB) |
+| **Vocab-MCQ-Recognition** | 39,906 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (162 MB) |
+| **Vocab-MCQ-Recall** | 39,906 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (92 MB) |
+| **Function-Words** | 994 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.2 MB) |
+| **Grammar-Patterns** | 1,995 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.3 MB) |
+| **Sentence-Mining** | 37,299 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (79 MB) |
+| **Conjugation** | 1,973 | [⬇ Conjugation.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Conjugation.apkg) (4.5 MB) |
 | **Counters** _(ja/zh/ko)_ | 760 | [⬇ Counters.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Counters.apkg) (1.7 MB) |
-| **Synonyms** | 7,978 | [⬇ Synonyms.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Synonyms.apkg) (17 MB) |
-| **Register** _(ja/ko)_ | 400 | [⬇ Register.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Register.apkg) (1.0 MB) |
+| **Synonyms** | 7,963 | [⬇ Synonyms.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Synonyms.apkg) (17 MB) |
+| **Register** _(ja/ko)_ | 400 | [⬇ Register.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Register.apkg) (1.7 MB) |
+
+> **Total: 172,360 cards across 11 global decks** — audited via 19-layer
+> QA pipeline (`Phase 11-Global-Decks/`); bucket is publicly readable so
+> the HTTPS links work without authentication.
+
+#### 🔒 Integrity verification
+
+All downloads are served over **HTTPS (TLS 1.2+, HSTS)** via
+`storage.googleapis.com`. Verify file integrity with the published
+SHA-256 manifest:
+
+```bash
+# Download the manifest, then verify every .apkg in your local apkg/ dir:
+curl -O https://storage.googleapis.com/aol-language-decks-v2/v2/global/SHA256SUMS
+cd apkg/ && sha256sum -c ../SHA256SUMS
+```
+
+| Deck | SHA-256 |
+|------|---------|
+| Conjugation.apkg | `61890a6220b94002fc71b03f9b9493f8f11a571846fb604c52e40ec2679ec7e6` |
+| Counters.apkg | `9b050437f531feab68624e444f9103bf34cd47ab7d16fa3e6b6dbf02c77137ff` |
+| Function-Words.apkg | `a4815ca9766a2245ce61c20e79a9fede8ece4aaa1fa6f77282baae03b0edc2f0` |
+| Grammar-Patterns.apkg | `6800a0895b14d591ab0fdfcaeeb0767e997439b91a356f1c497d03ed55bcf0eb` |
+| Numbers.apkg | `03a2310573bf5ee5b65ba1b1e16fcad8aa031aa6082bf315394438206359d7a0` |
+| Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
+| Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
+| Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
+| Vocab-MCQ-Recall.apkg | `40510af51d5b1af1b72bbffdb5693537a56858648489f51444539d2ce61dd251` |
+| Vocab-MCQ-Recognition.apkg | `d2cdc9fc5947cab85646bdf2e08f727d3725624c4da60cd224024790b0e5b9e5` |
+| Vocabulary-Classic.apkg | `a0bbce26be6b1f681646724090f9055c858bf4ede3f15754e35204a70aa7c30a` |
 
 </details>
 
