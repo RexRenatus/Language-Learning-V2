@@ -49,20 +49,54 @@ See [`docs/cloze-mcq-design.md`](docs/cloze-mcq-design.md) for the cloze-MCQ car
 
 ---
 
-## Downloads (top of the funnel)
+## Card previews
+
+Every interactive card uses the Imperial Golden Age theme — gold accents on dark navy, with a structured back: green ✓ ANSWER banner, **CORE LOGIC** section explaining the rule, **MEMORY AID** section with deck-specific framing (pattern formula / etymology / paradigm hint / visual analogy / nuance distinction / social-context cue), and footer metadata pills.
+
+<details>
+<summary><b>🔎 Click to see real card previews (front + back) per deck type</b></summary>
+
+### Vocabulary decks
+
+| Deck | Preview |
+|------|---------|
+| Vocab MCQ Recognition | ![Vocab Recognition preview](docs/previews/vocab-recognition-spanish.svg) |
+| Vocab MCQ Recall      | ![Vocab Recall preview](docs/previews/vocab-recall-spanish.svg) |
+
+### Cloze-MCQ decks (with `— W H Y —` reasoning)
+
+| Deck | Preview |
+|------|---------|
+| Function-Word Cloze     | ![Function preview](docs/previews/function-spanish.svg) |
+| Grammar-Pattern Cloze   | ![Grammar preview](docs/previews/grammar-spanish.svg) |
+| Sentence-Mining Cloze   | ![Sentence-Mining preview](docs/previews/sentence-mining-spanish.svg) |
+| Conjugation Drill       | ![Conjugation preview](docs/previews/conjugation-spanish.svg) |
+| Counter / Measure-Word  | ![Counter preview](docs/previews/counter-japanese.svg) |
+| Synonyms                | ![Synonym preview](docs/previews/synonym-spanish.svg) |
+| Honorifics / Register   | ![Register preview](docs/previews/register-japanese.svg) |
+
+</details>
+
+---
+
+## Downloads
 
 All decks are hosted on Google Cloud Storage. Direct download — no signup. Import into Anki Desktop with **File → Import**.
 
-### Vocabulary decks (one row per language)
+<details>
+<summary><b>📦 Vocabulary decks (one row per language) — click to expand</b></summary>
 
 | Language | Classic Vocab | MCQ Recognition | MCQ Recall |
 |----------|---------------|-----------------|------------|
-| **Spanish**  | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-Spanish-OpenSubs.apkg) (4.2 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recognition-Spanish-OpenSubs.apkg) (36 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recall-Spanish-OpenSubs.apkg) (21 MB) |
-| **Japanese** | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-Japanese-OpenSubs.apkg) (5.2 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recognition-Japanese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recall-Japanese-OpenSubs.apkg) (23 MB) |
-| **Chinese**  | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-Chinese-OpenSubs.apkg) (5.5 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recognition-Chinese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recall-Chinese-OpenSubs.apkg) (27 MB) |
-| **Korean**   | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-Korean-OpenSubs.apkg) (4.7 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recognition-Korean-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recall-Korean-OpenSubs.apkg) (25 MB) |
+| **Spanish**  | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-Spanish-OpenSubs.apkg) (4.2 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recognition-Spanish-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recall-Spanish-OpenSubs.apkg) (21 MB) |
+| **Japanese** | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-Japanese-OpenSubs.apkg) (5.2 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recognition-Japanese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recall-Japanese-OpenSubs.apkg) (22 MB) |
+| **Chinese**  | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-Chinese-OpenSubs.apkg) (5.5 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recognition-Chinese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recall-Chinese-OpenSubs.apkg) (25 MB) |
+| **Korean**   | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-Korean-OpenSubs.apkg) (4.7 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recognition-Korean-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recall-Korean-OpenSubs.apkg) (24 MB) |
 
-### Cloze-MCQ decks (with reasoning)
+</details>
+
+<details>
+<summary><b>📦 Cloze-MCQ decks (with reasoning) — click to expand</b></summary>
 
 | Language | Function-Word | Grammar-Pattern | Sentence-Mining | Conjugation | Counter | Synonyms | Register |
 |----------|---|---|---|---|---|---|---|
@@ -71,7 +105,9 @@ All decks are hosted on Google Cloud Storage. Direct download — no signup. Imp
 | **Chinese**  | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Function-Chinese-OpenSubs.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Grammar-Chinese-OpenSubs.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/SentenceMining-Chinese-OpenSubs.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Conjugation-Chinese-Drill.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Counter-Chinese-Drill.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Synonyms-Chinese-OpenSubs.apkg) | — |
 | **Korean**   | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Function-Korean-OpenSubs.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Grammar-Korean-OpenSubs.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/SentenceMining-Korean-OpenSubs.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Conjugation-Korean-Drill.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Counter-Korean-Drill.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Synonyms-Korean-OpenSubs.apkg) | [⬇](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Register-Korean-Drill.apkg) |
 
-Per-language pages have the full table with file sizes and sample-card links.
+</details>
+
+Per-language pages have the full table with file sizes and sample-card links: **[Spanish](es/) · [Japanese](ja/) · [Chinese](zh/) · [Korean](ko/)**
 
 ---
 
