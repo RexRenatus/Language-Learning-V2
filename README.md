@@ -100,6 +100,8 @@ Each global deck is a single `.apkg` with a 3-tier nested structure:
 
 Inside each level subdeck, cards are sorted **by frequency** — top-1000 words first, then 1K-3K, etc. Anki's review order respects this, so you learn high-frequency / lower-CEFR cards before rare / higher-CEFR ones automatically.
 
+**Pronunciation:** Every cloze-MCQ and Numbers card now carries IPA (International Phonetic Alphabet) transcriptions in the original ebook format — full sentence in the prompt panel, answer-word repeated below the green ✓ banner. Generated via `espeak-ng + epitran` (Spanish), `pykakasi + pyopenjtalk` (Japanese), `pypinyin + pinyin_to_ipa` (Chinese), and rule-based Hangul→IPA (Korean). Format: `/word | word | word↘ ‖/` with `|` for word boundaries, `↘ ‖` for sentence-final declaratives.
+
 **Level assignment per deck type:**
 
 | Deck | Level signal | A1 | A2 | B1 | B2 |
