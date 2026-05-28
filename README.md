@@ -33,8 +33,8 @@ For the Japanese rebuild story, see [`docs/ja-unidic-rebuild.md`](docs/ja-unidic
 | Deck type | What it drills | Languages | Cards |
 |---|---|---|---:|
 | **Classic vocab**       | Word → meaning (open recall)               | es / ja / zh / ko | 40,000 |
-| **MCQ Recognition**     | Definition → word (1 of 6)                 | es / ja / zh / ko | 40,000 |
-| **MCQ Recall**          | Word → definition (1 of 6)                 | es / ja / zh / ko | 40,000 |
+| **MCQ Recognition**     | Definition → word (1 of 6)                 | es / ja / zh / ko | 2,080 |
+| **MCQ Recall**          | Word → definition (1 of 6)                 | es / ja / zh / ko | 2,080 |
 | **Function-Word Cloze** | Particles, prepositions, function words    | es / ja / zh / ko | 1,000 |
 | **Grammar-Pattern Cloze**| A1–B1 grammar patterns w/ typed distractors | es / ja / zh / ko | 2,000 |
 | **Sentence-Mining Cloze**| Top-frequency vocab in real-corpus context | es / ja / zh / ko | 37,745 |
@@ -125,8 +125,8 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 |--------------------|------:|------|
 | **Numbers** | 1,258 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.1 MB) |
 | **Vocabulary-Classic** | 39,906 | [⬇ Vocabulary-Classic.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocabulary-Classic.apkg) (18 MB) |
-| **Vocab-MCQ-Recognition** | 39,906 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (162 MB) |
-| **Vocab-MCQ-Recall** | 39,906 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (92 MB) |
+| **Vocab-MCQ-Recognition** | 2,080 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (8.5 MB) |
+| **Vocab-MCQ-Recall** | 2,080 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (6.1 MB) |
 | **Function-Words** | 994 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.2 MB) |
 | **Grammar-Patterns** | 1,995 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.3 MB) |
 | **Sentence-Mining** | 37,299 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (79 MB) |
@@ -135,9 +135,26 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 | **Synonyms** | 7,963 | [⬇ Synonyms.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Synonyms.apkg) (17 MB) |
 | **Register** _(ja/ko)_ | 400 | [⬇ Register.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Register.apkg) (1.7 MB) |
 
-> **Total: 172,360 cards across 11 global decks** — audited via 19-layer
+> **Total: 96,708 cards across 11 global decks** — audited via 20-layer
 > QA pipeline (`Phase 11-Global-Decks/`); bucket is publicly readable so
 > the HTTPS links work without authentication.
+>
+> **MCQ decks refined (top-500/language).** The Vocab-MCQ-Recognition/Recall
+> decks were rebuilt as a curated **top-520 content words per language** set
+> (replacing the 39,906-card mega decks) with three quality upgrades: glosses
+> standardized via LLM normalization (no Wiktionary markup/inflection dumps),
+> a new **memory-aid mnemonic** on every card (sound-link for es/ko, character/
+> radical decomposition for zh/ja), and collocations rebuilt from a single
+> **OpenSubtitles** corpus of truth (count-then-NPMI ranked, cross-script
+> filtered). BGE-M3 embedding distractors unchanged. See `docs/specs/SPEC-001`.
+>
+> **QA hardening pass.** A randomized-sample review drove four further fixes:
+> foreign-script/English-token junk cards removed (`и`, `ﺎ`, `hey`, `sr.`);
+> Chinese normalized to **Simplified-only** (OpenCC `t2s`, Trad/Simpl duplicates
+> merged); collocation proper-noun noise suppressed via a partner frequency-rank
+> gate + per-word display floor; and duplicate collocation rows de-duplicated.
+> Full-deck audit: 0 junk · 0 Traditional · 100% gloss + mnemonic coverage ·
+> 0 markup. See `Phase 11-Global-Decks/REFINEMENT-PLAYBOOK.md` §S6.
 
 #### 🔒 Integrity verification
 
@@ -161,8 +178,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `40510af51d5b1af1b72bbffdb5693537a56858648489f51444539d2ce61dd251` |
-| Vocab-MCQ-Recognition.apkg | `d2cdc9fc5947cab85646bdf2e08f727d3725624c4da60cd224024790b0e5b9e5` |
+| Vocab-MCQ-Recall.apkg | `7c796acc76aa406848eb8ede829339cb18381e57049c73771bfe8b2f9d721a9c` |
+| Vocab-MCQ-Recognition.apkg | `7550afd3ec010081c237c221c460cd117ef07a53da1c4498673eb67d477ffad6` |
 | Vocabulary-Classic.apkg | `a0bbce26be6b1f681646724090f9055c858bf4ede3f15754e35204a70aa7c30a` |
 
 </details>
