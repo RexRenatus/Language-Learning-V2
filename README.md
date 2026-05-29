@@ -117,7 +117,7 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 
 **Vocab-MCQ CEFR levels** come from real per-language proficiency standards, shown on
 each card as native + CEFR (e.g. `A2 (HSK3)`): **ELELex/CEFRLex** (Spanish),
-**HSK 3.0** (Chinese), **JLPT** (Japanese), **NIKL + TOPIK** (Korean). Words not in a
+**HSK 3.0** (Chinese), **JLPT** (Japanese), **NIKL 국제통용 6-level** (Korean). Words not in a
 list use a per-language frequency tier *calibrated* against where listed words fall in
 our OpenSubtitles corpus ranking (shown as `(freq)`). See `docs/specs/SPEC-LANG-002`.
 
@@ -164,7 +164,7 @@ our OpenSubtitles corpus ranking (shown as `(freq)`). See `docs/specs/SPEC-LANG-
 > 0 markup. See `Phase 11-Global-Decks/REFINEMENT-PLAYBOOK.md` §S6.
 >
 > **Real CEFR levels + Classic retired.** MCQ card levels now come from real
-> proficiency standards (ELELex/HSK 3.0/JLPT/NIKL+TOPIK), shown as native + CEFR
+> proficiency standards (ELELex/HSK 3.0/JLPT/NIKL 국제통용), shown as native + CEFR
 > (`A2 (HSK3)`), with a corpus-calibrated frequency fallback (`(freq)`). The legacy
 > 39,906-card **Vocabulary-Classic** deck was retired. See `docs/specs/SPEC-LANG-002`.
 
@@ -190,8 +190,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `bf929b505eb1fcac5ae38e6549a738e24980fceaf01dab15b1ef3ff8e460ce4e` |
-| Vocab-MCQ-Recognition.apkg | `12a3ed3c65d54143da708350ea74f81be64216808b75422b117424d8482b34b3` |
+| Vocab-MCQ-Recall.apkg | `3c7668045ececb49997e42472c3a0ab86f67f5e465f00f0aebde6a55ad9d80e4` |
+| Vocab-MCQ-Recognition.apkg | `841f2ae2bbbb9ab793f6cf1433f04f70129d5e0cdf51974d33a1bd97b4875700` |
 
 </details>
 
