@@ -190,8 +190,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `93a07d180f267985a016fe4b66f418c51f09996bea401ff97607925be34ef7bc` |
-| Vocab-MCQ-Recognition.apkg | `f9dec1a0c826c0ca583cbd992bc21675a68c9b242983460f28f2abf29d430c2f` |
+| Vocab-MCQ-Recall.apkg | `bf929b505eb1fcac5ae38e6549a738e24980fceaf01dab15b1ef3ff8e460ce4e` |
+| Vocab-MCQ-Recognition.apkg | `12a3ed3c65d54143da708350ea74f81be64216808b75422b117424d8482b34b3` |
 
 </details>
 
