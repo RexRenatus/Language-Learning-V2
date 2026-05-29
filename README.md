@@ -145,7 +145,7 @@ thresholds + deck-unlock matrix: `Phase 11-Global-Decks/STUDY-ORDER.md`.
 |--------------------|------:|------|
 | **Numbers** | 1,258 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.1 MB) |
 | **Vocab-MCQ-Recognition** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (138 MB) |
-| **Vocab-MCQ-Recall** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (78 MB) |
+| **Vocab-MCQ-Recall** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (80 MB) |
 | **Function-Words** | 994 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.2 MB) |
 | **Grammar-Patterns** | 1,995 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.3 MB) |
 | **Sentence-Mining** | 37,299 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (79 MB) |
@@ -162,8 +162,11 @@ thresholds + deck-unlock matrix: `Phase 11-Global-Decks/STUDY-ORDER.md`.
 > Recognition/Recall decks now cover the complete A–B vocabulary for **5 languages**
 > (es 9,107 · ja 4,046 · zh 3,998 · ko 8,605 · **fr 8,368** = 34,124 cards each),
 > with lemma-labeled glosses, sound-link/radical mnemonics, BGE-M3 distractors, and
-> real CEFR levels (ELELex/HSK 3.0/JLPT/NIKL/**FLELex**) shown as native+CEFR. The
-> other deck types remain 4-language. _(Legacy Vocabulary-Classic retired, SPEC-LANG-002.)_
+> real CEFR levels (ELELex/HSK 3.0/JLPT/NIKL/**FLELex**) shown as native+CEFR. Every card
+> also carries a natural **example sentence** with English translation (gemini-3.5-flash,
+> MIPROv2-tuned for accuracy + naturalness) — French now at 99.9% coverage, on par with
+> the other languages. The other deck types remain 4-language.
+> _(Legacy Vocabulary-Classic retired, SPEC-LANG-002.)_
 >
 > **MCQ decks refined (top-500/language).** The Vocab-MCQ-Recognition/Recall
 > decks were rebuilt as a curated **top-520 content words per language** set
@@ -209,8 +212,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `af93b5d105b0451a7d79348106227a49dd11ecc875603f6cd189394fc49b9422` |
-| Vocab-MCQ-Recognition.apkg | `4923952f4dca6117ed84d155c30ace57e3e847bb87e1d1b0d218b1ea73589180` |
+| Vocab-MCQ-Recall.apkg | `88f621693fa2af544f6fdbffbe6694d6e5e1e9b73e31d37aea541700540e7fa7` |
+| Vocab-MCQ-Recognition.apkg | `41a0edef15bc9650b07e4af4bc1a49e76d7cca33b159a5f44ee34ee33132ab32` |
 
 </details>
 
