@@ -164,8 +164,8 @@ thresholds + deck-unlock matrix: `Phase 11-Global-Decks/STUDY-ORDER.md`.
 > with lemma-labeled glosses, sound-link/radical mnemonics, BGE-M3 distractors, and
 > real CEFR levels (ELELex/HSK 3.0/JLPT/NIKL/**FLELex**) shown as native+CEFR. Every card
 > also carries a natural **example sentence** with English translation (gemini-3.5-flash,
-> MIPROv2-tuned for accuracy + naturalness) — French now at 99.9% coverage, on par with
-> the other languages. The other deck types remain 4-language.
+> MIPROv2-tuned for accuracy + naturalness) — **all five languages at ~100% coverage**
+> (es 100% · ja 100% · zh 99.9% · ko 99.9% · fr 99.9%). The other deck types remain 4-language.
 > _(Legacy Vocabulary-Classic retired, SPEC-LANG-002.)_
 >
 > **MCQ decks refined (top-500/language).** The Vocab-MCQ-Recognition/Recall
@@ -212,8 +212,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `88f621693fa2af544f6fdbffbe6694d6e5e1e9b73e31d37aea541700540e7fa7` |
-| Vocab-MCQ-Recognition.apkg | `41a0edef15bc9650b07e4af4bc1a49e76d7cca33b159a5f44ee34ee33132ab32` |
+| Vocab-MCQ-Recall.apkg | `4394831d43188598b23dc8f632d030970aeeb32535bd388570a96dc3b5e77524` |
+| Vocab-MCQ-Recognition.apkg | `655e8d7dcc32846347a455d11257b798b3d85de52b738a0f9029bb77f80ff3c5` |
 
 </details>
 
