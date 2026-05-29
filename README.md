@@ -121,6 +121,21 @@ each card as native + CEFR (e.g. `A2 (HSK3)`): **ELELex/CEFRLex** (Spanish),
 list use a per-language frequency tier *calibrated* against where listed words fall in
 our OpenSubtitles corpus ranking (shown as `(freq)`). See `docs/specs/SPEC-LANG-002`.
 
+### 📚 Recommended study order
+The decks are **parallel CEFR-gated tracks**, not sequential blocks. Function words
+aren't gated — they're the highest-frequency words (~50% of all text), so learn them
+**from day one**. Grammar and conjugation need a vocabulary base to attach to, so they
+unlock once you hold the high-frequency core:
+
+1. **Start together:** Function-Words · Vocab-MCQ (A1) · Numbers (1–20).
+2. **At ~the top 1,000 words (A1 vocab tier):** add **Conjugation A1** + **Grammar A1**.
+3. **A2 vocab** → Conjugation A2 · Grammar A2 · Counters.
+4. **B1+ vocab** → Synonyms · Sentence-Mining · Register.
+
+Rule of thumb: **~300–500 words to *begin* grammar/conjugation, ~1,000 (the A1 tier) to
+progress comfortably** (≈80–85% spoken-text coverage). Full policy + per-language
+thresholds + deck-unlock matrix: `Phase 11-Global-Decks/STUDY-ORDER.md`.
+
 <details>
 <summary><b>🌐 Click to expand global multi-language decks</b></summary>
 
