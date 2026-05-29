@@ -106,14 +106,20 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 
 | Deck | Level signal | A1 | A2 | B1 | B2 |
 |------|----|----|----|----|----|
-| Vocabulary-Classic, Vocab-MCQ-* | frequency rank | rank 1–1000 | 1001–3000 | 3001–6000 | 6001–10K |
-| Sentence-Mining, Synonyms | frequency rank | same | same | same | same |
+| Vocab-MCQ-* | **real proficiency lists** + freq fallback | \(see below\) | | | |
+| Sentence-Mining, Synonyms | frequency rank | rank 1–1000 | 1001–3000 | 3001–6000 | 6001+ |
 | Grammar-Patterns | explicit CEFR tag | ~250 ES (A1) | ~1750 (A2) | — | — |
 | Numbers | card subtype | cardinals 1–20 | cardinals 21–100, ordinals, sound-changes, ZH/ES special rules, Native+counter | KO dual-system selection, large numbers (10K+) | — |
 | Conjugation | verb form | present, te-form, past-polite, completed (了) | preterite, imperfect, negative casual, experiential (过) | future, subjunctive, potential, imperative, conditional | — |
 | Function-Words | (basic — all A1) | all 1000 | — | — | — |
 | Counters | (basic-intermediate) | — | all 760 | — | — |
 | Register | (intermediate) | — | — | all 400 | — |
+
+**Vocab-MCQ CEFR levels** come from real per-language proficiency standards, shown on
+each card as native + CEFR (e.g. `A2 (HSK3)`): **ELELex/CEFRLex** (Spanish),
+**HSK 3.0** (Chinese), **JLPT** (Japanese), **NIKL + TOPIK** (Korean). Words not in a
+list use a per-language frequency tier *calibrated* against where listed words fall in
+our OpenSubtitles corpus ranking (shown as `(freq)`). See `docs/specs/SPEC-LANG-002`.
 
 <details>
 <summary><b>🌐 Click to expand global multi-language decks</b></summary>
@@ -124,9 +130,8 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 | Deck (all 4 langs) | Cards | File |
 |--------------------|------:|------|
 | **Numbers** | 1,258 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.1 MB) |
-| **Vocabulary-Classic** | 39,906 | [⬇ Vocabulary-Classic.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocabulary-Classic.apkg) (18 MB) |
 | **Vocab-MCQ-Recognition** | 2,080 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (8.5 MB) |
-| **Vocab-MCQ-Recall** | 2,080 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (6.1 MB) |
+| **Vocab-MCQ-Recall** | 2,080 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (6.3 MB) |
 | **Function-Words** | 994 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.2 MB) |
 | **Grammar-Patterns** | 1,995 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.3 MB) |
 | **Sentence-Mining** | 37,299 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (79 MB) |
@@ -135,9 +140,11 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 | **Synonyms** | 7,963 | [⬇ Synonyms.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Synonyms.apkg) (17 MB) |
 | **Register** _(ja/ko)_ | 400 | [⬇ Register.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Register.apkg) (1.7 MB) |
 
-> **Total: 96,708 cards across 11 global decks** — audited via 20-layer
+> **Total: 56,802 cards across 10 global decks** — audited via 20-layer
 > QA pipeline (`Phase 11-Global-Decks/`); bucket is publicly readable so
-> the HTTPS links work without authentication.
+> the HTTPS links work without authentication. _(The legacy 39,906-card
+> Vocabulary-Classic mega deck was retired — superseded by the refined
+> Vocab-MCQ decks; see `docs/specs/SPEC-LANG-002`.)_
 >
 > **MCQ decks refined (top-500/language).** The Vocab-MCQ-Recognition/Recall
 > decks were rebuilt as a curated **top-520 content words per language** set
@@ -155,6 +162,11 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 > gate + per-word display floor; and duplicate collocation rows de-duplicated.
 > Full-deck audit: 0 junk · 0 Traditional · 100% gloss + mnemonic coverage ·
 > 0 markup. See `Phase 11-Global-Decks/REFINEMENT-PLAYBOOK.md` §S6.
+>
+> **Real CEFR levels + Classic retired.** MCQ card levels now come from real
+> proficiency standards (ELELex/HSK 3.0/JLPT/NIKL+TOPIK), shown as native + CEFR
+> (`A2 (HSK3)`), with a corpus-calibrated frequency fallback (`(freq)`). The legacy
+> 39,906-card **Vocabulary-Classic** deck was retired. See `docs/specs/SPEC-LANG-002`.
 
 #### 🔒 Integrity verification
 
@@ -178,9 +190,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `7c796acc76aa406848eb8ede829339cb18381e57049c73771bfe8b2f9d721a9c` |
-| Vocab-MCQ-Recognition.apkg | `7550afd3ec010081c237c221c460cd117ef07a53da1c4498673eb67d477ffad6` |
-| Vocabulary-Classic.apkg | `a0bbce26be6b1f681646724090f9055c858bf4ede3f15754e35204a70aa7c30a` |
+| Vocab-MCQ-Recall.apkg | `93a07d180f267985a016fe4b66f418c51f09996bea401ff97607925be34ef7bc` |
+| Vocab-MCQ-Recognition.apkg | `f9dec1a0c826c0ca583cbd992bc21675a68c9b242983460f28f2abf29d430c2f` |
 
 </details>
 
