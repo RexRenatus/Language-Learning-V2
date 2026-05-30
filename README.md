@@ -36,7 +36,7 @@ For the Japanese rebuild story, see [`docs/ja-unidic-rebuild.md`](docs/ja-unidic
 
 ## Deck catalog
 
-[![Deck catalog — 10 global decks, 120,890 cards; Vocab-MCQ spans 5 languages including French](docs/deck-catalog.svg)](docs/deck-catalog.svg)
+[![Deck catalog — 10 global decks, 120,890 cards; Vocab-MCQ spans 5 languages including French](docs/deck-catalog.png)](docs/deck-catalog.png)
 
 <sub>Click the catalog to open it full-size and zoom in.</sub>
 
@@ -57,20 +57,20 @@ Every interactive card uses the Imperial Golden Age theme — gold accents on da
 
 | Deck | Preview |
 |------|---------|
-| Vocab MCQ Recognition | [![Vocab Recognition preview](docs/previews/vocab-recognition-spanish.svg)](docs/previews/vocab-recognition-spanish.svg) |
-| Vocab MCQ Recall      | [![Vocab Recall preview](docs/previews/vocab-recall-spanish.svg)](docs/previews/vocab-recall-spanish.svg) |
+| Vocab MCQ Recognition | [![Vocab Recognition preview](docs/previews/vocab-recognition-spanish.png)](docs/previews/vocab-recognition-spanish.png) |
+| Vocab MCQ Recall      | [![Vocab Recall preview](docs/previews/vocab-recall-spanish.png)](docs/previews/vocab-recall-spanish.png) |
 
 ### Cloze-MCQ decks (with `— W H Y —` reasoning)
 
 | Deck | Preview |
 |------|---------|
-| Function-Word Cloze     | [![Function preview](docs/previews/function-spanish.svg)](docs/previews/function-spanish.svg) |
-| Grammar-Pattern Cloze   | [![Grammar preview](docs/previews/grammar-spanish.svg)](docs/previews/grammar-spanish.svg) |
-| Sentence-Mining Cloze   | [![Sentence-Mining preview](docs/previews/sentence-mining-spanish.svg)](docs/previews/sentence-mining-spanish.svg) |
-| Conjugation Drill       | [![Conjugation preview](docs/previews/conjugation-spanish.svg)](docs/previews/conjugation-spanish.svg) |
-| Counter / Measure-Word  | [![Counter preview](docs/previews/counter-japanese.svg)](docs/previews/counter-japanese.svg) |
-| Synonyms                | [![Synonym preview](docs/previews/synonym-spanish.svg)](docs/previews/synonym-spanish.svg) |
-| Honorifics / Register   | [![Register preview](docs/previews/register-japanese.svg)](docs/previews/register-japanese.svg) |
+| Function-Word Cloze     | [![Function preview](docs/previews/function-spanish.png)](docs/previews/function-spanish.png) |
+| Grammar-Pattern Cloze   | [![Grammar preview](docs/previews/grammar-spanish.png)](docs/previews/grammar-spanish.png) |
+| Sentence-Mining Cloze   | [![Sentence-Mining preview](docs/previews/sentence-mining-spanish.png)](docs/previews/sentence-mining-spanish.png) |
+| Conjugation Drill       | [![Conjugation preview](docs/previews/conjugation-spanish.png)](docs/previews/conjugation-spanish.png) |
+| Counter / Measure-Word  | [![Counter preview](docs/previews/counter-japanese.png)](docs/previews/counter-japanese.png) |
+| Synonyms                | [![Synonym preview](docs/previews/synonym-spanish.png)](docs/previews/synonym-spanish.png) |
+| Honorifics / Register   | [![Register preview](docs/previews/register-japanese.png)](docs/previews/register-japanese.png) |
 
 </details>
 
@@ -280,7 +280,7 @@ Format: `word count\n` per line, sorted descending by corpus frequency.
 
 High-level data flow:
 
-[![Build pipeline — OpenSubtitles corpus → enrichment → BGE-M3 embeddings → distractor selector → genanki .apkg → GCS](docs/pipeline.svg)](docs/pipeline.svg)
+[![Build pipeline — OpenSubtitles corpus → enrichment → BGE-M3 embeddings → distractor selector → genanki .apkg → GCS](docs/pipeline.png)](docs/pipeline.png)
 
 <sub>Click the diagram to open it full-size and zoom in.</sub>
 
