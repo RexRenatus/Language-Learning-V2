@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760">
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#d4af37"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="760" fill="#1a1a2e"/>
+
+  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— H O W   I T   I S   B U I L T —</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">OpenSubtitles corpus → enrichment → embeddings → distractors → Anki .apkg → GCS.</text>
+  <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
+
+  <!-- vertical connectors -->
+  <g stroke="#d4af37" stroke-width="1.6" marker-end="url(#ah)">
+    <line x1="640" y1="170" x2="640" y2="194"/>
+    <line x1="640" y1="252" x2="640" y2="276"/>
+    <line x1="640" y1="404" x2="640" y2="428"/>
+    <line x1="640" y1="486" x2="640" y2="510"/>
+    <line x1="640" y1="592" x2="380" y2="620"/>
+    <line x1="640" y1="592" x2="900" y2="620"/>
+    <line x1="380" y1="694" x2="610" y2="716"/>
+    <line x1="900" y1="694" x2="670" y2="716"/>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', sans-serif">
+    <!-- S1 -->
+    <g transform="translate(410 116)">
+      <rect width="460" height="54" rx="8" fill="#1f1f38" stroke="#c9b037" stroke-width="1"/>
+      <text x="230" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="#f0e6d3">OpenSubtitles 2018 corpus</text>
+      <text x="230" y="43" text-anchor="middle" font-size="12" fill="#a8a4b8">HermitDave FrequencyWords + OPUS raw (JA)</text>
+    </g>
+    <!-- S2 -->
+    <g transform="translate(410 198)">
+      <rect width="460" height="54" rx="8" fill="#1f1f38" stroke="#c9b037" stroke-width="1"/>
+      <text x="230" y="33" text-anchor="middle" font-size="16" font-weight="700" fill="#f0e6d3">Top-N frequency selection</text>
+    </g>
+    <text x="900" y="222" font-size="12.5" fill="#9aa0b5">◄ Free dictionaries</text>
+    <text x="900" y="240" font-size="12.5" fill="#7d7a90">CC-CEDICT · jamdict · Wiktionary</text>
+
+    <!-- S3 enrichment -->
+    <g transform="translate(410 276)">
+      <rect width="460" height="128" rx="8" fill="#1f1f38" stroke="#c9b037" stroke-width="1"/>
+      <rect width="4" height="128" rx="2" fill="#d4af37"/>
+      <text x="230" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#f0e6d3">Per-word enrichment</text>
+      <text x="28" y="56" font-size="13" fill="#c8c4d8">• IPA  (espeak/epitran · fugashi+OpenJTalk · pypinyin · Hangul)</text>
+      <text x="28" y="78" font-size="13" fill="#c8c4d8">• Pinyin  (Chinese only)</text>
+      <text x="28" y="100" font-size="13" fill="#c8c4d8">• Example sentence + English  (Gemini)</text>
+      <text x="28" y="120" font-size="13" fill="#c8c4d8">• POS tag  (spaCy · UniDic · jieba · kiwipiepy)</text>
+    </g>
+    <text x="900" y="332" font-size="12.5" fill="#9aa0b5">◄ Gemini fallback</text>
+    <text x="900" y="350" font-size="12.5" fill="#7d7a90">for the long tail</text>
+
+    <!-- S4 -->
+    <g transform="translate(410 428)">
+      <rect width="460" height="54" rx="8" fill="#1f1f38" stroke="#c9b037" stroke-width="1"/>
+      <text x="230" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="#f0e6d3">BGE-M3 embedding</text>
+      <text x="230" y="43" text-anchor="middle" font-size="12" fill="#a8a4b8">one-shot L4 GPU · 1024-dim multilingual</text>
+    </g>
+    <!-- S5 -->
+    <g transform="translate(410 510)">
+      <rect width="460" height="54" rx="8" fill="#1f1f38" stroke="#c9b037" stroke-width="1"/>
+      <text x="230" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="#f0e6d3">Distractor selector</text>
+      <text x="230" y="43" text-anchor="middle" font-size="12" fill="#a8a4b8">batched cosine · rotation-capped (8 uses)</text>
+    </g>
+
+    <!-- split: two pipelines -->
+    <g transform="translate(150 620)">
+      <rect width="460" height="74" rx="8" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
+      <text x="230" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#b6e6c8">Vocabulary decks</text>
+      <text x="230" y="54" text-anchor="middle" font-size="12.5" fill="#9aa0b5">genanki → .apkg</text>
+    </g>
+    <g transform="translate(670 620)">
+      <rect width="460" height="74" rx="8" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
+      <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#b6e6c8">Cloze-MCQ pipeline</text>
+      <text x="230" y="48" text-anchor="middle" font-size="12" fill="#9aa0b5">Gemini sentences + W-H-Y reasoning</text>
+      <text x="230" y="65" text-anchor="middle" font-size="12" fill="#9aa0b5">+ synonym verifier → genanki → .apkg</text>
+    </g>
+
+    <!-- GCS -->
+    <g transform="translate(410 716)">
+      <rect width="460" height="40" rx="8" fill="#2a2348" stroke="#d4af37" stroke-width="1.2"/>
+      <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#d4af37">GCS bucket → download tables</text>
+    </g>
+  </g>
+</svg>

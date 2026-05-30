@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660">
+  <rect width="1280" height="660" fill="#1a1a2e"/>
+
+  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— D E C K   C A T A L O G —</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">10 global decks · 120,890 cards · Vocab-MCQ now spans 5 languages (incl. French).</text>
+  <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
+
+  <!-- header -->
+  <g transform="translate(40 112)">
+    <rect width="1200" height="40" rx="6" fill="#2a2348"/>
+    <text x="24"   y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">DECK</text>
+    <text x="360"  y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">WHAT IT DRILLS</text>
+    <text x="800"  y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">LANGUAGES</text>
+    <text x="1176" y="26" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">CARDS</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="15">
+    <!-- row template: y steps of 46 -->
+    <g transform="translate(40 160)">
+      <rect width="1200" height="42" rx="4" fill="#1f1f38"/>
+      <rect width="4" height="42" rx="2" fill="#d4af37"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">MCQ Recognition</text>
+      <text x="360"  y="27" fill="#c8c4d8">Definition → word (1 of 6)</text>
+      <text x="800"  y="27" fill="#9aa0b5">es <tspan fill="#d4af37" font-weight="700">fr</tspan> ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">34,124</text>
+    </g>
+    <g transform="translate(40 206)">
+      <rect width="1200" height="42" rx="4" fill="#1c1c34"/>
+      <rect width="4" height="42" rx="2" fill="#d4af37"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">MCQ Recall</text>
+      <text x="360"  y="27" fill="#c8c4d8">Word → definition (1 of 6)</text>
+      <text x="800"  y="27" fill="#9aa0b5">es <tspan fill="#d4af37" font-weight="700">fr</tspan> ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">34,124</text>
+    </g>
+    <g transform="translate(40 252)">
+      <rect width="1200" height="42" rx="4" fill="#1f1f38"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Function-Word Cloze</text>
+      <text x="360"  y="27" fill="#c8c4d8">Particles, prepositions, function words</text>
+      <text x="800"  y="27" fill="#9aa0b5">es ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">1,000</text>
+    </g>
+    <g transform="translate(40 298)">
+      <rect width="1200" height="42" rx="4" fill="#1c1c34"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Grammar-Pattern Cloze</text>
+      <text x="360"  y="27" fill="#c8c4d8">A1–B1 grammar w/ typed distractors</text>
+      <text x="800"  y="27" fill="#9aa0b5">es ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">2,000</text>
+    </g>
+    <g transform="translate(40 344)">
+      <rect width="1200" height="42" rx="4" fill="#1f1f38"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Sentence-Mining Cloze</text>
+      <text x="360"  y="27" fill="#c8c4d8">Top-frequency vocab in real context</text>
+      <text x="800"  y="27" fill="#9aa0b5">es ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">37,745</text>
+    </g>
+    <g transform="translate(40 390)">
+      <rect width="1200" height="42" rx="4" fill="#1c1c34"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Conjugation Drill</text>
+      <text x="360"  y="27" fill="#c8c4d8">Tense / aspect / agreement</text>
+      <text x="800"  y="27" fill="#9aa0b5">es ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">1,974</text>
+    </g>
+    <g transform="translate(40 436)">
+      <rect width="1200" height="42" rx="4" fill="#1f1f38"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Counter / Measure-Word</text>
+      <text x="360"  y="27" fill="#c8c4d8">Counter–noun pairing</text>
+      <text x="800"  y="27" fill="#9aa0b5">ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">760</text>
+    </g>
+    <g transform="translate(40 482)">
+      <rect width="1200" height="42" rx="4" fill="#1c1c34"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Synonyms</text>
+      <text x="360"  y="27" fill="#c8c4d8">Closest synonym (Gemini-verified)</text>
+      <text x="800"  y="27" fill="#9aa0b5">es ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">7,978</text>
+    </g>
+    <g transform="translate(40 528)">
+      <rect width="1200" height="42" rx="4" fill="#1f1f38"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Honorifics / Register</text>
+      <text x="360"  y="27" fill="#c8c4d8">Speech-level appropriateness</text>
+      <text x="800"  y="27" fill="#9aa0b5">ja ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">400</text>
+    </g>
+    <g transform="translate(40 574)">
+      <rect width="1200" height="42" rx="4" fill="#1c1c34"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Numbers</text>
+      <text x="360"  y="27" fill="#c8c4d8">Cardinals, ordinals, dual systems</text>
+      <text x="800"  y="27" fill="#9aa0b5">es ja zh ko</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">1,453</text>
+    </g>
+  </g>
+
+  <text x="60" y="640" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Gold <tspan fill="#d4af37" font-weight="700">fr</tspan> = French (added SPEC-LANG-003). Counts are global-deck totals across all languages.</text>
+</svg>

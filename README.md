@@ -30,18 +30,9 @@ For the Japanese rebuild story, see [`docs/ja-unidic-rebuild.md`](docs/ja-unidic
 
 ## Deck catalog
 
-| Deck type | What it drills | Languages | Cards |
-|---|---|---|---:|
-| **MCQ Recognition**     | Definition → word (1 of 6)                 | es / fr / ja / zh / ko | 34,124 |
-| **MCQ Recall**          | Word → definition (1 of 6)                 | es / fr / ja / zh / ko | 34,124 |
-| **Function-Word Cloze** | Particles, prepositions, function words    | es / ja / zh / ko | 1,000 |
-| **Grammar-Pattern Cloze**| A1–B1 grammar patterns w/ typed distractors | es / ja / zh / ko | 2,000 |
-| **Sentence-Mining Cloze**| Top-frequency vocab in real-corpus context | es / ja / zh / ko | 37,745 |
-| **Conjugation Drill**   | Tense / aspect / agreement                  | es / ja / zh / ko | 1,974 |
-| **Counter / Measure-Word** | Counter–noun pairing                     | ja / zh / ko       | 760 |
-| **Synonyms**            | Closest synonym (Gemini-verified)          | es / ja / zh / ko | 7,978 |
-| **Honorifics / Register**| Speech-level appropriateness              | ja / ko            | 400 |
-| **Numbers**             | Cardinals, ordinals, sound changes, dual systems | es / ja / zh / ko | 1,453 |
+[![Deck catalog — 10 global decks, 120,890 cards; Vocab-MCQ spans 5 languages including French](docs/deck-catalog.svg)](docs/deck-catalog.svg)
+
+<sub>Click the catalog to open it full-size and zoom in.</sub>
 
 Per-language pages: **[Spanish](es/) · [Japanese](ja/) · [Chinese](zh/) · [Korean](ko/)**
 
@@ -60,20 +51,20 @@ Every interactive card uses the Imperial Golden Age theme — gold accents on da
 
 | Deck | Preview |
 |------|---------|
-| Vocab MCQ Recognition | ![Vocab Recognition preview](docs/previews/vocab-recognition-spanish.svg) |
-| Vocab MCQ Recall      | ![Vocab Recall preview](docs/previews/vocab-recall-spanish.svg) |
+| Vocab MCQ Recognition | [![Vocab Recognition preview](docs/previews/vocab-recognition-spanish.svg)](docs/previews/vocab-recognition-spanish.svg) |
+| Vocab MCQ Recall      | [![Vocab Recall preview](docs/previews/vocab-recall-spanish.svg)](docs/previews/vocab-recall-spanish.svg) |
 
 ### Cloze-MCQ decks (with `— W H Y —` reasoning)
 
 | Deck | Preview |
 |------|---------|
-| Function-Word Cloze     | ![Function preview](docs/previews/function-spanish.svg) |
-| Grammar-Pattern Cloze   | ![Grammar preview](docs/previews/grammar-spanish.svg) |
-| Sentence-Mining Cloze   | ![Sentence-Mining preview](docs/previews/sentence-mining-spanish.svg) |
-| Conjugation Drill       | ![Conjugation preview](docs/previews/conjugation-spanish.svg) |
-| Counter / Measure-Word  | ![Counter preview](docs/previews/counter-japanese.svg) |
-| Synonyms                | ![Synonym preview](docs/previews/synonym-spanish.svg) |
-| Honorifics / Register   | ![Register preview](docs/previews/register-japanese.svg) |
+| Function-Word Cloze     | [![Function preview](docs/previews/function-spanish.svg)](docs/previews/function-spanish.svg) |
+| Grammar-Pattern Cloze   | [![Grammar preview](docs/previews/grammar-spanish.svg)](docs/previews/grammar-spanish.svg) |
+| Sentence-Mining Cloze   | [![Sentence-Mining preview](docs/previews/sentence-mining-spanish.svg)](docs/previews/sentence-mining-spanish.svg) |
+| Conjugation Drill       | [![Conjugation preview](docs/previews/conjugation-spanish.svg)](docs/previews/conjugation-spanish.svg) |
+| Counter / Measure-Word  | [![Counter preview](docs/previews/counter-japanese.svg)](docs/previews/counter-japanese.svg) |
+| Synonyms                | [![Synonym preview](docs/previews/synonym-spanish.svg)](docs/previews/synonym-spanish.svg) |
+| Honorifics / Register   | [![Register preview](docs/previews/register-japanese.svg)](docs/previews/register-japanese.svg) |
 
 </details>
 
@@ -83,7 +74,7 @@ Every interactive card uses the Imperial Golden Age theme — gold accents on da
 
 All decks are hosted on Google Cloud Storage. Direct download — no signup. Import into Anki Desktop with **File → Import**.
 
-### 🌐 Global decks — one file, all four languages, level-tiered
+### 🌐 Global decks — one file, all languages, level-tiered
 
 Each global deck is a single `.apkg` with a 3-tier nested structure:
 
@@ -94,7 +85,7 @@ Each global deck is a single `.apkg` with a 3-tier nested structure:
         ├── {Type}::Spanish::A2
         ├── {Type}::Spanish::B1
         └── {Type}::Spanish::B2
-  └── {Type}::Japanese / Chinese / Korean (same A1→B2 split)
+  └── {Type}::Japanese / Chinese / Korean / French (same A1→B2 split; French in Vocab-MCQ)
 ```
 
 Inside each level subdeck, cards are sorted **by frequency** — top-1000 words first, then 1K-3K, etc. Anki's review order respects this, so you learn high-frequency / lower-CEFR cards before rare / higher-CEFR ones automatically.
@@ -116,7 +107,8 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 
 **Vocab-MCQ CEFR levels** come from real per-language proficiency standards, shown on
 each card as native + CEFR (e.g. `A2 (HSK3)`): **ELELex/CEFRLex** (Spanish),
-**HSK 3.0** (Chinese), **JLPT** (Japanese), **NIKL 국제통용 6-level** (Korean). Words not in a
+**HSK 3.0** (Chinese), **JLPT** (Japanese), **NIKL 국제통용 6-level** (Korean),
+**FLELex/CEFRLex** (French). Words not in a
 list use a per-language frequency tier *calibrated* against where listed words fall in
 our OpenSubtitles corpus ranking (shown as `(freq)`). See `docs/specs/SPEC-LANG-002`.
 
@@ -138,10 +130,7 @@ thresholds + deck-unlock matrix: `Phase 11-Global-Decks/STUDY-ORDER.md`.
 <details>
 <summary><b>🌐 Click to expand global multi-language decks</b></summary>
 
-<details>
-<summary><b>🌐 Click to expand global multi-language decks</b></summary>
-
-| Deck (all 4 langs) | Cards | File |
+| Deck (global) | Cards | File |
 |--------------------|------:|------|
 | **Numbers** | 1,258 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.1 MB) |
 | **Vocab-MCQ-Recognition** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (138 MB) |
@@ -280,35 +269,9 @@ Format: `word count\n` per line, sorted descending by corpus frequency.
 
 High-level data flow:
 
-```
-OpenSubtitles 2018 corpus (HermitDave FrequencyWords + raw via OPUS for JA)
-        │
-        ▼
- Top-N frequency selection ───►  Free dictionaries (CC-CEDICT, jamdict, Wiktionary)
-        │                                        │
-        ▼                                        ▼
- Per-word enrichment ◄────────────  Gemini fallback for the long tail
-        │
-        ├─► IPA per word (espeak/epitran / fugashi+OpenJTalk / pypinyin / Hangul rules)
-        ├─► Pinyin (Chinese only)
-        ├─► Example sentence + English translation (Gemini)
-        └─► POS tag (spaCy / fugashi+UniDic / jieba / kiwipiepy)
-        │
-        ▼
- BGE-M3 embedding per word (one-shot L4 GPU job, 1024-dim multilingual)
-        │
-        ▼
- Distractor selector (batched cosine; rotation-capped)
-        │
-        ├──► Vocabulary decks  → genanki  → .apkg
-        │
-        └──► Cloze-MCQ pipeline:
-                 ├─► Catalogs (verbs, particles, grammar patterns, counters, registers)
-                 ├─► Gemini sentence generation per entry
-                 ├─► Gemini reasoning generation per card  ←  the W-H-Y block
-                 ├─► Synonym pairs go through extra Gemini binary verifier
-                 └─► genanki  → .apkg  →  GCS  →  this repo's download tables
-```
+[![Build pipeline — OpenSubtitles corpus → enrichment → BGE-M3 embeddings → distractor selector → genanki .apkg → GCS](docs/pipeline.svg)](docs/pipeline.svg)
+
+<sub>Click the diagram to open it full-size and zoom in.</sub>
 
 See:
 - [`docs/architecture.md`](docs/architecture.md) — full pipeline
@@ -337,17 +300,20 @@ This project stands on the shoulders of:
 - **OpenSubtitles 2018** (via [OPUS](http://opus.nlpl.eu/OpenSubtitles-v2018.php) and [HermitDave/FrequencyWords](https://github.com/hermitdave/FrequencyWords)) — raw subtitle corpora and frequency lists. Licensed for academic and research use.
 - **[BAAI/bge-m3](https://huggingface.co/BAAI/bge-m3)** — multilingual embedding model (MIT license).
 - **[Google Gemini](https://ai.google.dev/) (via OpenRouter)** — example-sentence generation, definition fallback, reasoning generation, and synonym verification.
-- **Tokenizers:**
+- **Tokenizers / lemmatizers:**
   - **[fugashi](https://github.com/polm/fugashi)** + **[unidic-lite](https://github.com/polm/unidic-lite)** for Japanese (GPL/MIT)
   - **[jieba](https://github.com/fxsjy/jieba)** for Chinese (MIT)
   - **[spaCy](https://spacy.io/) `es_core_news_sm`** for Spanish (MIT)
   - **[kiwipiepy](https://github.com/bab2min/kiwipiepy)** for Korean (LGPL)
+  - **[simplemma](https://github.com/adbar/simplemma)** for French + Spanish lemmatization (MIT)
+- **CEFR proficiency lists** (level overlay): **ELELex/CEFRLex** (es), **HSK 3.0** (zh),
+  **JLPT** (ja), **NIKL 국제통용** (ko), **[FLELex/CEFRLex](https://cental.uclouvain.be/cefrlex/)** (fr) — CEFRLex sets CC BY-NC-SA, used for personal/educational study.
 - **Dictionaries** for free-tier gloss lookup:
   - **[CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict)** (CC-BY-SA 4.0) for Chinese
   - **[jamdict](https://github.com/neocl/jamdict)** wrapping JMdict (Creative Commons BY-SA)
   - **[Wiktionary](https://www.wiktionary.org/)** REST + wikitext (CC-BY-SA)
 - **IPA generation:**
-  - **[espeak-ng](https://github.com/espeak-ng/espeak-ng)** + **[epitran](https://github.com/dmort27/epitran)** for Spanish
+  - **[espeak-ng](https://github.com/espeak-ng/espeak-ng)** + **[epitran](https://github.com/dmort27/epitran)** for Spanish (`spa-Latn`) and French (`fra-Latn`)
   - **fugashi + [OpenJTalk](http://open-jtalk.sourceforge.net/)** for Japanese
   - **[pypinyin](https://github.com/mozillazg/python-pinyin) + [pinyin-to-ipa](https://github.com/stefanstaplerstudio/pinyin-to-ipa)** for Chinese
   - Rule-based Hangul-to-IPA for Korean
