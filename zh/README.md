@@ -2,6 +2,12 @@
 
 Comprehensive Chinese flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 
+> **▶ Status — legacy / pending QA.** The project's **active study set** is the global
+> **Vocab-MCQ Recognition + Recall** decks (full A1–B2, all 5 languages incl. French) — see
+> the [main README](../README.md). The per-language decks on this page (including the
+> retired **Classic vocab**, SPEC-LANG-002) predate that refinement and are **pending
+> quality review** — kept downloadable, but not the recommended study path.
+
 ## Vocabulary decks
 
 | Deck | Direction | Cards | File |
