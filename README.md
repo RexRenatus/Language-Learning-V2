@@ -259,15 +259,20 @@ Per-language pages have the full table with file sizes and sample-card links: **
 
 ## Frequency lists (the 50K word source)
 
-Each language folder ships the underlying frequency list:
+Each language folder ships the underlying frequency list — all from **HermitDave's
+OpenSubtitles 2018 FrequencyWords** (`{lang}_50k`), the single corpus source of truth:
 
 - [`es/words/es-frequency-list.txt`](es/words/es-frequency-list.txt) — 50,000 entries
+- [`fr/words/fr-frequency-list.txt`](fr/words/fr-frequency-list.txt) — 50,000 entries _(French, HermitDave `fr_50k`)_
 - [`ja/words/ja-frequency-list-unidic.txt`](ja/words/ja-frequency-list-unidic.txt) — **42,833 UniDic dictionary forms** (our re-tokenize)
 - [`ja/words/ja-frequency-list-ipadic-original.txt`](ja/words/ja-frequency-list-ipadic-original.txt) — 34,504 entries, original IPAdic source (kept for transparency)
 - [`zh/words/zh-frequency-list.txt`](zh/words/zh-frequency-list.txt) — 50,000 entries
 - [`ko/words/ko-frequency-list.txt`](ko/words/ko-frequency-list.txt) — 50,000 entries
 
-Format: `word count\n` per line, sorted descending by corpus frequency.
+Format: `word count\n` per line, sorted descending by corpus frequency. French is also a
+**global-only** study language (no standalone `fr/*.apkg`); its list is shipped here as the
+source behind the French Vocab-MCQ cards. CEFR overlay for French is **FLELex** (CEFRLex) —
+see [`fr/`](fr/) and the attribution below.
 
 ---
 
