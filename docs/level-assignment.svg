@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560">
+  <rect width="1280" height="560" fill="#1a1a2e"/>
+
+  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— L E V E L   A S S I G N M E N T   P E R   D E C K —</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">How each deck type maps cards to CEFR levels A1 → B2 (abbreviated; full rules in STUDY-ORDER.md).</text>
+  <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
+
+  <!-- header -->
+  <g transform="translate(40 110)">
+    <rect width="1200" height="38" rx="6" fill="#2a2348"/>
+    <text x="24"   y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">DECK</text>
+    <text x="230"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">LEVEL SIGNAL</text>
+    <text x="430"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">A1</text>
+    <text x="620"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">A2</text>
+    <text x="850"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">B1</text>
+    <text x="1070" y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">B2</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="12.5">
+    <!-- Vocab-MCQ (active) — spanning description -->
+    <g transform="translate(40 156)"><rect width="1200" height="40" rx="4" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/><rect width="4" height="40" rx="2" fill="#4ec27e"/>
+      <text x="24" y="25" fill="#b6e6c8" font-weight="700" font-size="14">Vocab-MCQ ✓</text>
+      <text x="230" y="25" fill="#9aa0b5">real proficiency lists</text>
+      <text x="430" y="25" fill="#c8c4d8" font-style="italic">ELELex / HSK 3.0 / JLPT / NIKL / FLELex + calibrated frequency fallback → shown native + CEFR</text></g>
+    <g transform="translate(40 200)"><rect width="1200" height="40" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700" font-size="14">Sentence-Mining · Synonyms</text>
+      <text x="230" y="25" fill="#9aa0b5">frequency rank</text>
+      <text x="430" y="25" fill="#c8c4d8">1–1000</text>
+      <text x="620" y="25" fill="#c8c4d8">1001–3000</text>
+      <text x="850" y="25" fill="#c8c4d8">3001–6000</text>
+      <text x="1070" y="25" fill="#c8c4d8">6001+</text></g>
+    <g transform="translate(40 244)"><rect width="1200" height="40" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700" font-size="14">Grammar-Patterns</text>
+      <text x="230" y="25" fill="#9aa0b5">explicit CEFR tag</text>
+      <text x="430" y="25" fill="#c8c4d8">~250 ES</text>
+      <text x="620" y="25" fill="#c8c4d8">~1750</text>
+      <text x="850" y="25" fill="#7d7a90">—</text>
+      <text x="1070" y="25" fill="#7d7a90">—</text></g>
+    <g transform="translate(40 288)"><rect width="1200" height="40" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700" font-size="14">Numbers</text>
+      <text x="230" y="25" fill="#9aa0b5">card subtype</text>
+      <text x="430" y="25" fill="#c8c4d8">cardinals 1–20</text>
+      <text x="620" y="25" fill="#c8c4d8">21–100, ordinals, sound-ch.</text>
+      <text x="850" y="25" fill="#c8c4d8">KO dual-system, 10K+</text>
+      <text x="1070" y="25" fill="#7d7a90">—</text></g>
+    <g transform="translate(40 332)"><rect width="1200" height="40" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700" font-size="14">Conjugation</text>
+      <text x="230" y="25" fill="#9aa0b5">verb form</text>
+      <text x="430" y="25" fill="#c8c4d8">present, te-form, past</text>
+      <text x="620" y="25" fill="#c8c4d8">preterite, imperfect</text>
+      <text x="850" y="25" fill="#c8c4d8">future, subjunctive, …</text>
+      <text x="1070" y="25" fill="#7d7a90">—</text></g>
+    <g transform="translate(40 376)"><rect width="1200" height="40" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700" font-size="14">Function-Words</text>
+      <text x="230" y="25" fill="#9aa0b5">basic (all A1)</text>
+      <text x="430" y="25" fill="#c8c4d8">all 1,000</text>
+      <text x="620" y="25" fill="#7d7a90">—</text>
+      <text x="850" y="25" fill="#7d7a90">—</text>
+      <text x="1070" y="25" fill="#7d7a90">—</text></g>
+    <g transform="translate(40 420)"><rect width="1200" height="40" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700" font-size="14">Counters</text>
+      <text x="230" y="25" fill="#9aa0b5">basic–interm.</text>
+      <text x="430" y="25" fill="#7d7a90">—</text>
+      <text x="620" y="25" fill="#c8c4d8">all 760</text>
+      <text x="850" y="25" fill="#7d7a90">—</text>
+      <text x="1070" y="25" fill="#7d7a90">—</text></g>
+    <g transform="translate(40 464)"><rect width="1200" height="40" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700" font-size="14">Register</text>
+      <text x="230" y="25" fill="#9aa0b5">intermediate</text>
+      <text x="430" y="25" fill="#7d7a90">—</text>
+      <text x="620" y="25" fill="#7d7a90">—</text>
+      <text x="850" y="25" fill="#c8c4d8">all 400</text>
+      <text x="1070" y="25" fill="#7d7a90">—</text></g>
+  </g>
+
+  <text x="60" y="540" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90"><tspan fill="#4ec27e">Vocab-MCQ ✓</tspan> = active study set. Non-MCQ rows are pending QA. Cells abbreviated — see Phase 11-Global-Decks/STUDY-ORDER.md for full per-language rules.</text>
+</svg>

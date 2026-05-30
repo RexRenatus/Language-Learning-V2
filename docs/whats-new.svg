@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 716" width="1280" height="716">
+  <rect width="1280" height="716" fill="#1a1a2e"/>
+
+  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— W H A T ' S   N E W   ( v1 → v2 ) —</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">From a single classic deck to a multi-format, QA-gated study system.</text>
+  <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
+
+  <!-- header -->
+  <g transform="translate(40 110)">
+    <rect width="1200" height="38" rx="6" fill="#2a2348"/>
+    <text x="24"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">ASPECT</text>
+    <text x="360" y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">v1 (deprecated)</text>
+    <text x="690" y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">v2 (current)</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="14">
+    <!-- 12 rows, 40px step from y=156 -->
+    <g transform="translate(40 156)"><rect width="1200" height="38" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Card formats</text>
+      <text x="360" y="25" fill="#8e8aa0">Classic only</text>
+      <text x="690" y="25" fill="#c8c4d8">Classic + MCQ Recognition + MCQ Recall + 5 cloze types</text></g>
+    <g transform="translate(40 196)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Distractors (vocab)</text>
+      <text x="360" y="25" fill="#8e8aa0">—</text>
+      <text x="690" y="25" fill="#c8c4d8">6-option: 2 near-semantic + 2 frequency-decile + 1 form-confusable</text></g>
+    <g transform="translate(40 236)"><rect width="1200" height="38" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Distractors (cloze)</text>
+      <text x="360" y="25" fill="#8e8aa0">—</text>
+      <text x="690" y="25" fill="#c8c4d8">4-option: sentence-aware or typed (tense / confusable / register)</text></g>
+    <g transform="translate(40 276)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Distractor similarity</text>
+      <text x="360" y="25" fill="#8e8aa0">—</text>
+      <text x="690" y="25" fill="#c8c4d8">BGE-M3 1024-dim multilingual cosine</text></g>
+    <g transform="translate(40 316)"><rect width="1200" height="38" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Distractor rotation</text>
+      <text x="360" y="25" fill="#8e8aa0">—</text>
+      <text x="690" y="25" fill="#c8c4d8">capped at 8 uses per pool word; full pool covered</text></g>
+    <g transform="translate(40 356)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Reasoning on back</text>
+      <text x="360" y="25" fill="#8e8aa0">—</text>
+      <text x="690" y="25" fill="#c8c4d8">— W·H·Y — block on every non-vocab card, Gemini-generated</text></g>
+    <g transform="translate(40 396)"><rect width="1200" height="38" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Example sentences</text>
+      <text x="360" y="25" fill="#8e8aa0">Harry Potter corpus</text>
+      <text x="690" y="25" fill="#c8c4d8">Gemini-curated 8–14-word sentences + English translation</text></g>
+    <g transform="translate(40 436)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Japanese tokenization</text>
+      <text x="360" y="25" fill="#8e8aa0">IPAdic stems</text>
+      <text x="690" y="25" fill="#c8c4d8">UniDic dictionary forms (one lemma per word)</text></g>
+    <g transform="translate(40 476)"><rect width="1200" height="38" rx="4" fill="#1f1f38"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Japanese vocab pool</text>
+      <text x="360" y="25" fill="#8e8aa0">34,504 stem-soup</text>
+      <text x="690" y="25" fill="#c8c4d8">42,833 clean lemmas</text></g>
+    <g transform="translate(40 516)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Decks per language</text>
+      <text x="360" y="25" fill="#8e8aa0">1</text>
+      <text x="690" y="25" fill="#c8c4d8">8–10</text></g>
+    <!-- highlighted: active study set -->
+    <g transform="translate(40 556)"><rect width="1200" height="38" rx="4" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/><rect width="4" height="38" rx="2" fill="#4ec27e"/>
+      <text x="24" y="25" fill="#b6e6c8" font-weight="700">Active study set</text>
+      <text x="360" y="25" fill="#8e8aa0">40,000 (classic)</text>
+      <text x="690" y="25" fill="#d4af37" font-weight="700">Vocab-MCQ: 68,248 cards · 5 languages · full A1–B2</text></g>
+    <g transform="translate(40 596)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Global decks (all types)</text>
+      <text x="360" y="25" fill="#8e8aa0">—</text>
+      <text x="690" y="25" fill="#c8c4d8">120,890 across 10 decks (non-MCQ pending QA review)</text></g>
+  </g>
+
+  <line x1="60" y1="654" x2="1220" y2="654" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
+  <text x="60" y="682" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90"><tspan fill="#4ec27e">Green</tspan> = the active, QA-passed study set. Everything else is downloadable but pending quality review.</text>
+</svg>

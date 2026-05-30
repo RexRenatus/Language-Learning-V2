@@ -1,3 +1,10 @@
+<div align="center">
+
+[![Restauratio Regni](docs/header.jpg)](docs/header.jpg)
+[![Rex Renatus — polyglot in training: Spanish · French · Japanese · Chinese · Korean, CEFR C1 by Dec 2028](docs/hero-banner.png)](docs/hero-banner.png)
+
+</div>
+
 # Language-Learning-V2
 
 Curated multilingual flashcards for **Spanish, French, Japanese, Chinese (Mandarin), and Korean**.
@@ -15,20 +22,9 @@ study. Every cloze-MCQ card has a `— W H Y —` reasoning block on the back ge
 
 ## What's new
 
-| Aspect | v1 (deprecated) | v2 (current) |
-|--------|----|----|
-| Card formats | Classic only | Classic + MCQ Recognition + MCQ Recall + 5 new cloze-MCQ deck types |
-| Distractors (vocab) | n/a | 6-option MCQ; 2 near-semantic + 2 frequency-decile + 1 form-confusable |
-| Distractors (cloze) | n/a | 4-option MCQ; sentence-aware or typed (tense / confusable / register) |
-| Distractor similarity | n/a | **BGE-M3** 1024-dim multilingual cosine |
-| Distractor rotation | n/a | Capped at 8 uses per pool word; full pool covered |
-| Reasoning on back | n/a | **`— W H Y —` block** on every non-vocab card, Gemini-generated |
-| Example sentences | Harry Potter corpus only | **Gemini-curated** short canonical sentences (8–14 words) with English translations |
-| Japanese tokenization | IPAdic stems (`走` + `る`) | **UniDic dictionary forms** (`走る` as a single lemma) |
-| Japanese vocab pool | 34,504 stem-soup entries | 42,833 clean lemmas |
-| Decks per language | 1 | 8–10 |
-| Active study set | 40,000 (classic) | **Vocab-MCQ: 68,248 cards, 5 langs, A1–B2** |
-| Global decks (all types) | — | **120,890 across 10 decks** (non-MCQ pending QA) |
+[![What's new — v1 → v2 comparison; active study set is Vocab-MCQ (68,248 cards, 5 languages, A1–B2)](docs/whats-new.png)](docs/whats-new.png)
+
+<sub>Click to open full-size and zoom in.</sub>
 
 For the Japanese rebuild story, see [`docs/ja-unidic-rebuild.md`](docs/ja-unidic-rebuild.md).
 
@@ -105,16 +101,9 @@ Inside each level subdeck, cards are sorted **by frequency** — top-1000 words 
 
 **Level assignment per deck type:**
 
-| Deck | Level signal | A1 | A2 | B1 | B2 |
-|------|----|----|----|----|----|
-| Vocab-MCQ-* | **real proficiency lists** + freq fallback | \(see below\) | | | |
-| Sentence-Mining, Synonyms | frequency rank | rank 1–1000 | 1001–3000 | 3001–6000 | 6001+ |
-| Grammar-Patterns | explicit CEFR tag | ~250 ES (A1) | ~1750 (A2) | — | — |
-| Numbers | card subtype | cardinals 1–20 | cardinals 21–100, ordinals, sound-changes, ZH/ES special rules, Native+counter | KO dual-system selection, large numbers (10K+) | — |
-| Conjugation | verb form | present, te-form, past-polite, completed (了) | preterite, imperfect, negative casual, experiential (过) | future, subjunctive, potential, imperative, conditional | — |
-| Function-Words | (basic — all A1) | all 1000 | — | — | — |
-| Counters | (basic-intermediate) | — | all 760 | — | — |
-| Register | (intermediate) | — | — | all 400 | — |
+[![Level assignment per deck type — how each deck maps cards to A1–B2](docs/level-assignment.png)](docs/level-assignment.png)
+
+<sub>Click to open full-size and zoom in. Full per-language rules: `Phase 11-Global-Decks/STUDY-ORDER.md`.</sub>
 
 **Vocab-MCQ CEFR levels** come from real per-language proficiency standards, shown on
 each card as native + CEFR (e.g. `A2 (HSK3)`): **ELELex/CEFRLex** (Spanish),
@@ -141,18 +130,20 @@ thresholds + deck-unlock matrix: `Phase 11-Global-Decks/STUDY-ORDER.md`.
 <details>
 <summary><b>🌐 Click to expand global multi-language decks</b></summary>
 
-| Deck (global) | Cards | File |
-|--------------------|------:|------|
-| **Numbers** | 1,258 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.1 MB) |
-| **Vocab-MCQ-Recognition** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (138 MB) |
-| **Vocab-MCQ-Recall** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (80 MB) |
-| **Function-Words** | 994 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.2 MB) |
-| **Grammar-Patterns** | 1,995 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.3 MB) |
-| **Sentence-Mining** | 37,299 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (79 MB) |
-| **Conjugation** | 1,973 | [⬇ Conjugation.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Conjugation.apkg) (4.5 MB) |
-| **Counters** _(ja/zh/ko)_ | 760 | [⬇ Counters.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Counters.apkg) (1.7 MB) |
-| **Synonyms** | 7,963 | [⬇ Synonyms.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Synonyms.apkg) (17 MB) |
-| **Register** _(ja/ko)_ | 400 | [⬇ Register.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Register.apkg) (1.7 MB) |
+_Ordered to match the [deck catalog](#deck-catalog). **✅ active** = QA-passed study set; **⏳ pending QA** = downloadable but not yet validated._
+
+| Deck (global) | Status | Cards | File |
+|---|---|------:|------|
+| **Vocab-MCQ-Recognition** | ✅ **active** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (138 MB) |
+| **Vocab-MCQ-Recall** | ✅ **active** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (80 MB) |
+| **Function-Words** | ⏳ pending QA | 994 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.2 MB) |
+| **Grammar-Patterns** | ⏳ pending QA | 1,995 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.3 MB) |
+| **Sentence-Mining** | ⏳ pending QA | 37,299 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (79 MB) |
+| **Conjugation** | ⏳ pending QA | 1,973 | [⬇ Conjugation.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Conjugation.apkg) (4.5 MB) |
+| **Counters** _(ja/zh/ko)_ | ⏳ pending QA | 760 | [⬇ Counters.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Counters.apkg) (1.7 MB) |
+| **Synonyms** | ⏳ pending QA | 7,963 | [⬇ Synonyms.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Synonyms.apkg) (17 MB) |
+| **Register** _(ja/ko)_ | ⏳ pending QA | 400 | [⬇ Register.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Register.apkg) (1.7 MB) |
+| **Numbers** | ⏳ pending QA | 1,258 | [⬇ Numbers.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Numbers.apkg) (2.1 MB) |
 
 > **Total: 120,890 cards across 10 global decks** — audited via 20-layer
 > QA pipeline (`Phase 11-Global-Decks/`); bucket is publicly readable so
@@ -219,15 +210,19 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 
 ### 📦 Per-language decks (if you only want one language)
 
+> **All per-language decks are ⏳ pending QA** — the global **Vocab-MCQ** decks (above) are the
+> active study set. Columns are ordered to match the [deck catalog](#deck-catalog); Classic
+> vocab was retired (SPEC-LANG-002) and is kept only for archival download.
+
 <details>
 <summary><b>📦 Vocabulary decks (one row per language) — click to expand</b></summary>
 
-| Language | Classic Vocab | MCQ Recognition | MCQ Recall |
-|----------|---------------|-----------------|------------|
-| **Spanish**  | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-Spanish-OpenSubs.apkg) (4.2 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recognition-Spanish-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recall-Spanish-OpenSubs.apkg) (21 MB) |
-| **Japanese** | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-Japanese-OpenSubs.apkg) (5.2 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recognition-Japanese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recall-Japanese-OpenSubs.apkg) (22 MB) |
-| **Chinese**  | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-Chinese-OpenSubs.apkg) (5.5 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recognition-Chinese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recall-Chinese-OpenSubs.apkg) (25 MB) |
-| **Korean**   | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-Korean-OpenSubs.apkg) (4.7 MB) | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recognition-Korean-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recall-Korean-OpenSubs.apkg) (24 MB) |
+| Language | MCQ Recognition | MCQ Recall | Classic Vocab _(retired)_ |
+|----------|-----------------|------------|---------------------------|
+| **Spanish**  | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recognition-Spanish-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-MCQ-Recall-Spanish-OpenSubs.apkg) (21 MB) | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/es/Vocab-Spanish-OpenSubs.apkg) (4.2 MB) |
+| **Japanese** | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recognition-Japanese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-MCQ-Recall-Japanese-OpenSubs.apkg) (22 MB) | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ja/Vocab-Japanese-OpenSubs.apkg) (5.2 MB) |
+| **Chinese**  | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recognition-Chinese-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-MCQ-Recall-Chinese-OpenSubs.apkg) (25 MB) | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Vocab-Chinese-OpenSubs.apkg) (5.5 MB) |
+| **Korean**   | [⬇ MCQ Recognition](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recognition-Korean-OpenSubs.apkg) (40 MB) | [⬇ MCQ Recall](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-MCQ-Recall-Korean-OpenSubs.apkg) (24 MB) | [⬇ Vocab](https://storage.googleapis.com/aol-language-decks-v2/v2/ko/Vocab-Korean-OpenSubs.apkg) (4.7 MB) |
 
 </details>
 
