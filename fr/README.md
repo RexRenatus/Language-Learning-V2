@@ -1,12 +1,21 @@
-# French — Deck Collection
+# French — Deck Collection (course coming)
+
+> ## 🎓 French Progressive Course — coming
+>
+> The flagship product is the **Progressive Course** (units in order, A1→native). French follows
+> the Spanish + Japanese pilot — its course is **not yet built** (the assembler is ready; French
+> grammar is being authored from scratch, ~40 units estimated to B2). There is **no
+> `Course-French.apkg` yet**. In the meantime, the French Vocab-MCQ slice below is the QA-passed
+> content pool the future course will draw from. See the
+> [main README](../README.md#-progressive-course--the-flagship) for the roadmap.
 
 French (added in **SPEC-LANG-003**) ships **inside the global Vocab-MCQ decks** rather than
-as standalone per-language files. The French slice is part of the **actively-maintained,
-QA-passed study set** — full A1–B2, on par with the other four languages.
+as standalone per-language files. The French slice is the QA-passed, fully-leveled part of the
+**content pool** — full A1–B2, on par with the other four languages.
 
-> **▶ This is an active study deck.** Unlike the legacy per-language decks for the other
-> languages (pending review), French is delivered through the refined global Vocab-MCQ
-> Recognition/Recall decks, which are the project's primary study set.
+> **▶ Status — content pool / reference drills.** Within the content pool, French is delivered
+> through the refined global Vocab-MCQ Recognition/Recall decks (full A1–B2, all 5 languages) —
+> the QA-passed set. The course (above) is the recommended study path once it ships for French.
 
 ## What you get (French slice)
 

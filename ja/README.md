@@ -1,12 +1,26 @@
-# Japanese — Full Deck Collection
+# Japanese — Progressive Course + Deck Collection
+
+> ## 🎓 Japanese Progressive Course — the recommended study path
+>
+> The flagship Japanese product is the **Progressive Course**: **20 units, A1→A2, 6,605 cards,
+> 3,083 vocab words** (~27 MB). Study **units in order** — each unit is a CEFR can-do lesson that
+> runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with grammar sequenced
+> like a textbook (です → polite forms → **て-form hub** → conditionals) and native-speaker audio
+> throughout. Five card types, **zero multiple-choice**. (Course reaches A2 today; B1 grammar is
+> being authored.)
+>
+> **[⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg)** (~27 MB) ·
+> SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
+> see the [main README](../README.md#-progressive-course--the-flagship).
 
 Comprehensive Japanese flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 
-> **▶ Status — legacy / pending QA.** The project's **active study set** is the global
-> **Vocab-MCQ Recognition + Recall** decks (full A1–B2, all 5 languages incl. French) — see
-> the [main README](../README.md). The per-language decks on this page (including the
-> retired **Classic vocab**, SPEC-LANG-002) predate that refinement and are **pending
-> quality review** — kept downloadable, but not the recommended study path.
+> **▶ Status — content pool / reference drills.** The decks on this page are the **content pool**
+> the Japanese course (above) is assembled from. Within that pool, the global
+> **Vocab-MCQ Recognition + Recall** decks (full A1–B2, all 5 languages incl. French) are the
+> QA-passed set — see the [main README](../README.md). The per-language decks here (including the
+> retired **Classic vocab**, SPEC-LANG-002) are **pending quality review** — kept downloadable for
+> reference/drill, but the course is the recommended study path.
 
 ## Vocabulary decks
 
@@ -45,7 +59,6 @@ Every card on these decks has a `— W H Y —` explanation block on the back, g
 
 | Deck | Sample |
 |------|--------|
-| Classic vocab            | [classic-vocab-card.md](samples/classic-vocab-card.md) |
 | MCQ Recognition          | [mcq-recognition-card.md](samples/mcq-recognition-card.md) |
 | MCQ Recall               | [mcq-recall-card.md](samples/mcq-recall-card.md) |
 | Function-Word Cloze      | [function-word-card.md](samples/function-word-card.md) |

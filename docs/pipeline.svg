@@ -1,13 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 980" width="1280" height="980">
   <defs>
     <marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L6,3 L0,6 Z" fill="#d4af37"/>
     </marker>
   </defs>
-  <rect width="1280" height="760" fill="#1a1a2e"/>
+  <rect width="1280" height="980" fill="#1a1a2e"/>
 
   <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— H O W   I T   I S   B U I L T —</text>
-  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">OpenSubtitles corpus → enrichment → embeddings → distractors → Anki .apkg → GCS.</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">OpenSubtitles corpus → enrichment → embeddings → distractors → type-deck pool → Course assembler → Course .apkg → GCS.</text>
   <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
 
   <!-- vertical connectors -->
@@ -65,21 +65,48 @@
 
     <!-- split: two pipelines -->
     <g transform="translate(150 620)">
-      <rect width="460" height="74" rx="8" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
-      <text x="230" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#b6e6c8">Vocabulary decks</text>
+      <rect width="460" height="74" rx="8" fill="#252041" stroke="#9b8ac4" stroke-width="1"/>
+      <text x="230" y="30" text-anchor="middle" font-size="15" font-weight="700" fill="#cdc8dc">Vocabulary decks</text>
       <text x="230" y="54" text-anchor="middle" font-size="12.5" fill="#9aa0b5">genanki → .apkg</text>
     </g>
     <g transform="translate(670 620)">
-      <rect width="460" height="74" rx="8" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
-      <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#b6e6c8">Cloze-MCQ pipeline</text>
+      <rect width="460" height="74" rx="8" fill="#252041" stroke="#9b8ac4" stroke-width="1"/>
+      <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#cdc8dc">Cloze-MCQ pipeline</text>
       <text x="230" y="48" text-anchor="middle" font-size="12" fill="#9aa0b5">Gemini sentences + W-H-Y reasoning</text>
       <text x="230" y="65" text-anchor="middle" font-size="12" fill="#9aa0b5">+ synonym verifier → genanki → .apkg</text>
     </g>
 
-    <!-- GCS -->
+    <!-- type-deck POOL on GCS (intermediate, no longer terminal) -->
     <g transform="translate(410 716)">
-      <rect width="460" height="40" rx="8" fill="#2a2348" stroke="#d4af37" stroke-width="1.2"/>
-      <text x="230" y="26" text-anchor="middle" font-size="15" font-weight="700" fill="#d4af37">GCS bucket → download tables</text>
+      <rect width="460" height="48" rx="8" fill="#252041" stroke="#9b8ac4" stroke-width="1.2"/>
+      <text x="230" y="22" text-anchor="middle" font-size="15" font-weight="700" fill="#cdc8dc">10 type-decks · 120,890 cards (content pool)</text>
+      <text x="230" y="40" text-anchor="middle" font-size="12" fill="#9aa0b5">GCS v2/global/ — reference/drill + Course source</text>
     </g>
+
+    <!-- Phase 12: Course assembler (the flagship terminal stage) -->
+    <g transform="translate(410 800)">
+      <rect width="460" height="96" rx="8" fill="#1f2a24" stroke="#4ec27e" stroke-width="1.4"/>
+      <rect width="4" height="96" rx="2" fill="#4ec27e"/>
+      <text x="230" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#b6e6c8">Phase 12 — Course assembler</text>
+      <text x="28" y="48" font-size="12.5" fill="#c8c4d8">syllabus/{lang}-syllabus.json + clean pool → ordered units</text>
+      <text x="28" y="68" font-size="12.5" fill="#c8c4d8">Dialogue → Vocab → Grammar → Transform → Dictation</text>
+      <text x="28" y="88" font-size="12.5" fill="#c8c4d8">+ level-gated Vocab-Expansion · native-speaker audio</text>
+    </g>
+    <text x="900" y="842" font-size="12.5" fill="#9aa0b5">◄ 5 active card types</text>
+    <text x="900" y="860" font-size="12.5" fill="#7d7a90">ZERO multiple-choice</text>
+
+    <!-- terminal: Course apkg → GCS v2/course -->
+    <g transform="translate(410 916)">
+      <rect width="460" height="48" rx="8" fill="#2a2348" stroke="#d4af37" stroke-width="1.2"/>
+      <rect width="4" height="48" rx="2" fill="#d4af37"/>
+      <text x="230" y="22" text-anchor="middle" font-size="15" font-weight="700" fill="#d4af37">Course-{Lang}.apkg → GCS v2/course/</text>
+      <text x="230" y="40" text-anchor="middle" font-size="12" fill="#c9b037">ES 22 units (18,102) · JA 20 units (6,605) · SHA256SUMS</text>
+    </g>
+  </g>
+
+  <!-- pool → assembler → course connectors -->
+  <g stroke="#d4af37" stroke-width="1.6" marker-end="url(#ah)">
+    <line x1="640" y1="764" x2="640" y2="796"/>
+    <line x1="640" y1="896" x2="640" y2="912"/>
   </g>
 </svg>

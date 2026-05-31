@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 716" width="1280" height="716">
   <rect width="1280" height="716" fill="#1a1a2e"/>
 
-  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— W H A T ' S   N E W   ( v1 → v2 ) —</text>
-  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">From a single classic deck to a multi-format, QA-gated study system.</text>
+  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— W H A T ' S   N E W   ( v1 → v2 → C O U R S E ) —</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">From a single classic deck → a multi-format type-deck pool → the flagship A1→native Progressive Course.</text>
   <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
 
   <!-- header -->
@@ -52,20 +52,21 @@
       <text x="360" y="25" fill="#8e8aa0">34,504 stem-soup</text>
       <text x="690" y="25" fill="#c8c4d8">42,833 clean lemmas</text></g>
     <g transform="translate(40 516)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
-      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Decks per language</text>
-      <text x="360" y="25" fill="#8e8aa0">1</text>
-      <text x="690" y="25" fill="#c8c4d8">8–10</text></g>
-    <!-- highlighted: active study set -->
-    <g transform="translate(40 556)"><rect width="1200" height="38" rx="4" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/><rect width="4" height="38" rx="2" fill="#4ec27e"/>
-      <text x="24" y="25" fill="#b6e6c8" font-weight="700">Active study set</text>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Card answering</text>
+      <text x="360" y="25" fill="#8e8aa0">recognition only</text>
+      <text x="690" y="25" fill="#c8c4d8">Course: 5 active types, ZERO multiple-choice (type / listen / dictate)</text></g>
+    <!-- content pool row -->
+    <g transform="translate(40 556)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
+      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Content pool (type-decks)</text>
       <text x="360" y="25" fill="#8e8aa0">40,000 (classic)</text>
-      <text x="690" y="25" fill="#d4af37" font-weight="700">Vocab-MCQ: 68,248 cards · 5 languages · full A1–B2</text></g>
-    <g transform="translate(40 596)"><rect width="1200" height="38" rx="4" fill="#1c1c34"/>
-      <text x="24" y="25" fill="#f0e6d3" font-weight="700">Global decks (all types)</text>
-      <text x="360" y="25" fill="#8e8aa0">—</text>
-      <text x="690" y="25" fill="#c8c4d8">120,890 across 10 decks (non-MCQ pending QA review)</text></g>
+      <text x="690" y="25" fill="#c8c4d8">120,890 cards · 10 type-decks · 5 langs — pool the Course draws from</text></g>
+    <!-- highlighted: flagship course -->
+    <g transform="translate(40 596)"><rect width="1200" height="38" rx="4" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/><rect width="4" height="38" rx="2" fill="#4ec27e"/>
+      <text x="24" y="25" fill="#b6e6c8" font-weight="700">Flagship study path</text>
+      <text x="360" y="25" fill="#8e8aa0">classic deck</text>
+      <text x="690" y="25" fill="#d4af37" font-weight="700">Course pilot — ES 22 units A1→B1 (18,102) · JA 20 units A1→A2 (6,605)</text></g>
   </g>
 
   <line x1="60" y1="654" x2="1220" y2="654" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
-  <text x="60" y="682" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90"><tspan fill="#4ec27e">Green</tspan> = the active, QA-passed study set. Everything else is downloadable but pending quality review.</text>
+  <text x="60" y="682" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90"><tspan fill="#4ec27e">Green</tspan> = the flagship: study the Progressive Course, units in order (A1→native). The 10 type-decks are the content pool it is assembled from.</text>
 </svg>

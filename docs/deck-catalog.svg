@@ -1,8 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 680" width="1280" height="680">
   <rect width="1280" height="680" fill="#1a1a2e"/>
 
-  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— D E C K   C A T A L O G —</text>
-  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">10 global decks · 120,890 cards. Vocab-MCQ (68,248, 5 languages incl. French) is the active study set; the rest are pending QA review.</text>
+  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— C O N T E N T   P O O L   ( 1 0   T Y P E - D E C K S ) —</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">10 type-decks · 120,890 cards — the internal pool the flagship Course is assembled from. Downloadable as reference/drill; the Course is the study path.</text>
   <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
 
   <!-- header -->
@@ -11,7 +11,7 @@
     <text x="24"   y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">DECK</text>
     <text x="300"  y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">WHAT IT DRILLS</text>
     <text x="700"  y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">LANGUAGES</text>
-    <text x="888"  y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">STATUS</text>
+    <text x="888"  y="26" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">ROLE</text>
     <text x="1176" y="26" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">CARDS</text>
   </g>
 
@@ -23,26 +23,26 @@
       <text x="24"   y="27" fill="#f0e6d3" font-weight="700">MCQ Recognition</text>
       <text x="300"  y="27" fill="#c8c4d8">Definition → word (1 of 6)</text>
       <text x="700"  y="27" fill="#9aa0b5">es <tspan fill="#d4af37" font-weight="700">fr</tspan> ja zh ko</text>
-      <text x="888"  y="27" fill="#4ec27e" font-weight="700">✓ ACTIVE</text>
+      <text x="888"  y="27" fill="#4ec27e" font-weight="700">✓ POOL (QA-passed)</text>
       <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">34,124</text>
     </g>
-    <!-- ACTIVE: MCQ Recall -->
+    <!-- POOL: MCQ Recall -->
     <g transform="translate(40 206)">
       <rect width="1200" height="42" rx="4" fill="#1c241f"/>
       <rect width="4" height="42" rx="2" fill="#4ec27e"/>
       <text x="24"   y="27" fill="#f0e6d3" font-weight="700">MCQ Recall</text>
       <text x="300"  y="27" fill="#c8c4d8">Word → definition (1 of 6)</text>
       <text x="700"  y="27" fill="#9aa0b5">es <tspan fill="#d4af37" font-weight="700">fr</tspan> ja zh ko</text>
-      <text x="888"  y="27" fill="#4ec27e" font-weight="700">✓ ACTIVE</text>
+      <text x="888"  y="27" fill="#4ec27e" font-weight="700">✓ POOL (QA-passed)</text>
       <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">34,124</text>
     </g>
-    <!-- pending review -->
+    <!-- reference / drill -->
     <g transform="translate(40 252)">
       <rect width="1200" height="42" rx="4" fill="#1f1f38"/>
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Function-Word Cloze</text>
       <text x="300"  y="27" fill="#8e8aa0">Particles, prepositions, function words</text>
       <text x="700"  y="27" fill="#7d7a90">es ja zh ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">994</text>
     </g>
     <g transform="translate(40 298)">
@@ -50,7 +50,7 @@
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Grammar-Pattern Cloze</text>
       <text x="300"  y="27" fill="#8e8aa0">A1–B1 grammar w/ typed distractors</text>
       <text x="700"  y="27" fill="#7d7a90">es ja zh ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">1,995</text>
     </g>
     <g transform="translate(40 344)">
@@ -58,7 +58,7 @@
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Sentence-Mining Cloze</text>
       <text x="300"  y="27" fill="#8e8aa0">Top-frequency vocab in real context</text>
       <text x="700"  y="27" fill="#7d7a90">es ja zh ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">37,299</text>
     </g>
     <g transform="translate(40 390)">
@@ -66,7 +66,7 @@
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Conjugation Drill</text>
       <text x="300"  y="27" fill="#8e8aa0">Tense / aspect / agreement</text>
       <text x="700"  y="27" fill="#7d7a90">es ja zh ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">1,973</text>
     </g>
     <g transform="translate(40 436)">
@@ -74,7 +74,7 @@
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Counter / Measure-Word</text>
       <text x="300"  y="27" fill="#8e8aa0">Counter–noun pairing</text>
       <text x="700"  y="27" fill="#7d7a90">ja zh ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">760</text>
     </g>
     <g transform="translate(40 482)">
@@ -82,7 +82,7 @@
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Synonyms</text>
       <text x="300"  y="27" fill="#8e8aa0">Closest synonym (Gemini-verified)</text>
       <text x="700"  y="27" fill="#7d7a90">es ja zh ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">7,963</text>
     </g>
     <g transform="translate(40 528)">
@@ -90,7 +90,7 @@
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Honorifics / Register</text>
       <text x="300"  y="27" fill="#8e8aa0">Speech-level appropriateness</text>
       <text x="700"  y="27" fill="#7d7a90">ja ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">400</text>
     </g>
     <g transform="translate(40 574)">
@@ -98,11 +98,11 @@
       <text x="24"   y="27" fill="#cdc8dc" font-weight="700">Numbers</text>
       <text x="300"  y="27" fill="#8e8aa0">Cardinals, ordinals, dual systems</text>
       <text x="700"  y="27" fill="#7d7a90">es ja zh ko</text>
-      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">pending QA</text>
+      <text x="888"  y="27" fill="#8e8aa0" font-style="italic">reference / drill</text>
       <text x="1176" y="27" text-anchor="end" fill="#cdc8dc" font-weight="700">1,258</text>
     </g>
   </g>
 
   <line x1="60" y1="636" x2="1220" y2="636" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
-  <text x="60" y="662" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Gold <tspan fill="#d4af37" font-weight="700">fr</tspan> = French. <tspan fill="#4ec27e">Green = active study set</tspan> (full A1–B2, QA-passed). Pending-QA decks are downloadable but not yet validated for study.</text>
+  <text x="60" y="662" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Gold <tspan fill="#d4af37" font-weight="700">fr</tspan> = French. These 10 type-decks are the <tspan fill="#4ec27e">content pool</tspan> the flagship Course is assembled from. <tspan fill="#d4af37" font-weight="700">Study the Course</tspan> (units in order); the decks ride along as reference/drill.</text>
 </svg>

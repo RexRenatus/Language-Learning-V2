@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560">
   <rect width="1280" height="560" fill="#1a1a2e"/>
 
-  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— L E V E L   A S S I G N M E N T   P E R   D E C K —</text>
-  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">How each deck type maps cards to CEFR levels A1 → B2 (abbreviated; full rules in STUDY-ORDER.md).</text>
+  <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— C E F R   L E V E L I N G   ( P O O L ) —</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">How each type-deck in the pool maps cards to CEFR A1 → B2. The flagship Course re-levels this content into ordered can-do units (ES A1→B1, JA A1→A2).</text>
   <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
 
   <!-- header -->
   <g transform="translate(40 110)">
     <rect width="1200" height="38" rx="6" fill="#2a2348"/>
-    <text x="24"   y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">DECK</text>
+    <text x="24"   y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">POOL DECK</text>
     <text x="230"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">LEVEL SIGNAL</text>
     <text x="430"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">A1</text>
     <text x="620"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="1">A2</text>
@@ -19,7 +19,7 @@
   <g font-family="Inter, sans-serif" font-size="12.5">
     <!-- Vocab-MCQ (active) — spanning description -->
     <g transform="translate(40 156)"><rect width="1200" height="40" rx="4" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/><rect width="4" height="40" rx="2" fill="#4ec27e"/>
-      <text x="24" y="25" fill="#b6e6c8" font-weight="700" font-size="14">Vocab-MCQ ✓</text>
+      <text x="24" y="25" fill="#b6e6c8" font-weight="700" font-size="14">Vocab-MCQ</text>
       <text x="230" y="25" fill="#9aa0b5">real proficiency lists</text>
       <text x="430" y="25" fill="#c8c4d8" font-style="italic">ELELex / HSK 3.0 / JLPT / NIKL / FLELex + calibrated frequency fallback → shown native + CEFR</text></g>
     <g transform="translate(40 200)"><rect width="1200" height="40" rx="4" fill="#1c1c34"/>
@@ -73,5 +73,5 @@
       <text x="1070" y="25" fill="#7d7a90">—</text></g>
   </g>
 
-  <text x="60" y="540" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90"><tspan fill="#4ec27e">Vocab-MCQ ✓</tspan> = active study set. Non-MCQ rows are pending QA. Cells abbreviated — see Phase 11-Global-Decks/STUDY-ORDER.md for full per-language rules.</text>
+  <text x="60" y="540" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">These leveling rules govern the <tspan fill="#4ec27e">type-deck pool</tspan>. The flagship Course carries its own per-unit CEFR can-do level (units in order) — see course-path. Cells abbreviated; full rules in STUDY-ORDER.md.</text>
 </svg>

@@ -1,12 +1,21 @@
-# Chinese — Full Deck Collection
+# Chinese — Deck Collection (course coming)
+
+> ## 🎓 Chinese Progressive Course — coming
+>
+> The flagship product is the **Progressive Course** (units in order, A1→native). Chinese follows
+> the Spanish + Japanese pilot — its course is **not yet built** (the assembler is ready; the
+> existing pool already reaches A2, ~48 units estimated to B2). There is **no `Course-Chinese.apkg`
+> yet**. In the meantime, the decks below are the **content pool** the future course will be
+> assembled from. See the [main README](../README.md#-progressive-course--the-flagship) for the roadmap.
 
 Comprehensive Chinese flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 
-> **▶ Status — legacy / pending QA.** The project's **active study set** is the global
-> **Vocab-MCQ Recognition + Recall** decks (full A1–B2, all 5 languages incl. French) — see
-> the [main README](../README.md). The per-language decks on this page (including the
-> retired **Classic vocab**, SPEC-LANG-002) predate that refinement and are **pending
-> quality review** — kept downloadable, but not the recommended study path.
+> **▶ Status — content pool / reference drills.** The decks on this page are the **content pool**
+> the Chinese course will be assembled from. Within that pool, the global
+> **Vocab-MCQ Recognition + Recall** decks (full A1–B2, all 5 languages incl. French) are the
+> QA-passed set — see the [main README](../README.md). The per-language decks here (including the
+> retired **Classic vocab**, SPEC-LANG-002) are **pending quality review** — kept downloadable for
+> reference/drill, but the course (when it ships) is the recommended study path.
 
 ## Vocabulary decks
 
@@ -29,7 +38,7 @@ Every card on these decks has a `— W H Y —` explanation block on the back, g
 | **Counter / Measure-Word** |   250 | The right counter for the right noun (shape, animacy, register) | [⬇ Counter-Chinese-Drill.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Counter-Chinese-Drill.apkg) (425 KB) |
 | **Synonyms**              | 2,583 | Closest-synonym MCQ, Gemini-verified pairs | [⬇ Synonyms-Chinese-OpenSubs.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/zh/Synonyms-Chinese-OpenSubs.apkg) (3.8 MB) |
 
-**Chinese totals — 42,584 cards across 9 decks.**
+**Chinese totals — 42,834 cards across 9 decks.**
 
 ## Source
 
@@ -44,7 +53,6 @@ Every card on these decks has a `— W H Y —` explanation block on the back, g
 
 | Deck | Sample |
 |------|--------|
-| Classic vocab            | [classic-vocab-card.md](samples/classic-vocab-card.md) |
 | MCQ Recognition          | [mcq-recognition-card.md](samples/mcq-recognition-card.md) |
 | MCQ Recall               | [mcq-recall-card.md](samples/mcq-recall-card.md) |
 | Function-Word Cloze      | [function-word-card.md](samples/function-word-card.md) |
