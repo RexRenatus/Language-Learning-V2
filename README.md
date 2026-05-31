@@ -20,6 +20,31 @@ study. Every cloze-MCQ card has a `— W H Y —` reasoning block on the back ge
 
 ---
 
+## 🎓 Progressive Course (NEW — pilot)
+
+A **structured A1→native course**, not just flashcards — the new flagship. Study **units in order**;
+each unit is a real lesson anchored to a **CEFR can-do** goal:
+
+> **0 Dialogue** (read/listen for meaning) → **1 Vocab** (type the word · listen) →
+> **2 Grammar** (type the form) → **3 Transform** (apply the rule) → **4 Dictation** (hear → type)
+
+Grammar is **sequenced like a textbook** (Spanish: ser → present → past tenses → **subjunctive**;
+Japanese: です → polite forms → **て-form hub** → conditionals), vocabulary is **grouped by theme**
+per unit (with the rest delivered as level-gated *Vocab-Expansion*), and every card tests
+**active knowledge** — production, listening, dictation, comprehension — **no multiple-choice**.
+Native-speaker audio throughout. Open the **Unit 00** card for how-to-study + recommended Anki settings.
+
+| Course | Units | Range | Cards | Download |
+|---|---|------:|------:|---|
+| **Spanish** | 22 | A1→B1 | 18,102 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (90 MB) |
+| **Japanese** | 20 | A1→A2 | 6,605 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (27 MB) |
+
+_Pilot: Spanish + Japanese first; French/Chinese/Korean follow. Japanese reaches A2 (B1 grammar is
+being authored). SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS).
+The 10 type-decks below are now the **content pool** the course is assembled from._
+
+---
+
 ## What's new
 
 [![What's new — v1 → v2 comparison; active study set is Vocab-MCQ (68,248 cards, 5 languages, A1–B2)](docs/whats-new.png)](docs/whats-new.png)
