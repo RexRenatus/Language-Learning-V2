@@ -135,7 +135,7 @@ _Ordered to match the [deck catalog](#deck-catalog). **✅ active** = QA-passed 
 | Deck (global) | Status | Cards | File |
 |---|---|------:|------|
 | **Vocab-MCQ-Recognition** | ✅ **active** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (138 MB) |
-| **Vocab-MCQ-Recall** | ✅ **active** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (80 MB) |
+| **Vocab-MCQ-Recall** | ✅ **active** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (136 MB) |
 | **Function-Words** | ⏳ pending QA | 994 | [⬇ Function-Words.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Function-Words.apkg) (2.2 MB) |
 | **Grammar-Patterns** | ⏳ pending QA | 1,995 | [⬇ Grammar-Patterns.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Grammar-Patterns.apkg) (4.3 MB) |
 | **Sentence-Mining** | ⏳ pending QA | 37,299 | [⬇ Sentence-Mining.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Sentence-Mining.apkg) (79 MB) |
@@ -203,8 +203,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `4394831d43188598b23dc8f632d030970aeeb32535bd388570a96dc3b5e77524` |
-| Vocab-MCQ-Recognition.apkg | `655e8d7dcc32846347a455d11257b798b3d85de52b738a0f9029bb77f80ff3c5` |
+| Vocab-MCQ-Recall.apkg | `d4d58b71a6b27dbeb7f1e417b399b5d3d4df4b4e3303feda8da0c1754407985d` |
+| Vocab-MCQ-Recognition.apkg | `17ed07f1c973ddddf0ac43f854916a0722c8efb7f46ff90162ede94e88672bdf` |
 
 </details>
 
@@ -247,6 +247,7 @@ Per-language pages have the full table with file sizes and sample-card links: **
 - **Classic vocab card** — Word + IPA (and Pinyin for Chinese) on the front; English meaning, example sentence, top collocations on the back.
 - **MCQ Recognition** — English definition shown; user picks the matching target-language word out of six options.
 - **MCQ Recall** — Target-language word + IPA shown; user picks the matching English definition out of six options.
+  - _Both MCQ decks show a **color-coded example sentence** on the back: each target-language word and its English translation share a color (grammatical/function words are gray), so word order and grammar — e.g. SOV→SVO reordering, particles, negation — are visible at a glance._
 - **Function-Word Cloze** — A sentence with a function word blanked. 4 options with one correct + 3 sentence-aware distractors. Back reveals the answer + a one-sentence rule explanation.
 - **Grammar-Pattern Cloze** — A sentence drilling a specific grammar pattern (`〜たい`, `comparativos`, `V不V`, `〜은 적이 있어요`, etc.). Distractors are *typed* (tense / confusable / register variant).
 - **Sentence-Mining Cloze** — Top-frequency vocab word blanked inside its real-corpus example sentence. 4-option MCQ from the same word's pre-built distractor pool.

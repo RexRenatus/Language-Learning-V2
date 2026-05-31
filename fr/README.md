@@ -26,7 +26,7 @@ French is included in the two global decks — import either and expand the **Fr
 | Deck | Cards (all langs) | File |
 |------|------:|------|
 | **Vocab-MCQ-Recognition** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (138 MB) |
-| **Vocab-MCQ-Recall** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (80 MB) |
+| **Vocab-MCQ-Recall** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (136 MB) |
 
 SHA-256 manifest + integrity steps: see the [main README](../README.md#-integrity-verification).
 
