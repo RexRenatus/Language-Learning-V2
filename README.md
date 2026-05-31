@@ -203,8 +203,8 @@ cd apkg/ && sha256sum -c ../SHA256SUMS
 | Register.apkg | `dbd28e7e57fd7f5e6ed45a55d1659b85b10e87748ef821c51a500c44b85aa6cb` |
 | Sentence-Mining.apkg | `35edac373d6c8c5e3331e55412bbfadb817cd248c67f65c5266ce9591ca4307d` |
 | Synonyms.apkg | `8667e1bda24c8d69d58b41e9fbcaa32580c9970c10248871cdc2692ab026cf89` |
-| Vocab-MCQ-Recall.apkg | `8e9280ab0c376760bb7ae2fe35414ea8024e14595f7903e1b7e8015cab290df2` |
-| Vocab-MCQ-Recognition.apkg | `c37ccfd8f8fe326c0a944237ff1d9dacdba25e6d06586269b36eeefc380f12a1` |
+| Vocab-MCQ-Recall.apkg | `8db1bf943cd2b8eaa1ac0faaca56d30c6e48785ac76145f62449164aa9bc5778` |
+| Vocab-MCQ-Recognition.apkg | `d6db1fdb5aa94d86a5b820087ee5ccc1d4faad542a91f8f43e9202c9c4e84e39` |
 
 </details>
 
@@ -249,6 +249,7 @@ Per-language pages have the full table with file sizes and sample-card links: **
 - **MCQ Recall** — Target-language word + IPA shown; user picks the matching English definition out of six options.
   - _Both MCQ decks show a **color-coded example sentence** on the back: each target-language word and its English translation share a color (grammatical/function words are gray), so word order and grammar — e.g. SOV→SVO reordering, particles, negation — are visible at a glance._
   - _**Spoken pronunciation 🔊** — every headword carries a native-speaker **male voice** clip whose pronunciation is **phoneme-forced** from the data already on the card (IPA for Spanish/French, kana for Japanese, pinyin for Chinese; Korean reads its phonetic Hangul) — so even single-letter function words say the word, not the letter-name. Generated with Google Cloud TTS neural voices, loudness-equalized, and **autoplaying three times** where the word is the focus: the **front of Recall** cards and the **back of Recognition** cards._
+  - _**Japanese furigana** — kanji headwords show their **kana reading** beside the word (車 → くるま), with the reading, IPA, and audio all derived from one analyzer (pyopenjtalk) so they always agree._
 - **Function-Word Cloze** — A sentence with a function word blanked. 4 options with one correct + 3 sentence-aware distractors. Back reveals the answer + a one-sentence rule explanation.
 - **Grammar-Pattern Cloze** — A sentence drilling a specific grammar pattern (`〜たい`, `comparativos`, `V不V`, `〜은 적이 있어요`, etc.). Distractors are *typed* (tense / confusable / register variant).
 - **Sentence-Mining Cloze** — Top-frequency vocab word blanked inside its real-corpus example sentence. 4-option MCQ from the same word's pre-built distractor pool.
