@@ -2,14 +2,14 @@
 
 > ## 🎓 Japanese Progressive Course — the recommended study path
 >
-> The flagship Japanese product is the **Progressive Course**: **20 units, A1→A2, 6,605 cards,
-> 3,083 vocab words** (~27 MB). Study **units in order** — each unit is a CEFR can-do lesson that
-> runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with grammar sequenced
-> like a textbook (です → polite forms → **て-form hub** → conditionals) and native-speaker audio
-> throughout. Five card types, **zero multiple-choice**. (Course reaches A2 today; B1 grammar is
-> being authored.)
+> The flagship Japanese product is the **Progressive Course**: **54 units, A1→B2, 9,733 cards,
+> 4,272 vocab words** (~44 MB). It opens with **4 from-zero foundation units** (kana review,
+> numbers incl. native vs Sino-Japanese, colours, survival phrases), then each unit is a CEFR
+> can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with
+> grammar sequenced like a textbook (です → polite forms → **て-form hub** → N3 → N2) and
+> native-speaker audio throughout. Five card types, **zero multiple-choice**.
 >
-> **[⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg)** (~27 MB) ·
+> **[⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg)** (~44 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 

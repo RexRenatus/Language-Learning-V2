@@ -1,12 +1,17 @@
-# Chinese — Deck Collection (course coming)
+# Chinese — Progressive Course + Deck Collection
 
-> ## 🎓 Chinese Progressive Course — coming
+> ## 🎓 Chinese Progressive Course — the recommended study path
 >
-> The flagship product is the **Progressive Course** (units in order, A1→native). Chinese follows
-> the Spanish + Japanese pilot — its course is **not yet built** (the assembler is ready; the
-> existing pool already reaches A2, ~48 units estimated to B2). There is **no `Course-Chinese.apkg`
-> yet**. In the meantime, the decks below are the **content pool** the future course will be
-> assembled from. See the [main README](../README.md#-progressive-course--the-flagship) for the roadmap.
+> The flagship Chinese product is the **Progressive Course**: **50 units, A1→B2, 9,366 cards,
+> 4,130 vocab words** (~43 MB). It opens with **4 from-zero foundation units** (pinyin + the four
+> tones, numbers incl. 二/两 and 万-grouping, colours, survival phrases), then each unit is a CEFR
+> can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, grammar
+> sequenced like a textbook (是/有 → **了 hub** → complements → HSK 4→5) with native-speaker audio
+> throughout. Five card types, **zero multiple-choice**.
+>
+> **[⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg)** (~43 MB) ·
+> SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
+> see the [main README](../README.md#-progressive-course--the-flagship).
 
 Comprehensive Chinese flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 

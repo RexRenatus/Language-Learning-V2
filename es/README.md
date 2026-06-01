@@ -2,13 +2,14 @@
 
 > ## 🎓 Spanish Progressive Course — the recommended study path
 >
-> The flagship Spanish product is the **Progressive Course**: **22 units, A1→B1, 18,102 cards,
-> 8,815 vocab words** (~90 MB). Study **units in order** — each unit is a CEFR can-do lesson that
-> runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with grammar sequenced
-> like a textbook (ser → present → past tenses → **subjunctive hub**) and native-speaker audio
-> throughout. Five card types, **zero multiple-choice**.
+> The flagship Spanish product is the **Progressive Course**: **43 units, A1→B2, 19,322 cards,
+> 9,215 vocab words** (~94 MB). It opens with **4 from-zero foundation units** (alphabet & sounds
+> with IPA, numbers, colours, survival phrases), then each unit is a CEFR can-do lesson that runs
+> **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with grammar sequenced like a
+> textbook (ser → present → past tenses → **subjunctive hub**) and native-speaker audio throughout.
+> Five card types, **zero multiple-choice**.
 >
-> **[⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg)** (~90 MB) ·
+> **[⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg)** (~94 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 

@@ -1,12 +1,17 @@
-# Korean — Deck Collection (course coming)
+# Korean — Progressive Course + Deck Collection
 
-> ## 🎓 Korean Progressive Course — coming
+> ## 🎓 Korean Progressive Course — the recommended study path
 >
-> The flagship product is the **Progressive Course** (units in order, A1→native). Korean follows
-> the Spanish + Japanese pilot — its course is **not yet built** (the assembler is ready; the
-> existing pool already reaches A2, ~48 units estimated to B2). There is **no `Course-Korean.apkg`
-> yet**. In the meantime, the decks below are the **content pool** the future course will be
-> assembled from. See the [main README](../README.md#-progressive-course--the-flagship) for the roadmap.
+> The flagship Korean product is the **Progressive Course**: **49 units, A1→B2, 18,559 cards,
+> 8,731 vocab words** (~83 MB). It opens with **4 from-zero foundation units** (hangul jamo →
+> syllable blocks, numbers in both native & Sino-Korean systems, colours, survival phrases), then
+> each unit is a CEFR can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform →
+> 4 Dictation**, grammar sequenced like a textbook (이다 → 해요 → **modifier-ending hub** → TOPIK II)
+> with Seoul-standard native audio throughout. Five card types, **zero multiple-choice**.
+>
+> **[⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg)** (~83 MB) ·
+> SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
+> see the [main README](../README.md#-progressive-course--the-flagship).
 
 Comprehensive Korean flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 

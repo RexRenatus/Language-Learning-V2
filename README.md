@@ -22,8 +22,11 @@ as reference/drill material, but no longer the headline study path.
 
 ## 🎓 Progressive Course — the flagship
 
-A **structured A1→native course**, not just flashcards. Study **units in order**; each unit is a
-real lesson anchored to a **CEFR can-do** goal and runs the same five-step loop:
+A **structured A1→native course**, not just flashcards. Study **units in order**. Each course opens
+with **4 from-zero foundation units** — writing system & pronunciation, numbers, colours, and
+days/time & survival phrases — where letter/sound cards show **IPA** and play **phoneme-forced
+audio** (true Castilian/Parisian/Mandarin-tone/Seoul values, not a TTS guess). After that, each
+unit is a real lesson anchored to a **CEFR can-do** goal and runs the same five-step loop:
 
 > **0 Dialogue** (comprehensible input · audio) → **1 Vocab** (type the word · listen) →
 > **2 Grammar** (type the form · cloze) → **3 Transform** (apply the rule) → **4 Dictation** (hear → type)
@@ -41,27 +44,32 @@ per unit, with the rest of the ~30k inventory riding along as a 3-layer, level-g
 
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
-| **Spanish** | 22 | A1→B1 | 18,102 | 8,815 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (90 MB) |
-| **Japanese** | 20 | A1→A2 | 6,605 | 3,083 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (27 MB) |
+| **Spanish** | 43 | A1→B2 | 19,322 | 9,215 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (94 MB) |
+| **Japanese** | 54 | A1→B2 | 9,733 | 4,272 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (44 MB) |
+| **French** | 47 | A1→B2 | 18,067 | 8,491 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (70 MB) |
+| **Chinese** | 50 | A1→B2 | 9,366 | 4,130 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (43 MB) |
+| **Korean** | 49 | A1→B2 | 18,559 | 8,731 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (83 MB) |
 
-_Pilot shipped: Spanish (A1→B1) and Japanese (A1→A2) — combined 11,898 vocab words.
-French/Chinese/Korean courses follow (the assembler is ready; their grammar is being authored).
-Japanese reaches A2 today (B1 grammar is being authored). SHA-256:
+_All five languages now ship a complete **A1→B2 course**: **243 units · 75,047 cards · 34,839 vocab
+words**, native-speaker neural audio throughout. Every course opens with **4 from-zero foundation
+units** (writing system & pronunciation → numbers → colours → days/time & survival), letter/sound
+cards showing **IPA** + phoneme-forced audio. SHA-256:
 [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS)._
 
-### 🗺️ Roadmap to B2 (then C1 by Dec 2028)
+### 🗺️ Roadmap to C1 (by Dec 2028)
 
-The goal is a **C1 course across all five languages by December 2028**. B2 grammar exists for no
-language yet and must be authored; the assembler is ready, so each language's course follows once
-its syllabus is written (estimated units, ~2.5 grammar points/unit, textbook-anchored):
+**All five languages now ship a complete A1→B2 course.** Syllabi are grounded in each language's
+national standard (PCIC/DELE · DELF · JLPT N5→N2 · HSK 1→5 · TOPIK I→II), validated for CEFR
+ordering and grammar-point binding, with native-speaker audio throughout. The remaining climb is
+**B2→C1**:
 
-| Language | Built today | To B2 (est. units) | Status |
-|---|---|---|---|
-| **Spanish** | 22 units → B1 | ~40 (+~18 for B2) | pilot shipped |
-| **Japanese** | 20 units → A2 | ~55 (+N3, +N2) | pilot shipped; B1 grammar in progress |
-| **French** | 0 (grammar from scratch) | ~40 | course to build |
-| **Chinese** | 0 (pool → A2) | ~48 | course to build |
-| **Korean** | 0 (pool → A2) | ~48 | course to build |
+| Language | Shipped today | Next (C1) |
+|---|---|---|
+| **Spanish** | 43 units · A1→B2 (PCIC/DELE) | C1 (advanced register/discourse) |
+| **Japanese** | 54 units · A1→B2 (N5→N2) | C1 (N1) |
+| **French** | 47 units · A1→B2 (DELF) | C1 (DALF) |
+| **Chinese** | 50 units · A1→B2 (HSK 1→5) | C1 (HSK 6) |
+| **Korean** | 49 units · A1→B2 (TOPIK I→II) | C1 (TOPIK 6) |
 
 ---
 
