@@ -2,7 +2,7 @@
 
 > ## 🎓 Korean Progressive Course — the recommended study path
 >
-> The flagship Korean product is the **Progressive Course**: **83 units, A1→C2, 20,928 cards,
+> The flagship Korean product is the **Progressive Course**: **83 units, A1→C2, 20,937 cards,
 > 9,284 vocab words** (~100 MB). It opens with **4 from-zero foundation units** (hangul jamo →
 > syllable blocks, numbers in both native & Sino-Korean systems, colours, survival phrases), then
 > each unit is a CEFR can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform →
@@ -17,11 +17,11 @@
 Comprehensive Korean flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 
 > **▶ Status — content pool / reference drills.** The decks on this page are the **content pool**
-> the Korean course will be assembled from. Within that pool, the global
+> the Korean course (above) is assembled from. Within that pool, the global
 > **Vocab-MCQ Recognition + Recall** decks (full A1–B2, all 5 languages incl. French) are the
 > QA-passed set — see the [main README](../README.md). The per-language decks here (including the
 > retired **Classic vocab**, SPEC-LANG-002) are **pending quality review** — kept downloadable for
-> reference/drill, but the course (when it ships) is the recommended study path.
+> reference/drill, but the course is the recommended study path.
 
 ## Vocabulary decks
 

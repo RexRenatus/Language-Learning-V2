@@ -34,7 +34,7 @@ We A/B'd BGE-M3 (1024-dim, multilingual) against a smaller `paraphrase-multiling
 | `司机` (driver, ZH) | `驾驶员, 卡车司机, 開车, 汽车` |
 | `救い出す` (rescue, JA) | `運び出す, 掘り出す` — **all share `〜出す` verb pattern** |
 
-For the case where BGE-M3 vs Jaccard differ: ~95% of cards across all four languages.
+For the case where BGE-M3 vs Jaccard differ: ~95% of cards across all five languages.
 
 ## Rotation fairness
 

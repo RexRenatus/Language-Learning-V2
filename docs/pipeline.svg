@@ -89,10 +89,10 @@
       <rect width="4" height="96" rx="2" fill="#4ec27e"/>
       <text x="230" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#b6e6c8">Phase 12 — Course assembler</text>
       <text x="28" y="48" font-size="12.5" fill="#c8c4d8">syllabus/{lang}-syllabus.json + clean pool → ordered units</text>
-      <text x="28" y="68" font-size="12.5" fill="#c8c4d8">Dialogue → Vocab → Grammar → Transform → Dictation</text>
+      <text x="28" y="68" font-size="12.5" fill="#c8c4d8">Dialogue → Vocab → Grammar → Transform → Dictation → +3 B1 strands</text>
       <text x="28" y="88" font-size="12.5" fill="#c8c4d8">+ level-gated Vocab-Expansion · native-speaker audio</text>
     </g>
-    <text x="900" y="842" font-size="12.5" fill="#9aa0b5">◄ 5 active card types</text>
+    <text x="900" y="842" font-size="12.5" fill="#9aa0b5">◄ 8 active card types</text>
     <text x="900" y="860" font-size="12.5" fill="#7d7a90">ZERO multiple-choice</text>
 
     <!-- terminal: Course apkg → GCS v2/course -->
@@ -100,7 +100,7 @@
       <rect width="460" height="48" rx="8" fill="#2a2348" stroke="#d4af37" stroke-width="1.2"/>
       <rect width="4" height="48" rx="2" fill="#d4af37"/>
       <text x="230" y="22" text-anchor="middle" font-size="15" font-weight="700" fill="#d4af37">Course-{Lang}.apkg → GCS v2/course/</text>
-      <text x="230" y="40" text-anchor="middle" font-size="12" fill="#c9b037">ES 22 units (18,102) · JA 20 units (6,605) · SHA256SUMS</text>
+      <text x="230" y="40" text-anchor="middle" font-size="12" fill="#c9b037">all 5 = 416 units · 86,305 cards · SHA256SUMS</text>
     </g>
   </g>
 

@@ -2,7 +2,7 @@
 
 > ## 🎓 French Progressive Course — the recommended study path
 >
-> The flagship French product is the **Progressive Course**: **81 units, A1→C2, 20,187 cards,
+> The flagship French product is the **Progressive Course**: **81 units, A1→C2, 20,191 cards,
 > 8,980 vocab words** (~84 MB). It opens with **4 from-zero foundation units** (alphabet & sounds
 > with IPA, numbers incl. the vigesimal 70/80/90, colours, survival phrases), then each unit is a
 > CEFR can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**,
@@ -20,7 +20,7 @@ as standalone per-language files. The French slice is the QA-passed, fully-level
 
 > **▶ Status — content pool / reference drills.** Within the content pool, French is delivered
 > through the refined global Vocab-MCQ Recognition/Recall decks (full A1–B2, all 5 languages) —
-> the QA-passed set. The course (above) is the recommended study path once it ships for French.
+> the QA-passed set. The course (above) is the recommended study path.
 
 ## What you get (French slice)
 
@@ -39,8 +39,8 @@ French is included in the two global decks — import either and expand the **Fr
 
 | Deck | Cards (all langs) | File |
 |------|------:|------|
-| **Vocab-MCQ-Recognition** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (138 MB) |
-| **Vocab-MCQ-Recall** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (136 MB) |
+| **Vocab-MCQ-Recognition** | 34,124 | [⬇ Vocab-MCQ-Recognition.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recognition.apkg) (380 MB · incl. 🔊 audio) |
+| **Vocab-MCQ-Recall** | 34,124 | [⬇ Vocab-MCQ-Recall.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/global/Vocab-MCQ-Recall.apkg) (379 MB · incl. 🔊 audio) |
 
 SHA-256 manifest + integrity steps: see the [main README](../README.md#-integrity-verification).
 

@@ -1,6 +1,6 @@
 # Cloze-MCQ card format
 
-This document explains the card layout shared by all 5 cloze-MCQ deck types:
+This document explains the card layout shared by all 6 cloze-MCQ deck types:
 
 - **Function-Word Cloze**
 - **Grammar-Pattern Cloze**

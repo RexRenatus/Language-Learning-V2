@@ -8,7 +8,7 @@ End-to-end data flow for building one language deck.
 ├─────────────────────────────────────────────────────────────────────┤
 │                                                                     │
 │   HermitDave/FrequencyWords (OpenSubtitles 2018)                    │
-│        es_50k.txt   zh_50k.txt   ko_50k.txt                         │
+│        es_50k.txt   zh_50k.txt   ko_50k.txt   fr_50k.txt            │
 │                                                                     │
 │   OPUS OpenSubtitles 2018 raw Japanese corpus (100 MB)              │
 │        → re-tokenize with fugashi+UniDic → ja_50k.txt (42.8K lemmas)│

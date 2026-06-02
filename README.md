@@ -50,14 +50,14 @@ per unit, with the rest of the ~30k inventory riding along as a 3-layer, level-g
 
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
-| **Spanish** | 79 | A1→C2 | 21,475 | 9,703 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (112 MB) |
-| **Japanese** | 87 | A1→C2 | 11,885 | 4,791 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (61 MB) |
-| **French** | 81 | A1→C2 | 20,187 | 8,980 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (84 MB) |
-| **Chinese** | 86 | A1→C2 | 11,800 | 4,665 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (63 MB) |
-| **Korean** | 83 | A1→C2 | 20,928 | 9,284 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (100 MB) |
+| **Spanish** | 79 | A1→C2 | 21,478 | 9,703 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (113 MB) |
+| **Japanese** | 87 | A1→C2 | 11,894 | 4,791 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (61 MB) |
+| **French** | 81 | A1→C2 | 20,191 | 8,980 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (84 MB) |
+| **Chinese** | 86 | A1→C2 | 11,805 | 4,665 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (63 MB) |
+| **Korean** | 83 | A1→C2 | 20,937 | 9,284 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (100 MB) |
 
 _All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **416 units ·
-86,275 cards · 37,423 vocab words**, native-speaker neural audio throughout. Every course opens with
+86,305 cards · 37,423 vocab words**, native-speaker neural audio throughout. Every course opens with
 **4 from-zero foundation units** (writing system & pronunciation → numbers → colours → days/time &
 survival), climbs through A1→B2 grammar to a **C1/C2 band** (register, discourse, idiom/collocation,
 nuance), and from B1 adds **mediation, composition, and reading** strands aligned to the exam tasks.
@@ -381,7 +381,7 @@ Three independent audits run on every release:
 2. **APKG file audit** — extracts the sqlite under each .apkg; verifies field count, no answer leak on the front, the correct option marked on the back.
 3. **Randomization audit** — verifies the correct answer is uniformly distributed across A/B/C/D positions (within statistical expectation), no positional bias.
 
-Latest release (May 2026): **48,857 cloze-MCQ cards, 0 issues, χ² < 12 on every deck.**
+Latest release (May 2026): **0 issues, χ² < 12 on every cloze-MCQ deck.**
 
 ---
 

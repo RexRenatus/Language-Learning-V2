@@ -2,7 +2,7 @@
 
 > ## 🎓 Japanese Progressive Course — the recommended study path
 >
-> The flagship Japanese product is the **Progressive Course**: **87 units, A1→C2, 11,885 cards,
+> The flagship Japanese product is the **Progressive Course**: **87 units, A1→C2, 11,894 cards,
 > 4,791 vocab words** (~61 MB). It opens with **4 from-zero foundation units** (kana review,
 > numbers incl. native vs Sino-Japanese, colours, survival phrases), then each unit is a CEFR
 > can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with
