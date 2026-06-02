@@ -2,15 +2,15 @@
 
 > ## 🎓 Chinese Progressive Course — the recommended study path
 >
-> The flagship Chinese product is the **Progressive Course**: **78 units, A1→C2, 11,265 cards,
-> 4,665 vocab words** (~57 MB). It opens with **4 from-zero foundation units** (pinyin + the four
+> The flagship Chinese product is the **Progressive Course**: **86 units, A1→C2, 11,800 cards,
+> 4,665 vocab words** (~63 MB). It opens with **4 from-zero foundation units** (pinyin + the four
 > tones, numbers incl. 二/两 and 万-grouping, colours, survival phrases), then each unit is a CEFR
 > can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, grammar
 > sequenced like a textbook (是/有 → **了 hub** → complements → HSK 4→5) with native-speaker audio
 > throughout. The **C1/C2 band adds register/discourse/idiom/nuance** (grounded in HSK 6, the
-> language's C1–C2 standard). Five card types, **zero multiple-choice**.
+> language's C1–C2 standard). Eight card types — incl. B1+ **mediation · composition · reading** — **zero multiple-choice**.
 >
-> **[⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg)** (~57 MB) ·
+> **[⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg)** (~63 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 

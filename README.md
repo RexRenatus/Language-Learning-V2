@@ -11,8 +11,8 @@ A **structured A1→native language course** for **Spanish, French, Japanese, Ch
 and Korean** — study units in order, like a textbook, with native-speaker audio throughout.
 
 The **Progressive Course** is the flagship: study **units in order**, each one a CEFR can-do
-lesson built from **five card types and zero multiple-choice** — every card tests *active*
-knowledge (production, listening, dictation, comprehension). The 10 type-decks further down
+lesson built from **eight card types and zero multiple-choice** — every card tests *active*
+knowledge (production, listening, dictation, mediation, writing, reading). The 10 type-decks further down
 (120,890 cards) are now the **content pool** the course is assembled from — still downloadable
 as reference/drill material, but no longer the headline study path.
 
@@ -26,13 +26,19 @@ A **structured A1→native course**, not just flashcards. Study **units in order
 with **4 from-zero foundation units** — writing system & pronunciation, numbers, colours, and
 days/time & survival phrases — where letter/sound cards show **IPA** and play **phoneme-forced
 audio** (true Castilian/Parisian/Mandarin-tone/Seoul values, not a TTS guess). After that, each
-unit is a real lesson anchored to a **CEFR can-do** goal and runs the same five-step loop:
+unit is a real lesson anchored to a **CEFR can-do** goal and runs the same core loop:
 
 > **0 Dialogue** (comprehensible input · audio) → **1 Vocab** (type the word · listen) →
 > **2 Grammar** (type the form · cloze) → **3 Transform** (apply the rule) → **4 Dictation** (hear → type)
 
-**Five card types, zero multiple-choice** — every card tests **active knowledge** (production,
-listening, dictation, comprehension), with **native-speaker neural audio** (Google) throughout.
+From **B1** each unit adds three **CEFR-2020 skill strands** (graded against the exam tasks —
+DELE *mediación*, TOPIK II 쓰기, DELF/DALF production):
+
+> **5 Mediation** (relay/summarise a source for a third party) → **6 Composition** (genre-scaffolded
+> guided writing → model + self-check) → **7 Reading** (authentic-style passage → literal + inferential questions)
+
+**Eight card types, zero multiple-choice** — every card tests **active knowledge** (production,
+listening, dictation, mediation, free writing, reading comprehension), with **native-speaker neural audio** (Google) throughout.
 Grammar is **sequenced like a textbook** (Spanish: ser → present → past tenses → **subjunctive hub**;
 Japanese: です → polite forms → **て-form hub** → conditionals); vocabulary is **grouped by theme**
 per unit, with the rest of the ~30k inventory riding along as a 3-layer, level-gated
@@ -44,17 +50,18 @@ per unit, with the rest of the ~30k inventory riding along as a 3-layer, level-g
 
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
-| **Spanish** | 71 | A1→C2 | 20,990 | 9,703 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (108 MB) |
-| **Japanese** | 79 | A1→C2 | 11,377 | 4,791 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (56 MB) |
-| **French** | 73 | A1→C2 | 19,682 | 8,980 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (80 MB) |
-| **Chinese** | 78 | A1→C2 | 11,265 | 4,665 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (57 MB) |
-| **Korean** | 75 | A1→C2 | 20,446 | 9,284 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (97 MB) |
+| **Spanish** | 79 | A1→C2 | 21,475 | 9,703 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (112 MB) |
+| **Japanese** | 87 | A1→C2 | 11,885 | 4,791 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (61 MB) |
+| **French** | 81 | A1→C2 | 20,187 | 8,980 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (84 MB) |
+| **Chinese** | 86 | A1→C2 | 11,800 | 4,665 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (63 MB) |
+| **Korean** | 83 | A1→C2 | 20,928 | 9,284 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (100 MB) |
 
-_All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **376 units ·
-83,760 cards · 37,423 vocab words**, native-speaker neural audio throughout. Every course opens with
+_All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **416 units ·
+86,275 cards · 37,423 vocab words**, native-speaker neural audio throughout. Every course opens with
 **4 from-zero foundation units** (writing system & pronunciation → numbers → colours → days/time &
-survival) and climbs through A1→B2 grammar to a **C1/C2 band** focused on register, discourse,
-idiom/collocation, and nuance. SHA-256:
+survival), climbs through A1→B2 grammar to a **C1/C2 band** (register, discourse, idiom/collocation,
+nuance), and from B1 adds **mediation, composition, and reading** strands aligned to the exam tasks.
+SHA-256:
 [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS)._
 
 ### 🗺️ The full A1→C2 ladder — shipped
@@ -67,11 +74,11 @@ register, discourse markers, set collocations, idioms, and nuance pairs rather t
 
 | Language | Shipped | Standard | C1/C2 focus |
 |---|---|---|---|
-| **Spanish** | 71 units · A1→C2 | PCIC/DELE A1–C2 | refranes, valoración subjunctive, academic/literary register |
-| **Japanese** | 79 units · A1→C2 | JLPT N5→N1 + post-N1 | keigo mastery, 四字熟語, 評論/学術 register |
-| **French** | 73 units · A1→C2 | DELF/DALF A1–C2 | subjonctif passé, registre soutenu, proverbes, mise en relief |
-| **Chinese** | 78 units · A1→C2 | HSK 1→9 | 成语, 书面语, 修辞, classical 文言 remnants |
-| **Korean** | 75 units · A1→C2 | TOPIK I→II + 고급 | 한자성어, 문어체, 격식체, 수사 |
+| **Spanish** | 79 units · A1→C2 | PCIC/DELE A1–C2 | refranes, valoración subjunctive, academic/literary register |
+| **Japanese** | 87 units · A1→C2 | JLPT N5→N1 + post-N1 | keigo mastery, 四字熟語, 評論/学術 register |
+| **French** | 81 units · A1→C2 | DELF/DALF A1–C2 | subjonctif passé, registre soutenu, proverbes, mise en relief |
+| **Chinese** | 86 units · A1→C2 | HSK 1→9 | 成语, 书面语, 修辞, classical 文言 remnants |
+| **Korean** | 83 units · A1→C2 | TOPIK I→II + 고급 | 한자성어, 문어체, 격식체, 수사 |
 
 ---
 
