@@ -2,12 +2,12 @@
 
 > ## 🎓 Korean Progressive Course — the recommended study path
 >
-> The flagship Korean product is the **Progressive Course**: **83 units, A1→C2, 34,855 cards,
+> The flagship Korean product is the **Progressive Course**: **83 units, A1→C2, 36,271 cards,
 > 16,243 vocab words** (~148 MB). It opens with **4 from-zero foundation units** (hangul jamo →
 > syllable blocks, numbers in both native & Sino-Korean systems, colours, survival phrases), then
 > each unit is a CEFR can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform →
 > 4 Dictation**, grammar sequenced like a textbook (이다 → 해요 → **modifier-ending hub** → TOPIK II)
-> with Seoul-standard native audio throughout. Eight card types — incl. B1+ **mediation · composition · reading** — **zero multiple-choice**. The new
+> with Seoul-standard native audio throughout. Eight card types — incl. B1+ **mediation · composition · reading** and an **audio→Hangul transcription** drill (받침/sandhi spelling-from-sound) — **zero multiple-choice**. The new
 > **C1/C2 band** adds register/discourse/idiom/nuance (grounded in the TOPIK 6 / NIKL advanced standard).
 >
 > **[⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg)** (~148 MB) ·

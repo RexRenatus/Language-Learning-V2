@@ -57,11 +57,11 @@ how-to-study + recommended Anki settings.
 | **Spanish** | 79 | A1→C2 | 37,620 | 17,774 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (176 MB) |
 | **Japanese** | 87 | A1→C2 | 33,320 | 10,854 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (100 MB) |
 | **French** | 81 | A1→C2 | 34,499 | 16,134 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (131 MB) |
-| **Chinese** | 86 | A1→C2 | 37,111 | 11,562 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (116 MB) |
-| **Korean** | 83 | A1→C2 | 34,855 | 16,243 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (148 MB) |
+| **Chinese** | 86 | A1→C2 | 40,059 | 11,562 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (117 MB) |
+| **Korean** | 83 | A1→C2 | 36,271 | 16,243 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (148 MB) |
 
 _All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **416 units ·
-177,405 cards · 72,567 vocab words**, native-speaker neural audio throughout. Every course opens with
+181,769 cards · 72,567 vocab words**, native-speaker neural audio throughout. Every course opens with
 **4 from-zero foundation units** (writing system & pronunciation → numbers → colours → days/time &
 survival), climbs through A1→B2 grammar to a **C1/C2 band** (register, discourse, idiom/collocation,
 nuance), and from B1 adds **mediation, composition, and reading** strands aligned to the exam tasks.
