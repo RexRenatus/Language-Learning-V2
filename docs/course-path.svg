@@ -13,7 +13,7 @@
   <rect width="1280" height="900" fill="#1a1a2e"/>
 
   <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— T H E   C O U R S E   ( F L A G S H I P ) —</text>
-  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">A structured A1→native course, studied unit by unit. All 5 languages now ship a complete A1→B2 course — 243 units · 75,047 cards · 34,839 vocab.</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">A structured A1→native course, studied unit by unit. All 5 languages now ship the complete A1→C2 ladder — 376 units · 83,760 cards · 37,423 vocab.</text>
   <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
 
   <!-- ===================== FROM-ZERO FOUNDATION ONSET ===================== -->
@@ -104,18 +104,20 @@
 
   <line x1="60" y1="408" x2="1220" y2="408" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
 
-  <!-- ===================== A1 → B2 UNIT PROGRESSION (ALL 5, SHIPPED) ===================== -->
-  <text x="60" y="440" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#d4af37" letter-spacing="2">A1 → B2 UNIT PROGRESSION — SHIPPED FOR ALL 5 LANGUAGES</text>
+  <!-- ===================== A1 → C2 UNIT PROGRESSION (ALL 5, SHIPPED) ===================== -->
+  <text x="60" y="440" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#d4af37" letter-spacing="2">A1 → C2 UNIT PROGRESSION — SHIPPED FOR ALL 5 LANGUAGES</text>
   <text x="60" y="461" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#9aa0b5">Grammar sequenced like a textbook around a grammar hub per language; vocab grouped by theme per unit.</text>
 
   <!-- CEFR spectrum bar -->
   <g transform="translate(60 476)">
     <rect width="1160" height="12" rx="6" fill="url(#cefrbar)"/>
     <text x="20"   y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#4ec27e">A1</text>
-    <text x="300"  y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#7cc47a">A2</text>
-    <text x="600"  y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37">B1</text>
-    <text x="900"  y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#e07b53">B2</text>
-    <text x="1150" y="30" text-anchor="end" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#7d7a90">→ C1 next</text>
+    <text x="220"  y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#7cc47a">A2</text>
+    <text x="430"  y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#a9bd58">B1</text>
+    <text x="640"  y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37">B2</text>
+    <text x="850"  y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#e07b53">C1</text>
+    <text x="1010" y="30" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#e07b53">C2</text>
+    <text x="1150" y="30" text-anchor="end" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#6fae7e">full ladder shipped</text>
   </g>
 
   <!-- five language rows: count · grammar hub · cards -->
@@ -124,85 +126,85 @@
     <g transform="translate(60 514)">
       <rect width="1160" height="30" rx="6" fill="#2a2348"/>
       <text x="20"  y="20" font-size="11.5" font-weight="700" fill="#d4af37" letter-spacing="1">LANGUAGE</text>
-      <text x="200" y="20" font-size="11.5" font-weight="700" fill="#d4af37" letter-spacing="1">A1→B2 UNITS</text>
+      <text x="200" y="20" font-size="11.5" font-weight="700" fill="#d4af37" letter-spacing="1">A1→C2 UNITS</text>
       <text x="360" y="20" font-size="11.5" font-weight="700" fill="#d4af37" letter-spacing="1">CARDS</text>
       <text x="520" y="20" font-size="11.5" font-weight="700" fill="#d4af37" letter-spacing="1">GRAMMAR HUB</text>
     </g>
     <!-- es -->
     <g transform="translate(60 548)"><rect width="1160" height="32" rx="4" fill="#1f1f38"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#f0e6d3">Spanish</text>
-      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">43</text>
-      <text x="360" y="21" font-size="13" fill="#c8c4d8">19,322</text>
+      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">71</text>
+      <text x="360" y="21" font-size="13" fill="#c8c4d8">20,990</text>
       <text x="520" y="21" font-size="12.5" fill="#d4af37">present subjunctive</text></g>
     <!-- ja -->
     <g transform="translate(60 584)"><rect width="1160" height="32" rx="4" fill="#1c1c34"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#f0e6d3">Japanese</text>
-      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">54</text>
-      <text x="360" y="21" font-size="13" fill="#c8c4d8">9,733</text>
+      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">79</text>
+      <text x="360" y="21" font-size="13" fill="#c8c4d8">11,377</text>
       <text x="520" y="21" font-size="12.5" fill="#d4af37">て-form + plain / N3 pivot</text></g>
     <!-- fr -->
     <g transform="translate(60 620)"><rect width="1160" height="32" rx="4" fill="#1f1f38"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#f0e6d3">French</text>
-      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">47</text>
-      <text x="360" y="21" font-size="13" fill="#c8c4d8">18,067</text>
+      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">73</text>
+      <text x="360" y="21" font-size="13" fill="#c8c4d8">19,682</text>
       <text x="520" y="21" font-size="12.5" fill="#d4af37">passé composé + subjonctif</text></g>
     <!-- zh -->
     <g transform="translate(60 656)"><rect width="1160" height="32" rx="4" fill="#1c1c34"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#f0e6d3">Chinese</text>
-      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">50</text>
-      <text x="360" y="21" font-size="13" fill="#c8c4d8">9,366</text>
+      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">78</text>
+      <text x="360" y="21" font-size="13" fill="#c8c4d8">11,265</text>
       <text x="520" y="21" font-size="12.5" fill="#d4af37">了 + resultative complements</text></g>
     <!-- ko -->
     <g transform="translate(60 692)"><rect width="1160" height="32" rx="4" fill="#1f1f38"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#f0e6d3">Korean</text>
-      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">49</text>
-      <text x="360" y="21" font-size="13" fill="#c8c4d8">18,559</text>
+      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">75</text>
+      <text x="360" y="21" font-size="13" fill="#c8c4d8">20,446</text>
       <text x="520" y="21" font-size="12.5" fill="#d4af37">modifier endings + indirect speech</text></g>
     <!-- totals -->
     <g transform="translate(60 728)"><rect width="1160" height="32" rx="4" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/><rect width="4" height="32" rx="2" fill="#4ec27e"/>
-      <text x="20"  y="21" font-size="13" font-weight="700" fill="#b6e6c8">All 5 — A1→B2</text>
-      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">243</text>
-      <text x="360" y="21" font-size="13" fill="#b6e6c8" font-weight="700">75,047</text>
-      <text x="520" y="21" font-size="12.5" fill="#9aa0b5">+ 4 from-zero foundation units each · 34,839 vocab words</text></g>
+      <text x="20"  y="21" font-size="13" font-weight="700" fill="#b6e6c8">All 5 — A1→C2</text>
+      <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">376</text>
+      <text x="360" y="21" font-size="13" fill="#b6e6c8" font-weight="700">83,760</text>
+      <text x="520" y="21" font-size="12.5" fill="#9aa0b5">+ 4 from-zero foundation units each · 37,423 vocab words</text></g>
   </g>
 
   <line x1="60" y1="784" x2="1220" y2="784" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
 
-  <!-- ===================== ROADMAP: C1 → C2 ===================== -->
-  <text x="60" y="816" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#d4af37" letter-spacing="2">ROADMAP — THE NEXT CLIMB: C1 → C2 (IN PROGRESS, NOT YET SHIPPED)</text>
+  <!-- ===================== C1 / C2 BAND — SHIPPED ===================== -->
+  <text x="60" y="816" font-family="Inter, sans-serif" font-size="13" font-weight="700" fill="#d4af37" letter-spacing="2">C1 / C2 BAND — SHIPPED · register · discourse · idiom / collocation · nuance</text>
 
   <g font-family="Inter, 'Segoe UI', sans-serif">
     <!-- es -->
     <g transform="translate(60 828)">
-      <rect width="226" height="46" rx="6" fill="#1f1f38" stroke="#9b8ac4" stroke-width="1"/>
-      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Spanish → C1 / C2</text>
+      <rect width="226" height="46" rx="6" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
+      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Spanish · C1 / C2 ✓</text>
       <text x="14" y="39" font-size="11" fill="#9aa0b5">DELE C1–C2</text>
     </g>
     <!-- ja -->
     <g transform="translate(294 828)">
-      <rect width="226" height="46" rx="6" fill="#1f1f38" stroke="#9b8ac4" stroke-width="1"/>
-      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Japanese → C1 / C2</text>
+      <rect width="226" height="46" rx="6" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
+      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Japanese · C1 / C2 ✓</text>
       <text x="14" y="39" font-size="11" fill="#9aa0b5">JLPT N1</text>
     </g>
     <!-- fr -->
     <g transform="translate(528 828)">
-      <rect width="226" height="46" rx="6" fill="#1f1f38" stroke="#9b8ac4" stroke-width="1"/>
-      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">French → C1 / C2</text>
+      <rect width="226" height="46" rx="6" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
+      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">French · C1 / C2 ✓</text>
       <text x="14" y="39" font-size="11" fill="#9aa0b5">DALF C1–C2</text>
     </g>
     <!-- zh -->
     <g transform="translate(762 828)">
-      <rect width="226" height="46" rx="6" fill="#1f1f38" stroke="#9b8ac4" stroke-width="1"/>
-      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Chinese → C1 / C2</text>
+      <rect width="226" height="46" rx="6" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
+      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Chinese · C1 / C2 ✓</text>
       <text x="14" y="39" font-size="11" fill="#9aa0b5">HSK 7–9</text>
     </g>
     <!-- ko -->
     <g transform="translate(996 828)">
-      <rect width="224" height="46" rx="6" fill="#1f1f38" stroke="#9b8ac4" stroke-width="1"/>
-      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Korean → C1 / C2</text>
+      <rect width="224" height="46" rx="6" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/>
+      <text x="14" y="22" font-size="12.5" font-weight="700" fill="#f0e6d3">Korean · C1 / C2 ✓</text>
       <text x="14" y="39" font-size="11" fill="#9aa0b5">TOPIK 6</text>
     </g>
   </g>
 
-  <text x="60" y="892" font-family="Georgia, serif" font-size="11.5" font-style="italic" fill="#7d7a90">A1→B2 is shipped for all 5 languages. C1→C2 is the next climb, grounded in DELE/DALF C1–C2 · JLPT N1 · HSK 7–9 · TOPIK 6.</text>
+  <text x="60" y="892" font-family="Georgia, serif" font-size="11.5" font-style="italic" fill="#7d7a90">The full A1→C2 ladder is shipped for all 5 languages — standards span PCIC/DELE A1–C2 · DELF/DALF · JLPT N5→N1 · HSK 1→9 · TOPIK I→II.</text>
 </svg>

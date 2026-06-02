@@ -38,38 +38,40 @@ Japanese: です → polite forms → **て-form hub** → conditionals); vocabu
 per unit, with the rest of the ~30k inventory riding along as a 3-layer, level-gated
 *Vocab-Expansion* track. Open the **Unit 00** card for how-to-study + recommended Anki settings.
 
-[![The Progressive Course — the 5-step lesson loop, the A1→native unit progression with grammar hubs, and the roadmap to B2](docs/course-path.png)](docs/course-path.png)
+[![The Progressive Course — the 5-step lesson loop and the complete A1→C2 unit progression with grammar hubs, for all five languages](docs/course-path.png)](docs/course-path.png)
 
 <sub>Click to open full-size and zoom in.</sub>
 
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
-| **Spanish** | 43 | A1→B2 | 19,322 | 9,215 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (94 MB) |
-| **Japanese** | 54 | A1→B2 | 9,733 | 4,272 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (44 MB) |
-| **French** | 47 | A1→B2 | 18,067 | 8,491 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (70 MB) |
-| **Chinese** | 50 | A1→B2 | 9,366 | 4,130 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (43 MB) |
-| **Korean** | 49 | A1→B2 | 18,559 | 8,731 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (83 MB) |
+| **Spanish** | 71 | A1→C2 | 20,990 | 9,703 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (108 MB) |
+| **Japanese** | 79 | A1→C2 | 11,377 | 4,791 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (56 MB) |
+| **French** | 73 | A1→C2 | 19,682 | 8,980 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (80 MB) |
+| **Chinese** | 78 | A1→C2 | 11,265 | 4,665 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (57 MB) |
+| **Korean** | 75 | A1→C2 | 20,446 | 9,284 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (97 MB) |
 
-_All five languages now ship a complete **A1→B2 course**: **243 units · 75,047 cards · 34,839 vocab
-words**, native-speaker neural audio throughout. Every course opens with **4 from-zero foundation
-units** (writing system & pronunciation → numbers → colours → days/time & survival), letter/sound
-cards showing **IPA** + phoneme-forced audio. SHA-256:
+_All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **376 units ·
+83,760 cards · 37,423 vocab words**, native-speaker neural audio throughout. Every course opens with
+**4 from-zero foundation units** (writing system & pronunciation → numbers → colours → days/time &
+survival) and climbs through A1→B2 grammar to a **C1/C2 band** focused on register, discourse,
+idiom/collocation, and nuance. SHA-256:
 [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS)._
 
-### 🗺️ Roadmap to C1 (by Dec 2028)
+### 🗺️ The full A1→C2 ladder — shipped
 
-**All five languages now ship a complete A1→B2 course.** Syllabi are grounded in each language's
-national standard (PCIC/DELE · DELF · JLPT N5→N2 · HSK 1→5 · TOPIK I→II), validated for CEFR
-ordering and grammar-point binding, with native-speaker audio throughout. The remaining climb is
-**B2→C1**:
+**All five languages now ship the complete A1→C2 course.** Syllabi are grounded in each language's
+national standard across the whole range (PCIC/DELE A1–C2 · DELF/DALF · JLPT N5→N1 · HSK 1→9 ·
+TOPIK I→II), validated for CEFR ordering and grammar-point binding, with native-speaker audio
+throughout. C1/C2 was authored with the model shift in mind — at the upper levels the drills target
+register, discourse markers, set collocations, idioms, and nuance pairs rather than new conjugations.
 
-| Language | Shipped today | Next (C1) |
-|---|---|---|
-| **Spanish** | 43 units · A1→B2 (PCIC/DELE) | C1 (advanced register/discourse) |
-| **Japanese** | 54 units · A1→B2 (N5→N2) | C1 (N1) |
-| **French** | 47 units · A1→B2 (DELF) | C1 (DALF) |
-| **Chinese** | 50 units · A1→B2 (HSK 1→5) | C1 (HSK 6) |
-| **Korean** | 49 units · A1→B2 (TOPIK I→II) | C1 (TOPIK 6) |
+| Language | Shipped | Standard | C1/C2 focus |
+|---|---|---|---|
+| **Spanish** | 71 units · A1→C2 | PCIC/DELE A1–C2 | refranes, valoración subjunctive, academic/literary register |
+| **Japanese** | 79 units · A1→C2 | JLPT N5→N1 + post-N1 | keigo mastery, 四字熟語, 評論/学術 register |
+| **French** | 73 units · A1→C2 | DELF/DALF A1–C2 | subjonctif passé, registre soutenu, proverbes, mise en relief |
+| **Chinese** | 78 units · A1→C2 | HSK 1→9 | 成语, 书面语, 修辞, classical 文言 remnants |
+| **Korean** | 75 units · A1→C2 | TOPIK I→II + 고급 | 한자성어, 문어체, 격식체, 수사 |
 
 ---
 
