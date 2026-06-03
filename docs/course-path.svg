@@ -13,7 +13,7 @@
   <rect width="1280" height="900" fill="#1a1a2e"/>
 
   <text x="60" y="56" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="6">— T H E   C O U R S E   ( F L A G S H I P ) —</text>
-  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">A structured A1→native course, studied unit by unit. All 5 languages now ship the complete A1→C2 ladder — 416 units · 181,769 cards · 72,567 vocab.</text>
+  <text x="60" y="82" font-family="Georgia, serif" font-size="14" font-style="italic" fill="#a8a4b8">A structured A1→native course, studied unit by unit. All 5 languages now ship the complete A1→C2 ladder — 416 units · 182,585 cards · 72,567 vocab.</text>
   <line x1="60" y1="96" x2="1220" y2="96" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
 
   <!-- ===================== FROM-ZERO FOUNDATION ONSET ===================== -->
@@ -135,7 +135,7 @@
     <g transform="translate(60 548)"><rect width="1160" height="32" rx="4" fill="#1f1f38"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#f0e6d3">Spanish</text>
       <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">79</text>
-      <text x="360" y="21" font-size="13" fill="#c8c4d8">37,620</text>
+      <text x="360" y="21" font-size="13" fill="#c8c4d8">38,111</text>
       <text x="520" y="21" font-size="12.5" fill="#d4af37">present subjunctive</text></g>
     <!-- ja -->
     <g transform="translate(60 584)"><rect width="1160" height="32" rx="4" fill="#1c1c34"/>
@@ -147,7 +147,7 @@
     <g transform="translate(60 620)"><rect width="1160" height="32" rx="4" fill="#1f1f38"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#f0e6d3">French</text>
       <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">81</text>
-      <text x="360" y="21" font-size="13" fill="#c8c4d8">34,499</text>
+      <text x="360" y="21" font-size="13" fill="#c8c4d8">34,824</text>
       <text x="520" y="21" font-size="12.5" fill="#d4af37">passé composé + subjonctif</text></g>
     <!-- zh -->
     <g transform="translate(60 656)"><rect width="1160" height="32" rx="4" fill="#1c1c34"/>
@@ -165,7 +165,7 @@
     <g transform="translate(60 728)"><rect width="1160" height="32" rx="4" fill="#1f2a24" stroke="#4ec27e" stroke-width="1"/><rect width="4" height="32" rx="2" fill="#4ec27e"/>
       <text x="20"  y="21" font-size="13" font-weight="700" fill="#b6e6c8">All 5 — A1→C2</text>
       <text x="200" y="21" font-size="13" fill="#b6e6c8" font-weight="700">416</text>
-      <text x="360" y="21" font-size="13" fill="#b6e6c8" font-weight="700">181,769</text>
+      <text x="360" y="21" font-size="13" fill="#b6e6c8" font-weight="700">182,585</text>
       <text x="520" y="21" font-size="12.5" fill="#9aa0b5">+ 4 from-zero foundation units each · 72,567 vocab words</text></g>
   </g>
 

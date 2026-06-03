@@ -2,13 +2,13 @@
 
 > ## 🎓 French Progressive Course — the recommended study path
 >
-> The flagship French product is the **Progressive Course**: **81 units, A1→C2, 34,499 cards,
+> The flagship French product is the **Progressive Course**: **81 units, A1→C2, 34,824 cards,
 > 16,134 vocab words** (~131 MB). It opens with **4 from-zero foundation units** (alphabet & sounds
 > with IPA, numbers incl. the vigesimal 70/80/90, colours, survival phrases), then each unit is a
 > CEFR can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**,
 > grammar sequenced like a textbook (être/avoir → **passé composé hub** → **subjonctif hub** → B2),
 > with the **C1/C2 band** adding register/discourse/idiom/nuance (grounded in the DALF C1-C2
-> standard), and native-speaker audio throughout. Eight card types — incl. B1+ **mediation · composition · reading** — **zero multiple-choice**.
+> standard), and native-speaker audio throughout. Eight card types — incl. B1+ **mediation · composition · reading** and a **gender** drill (type the noun with its article: *la nuit*, *le problème*) — **zero multiple-choice**.
 >
 > **[⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg)** (~131 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
