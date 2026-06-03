@@ -55,16 +55,21 @@ how-to-study + recommended Anki settings.
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
 | **Spanish** | 79 | A1→C2 | 38,111 | 17,774 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (176 MB) |
-| **Japanese** | 87 | A1→C2 | 33,320 | 10,854 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (100 MB) |
-| **French** | 81 | A1→C2 | 34,824 | 16,134 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (131 MB) |
-| **Chinese** | 86 | A1→C2 | 40,059 | 11,562 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (117 MB) |
-| **Korean** | 83 | A1→C2 | 36,271 | 16,243 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (148 MB) |
+| **Japanese** | 87 | A1→C2 | 33,360 | 10,854 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (101 MB) |
+| **French** | 81 | A1→C2 | 34,883 | 16,134 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (132 MB) |
+| **Chinese** | 86 | A1→C2 | 40,477 | 11,562 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (120 MB) |
+| **Korean** | 83 | A1→C2 | 36,616 | 16,243 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (149 MB) |
 
 _All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **416 units ·
-182,585 cards · 72,567 vocab words**, native-speaker neural audio throughout. Every course opens with
+183,447 cards · 72,567 vocab words**, native-speaker neural audio throughout. Every course opens with
 **4 from-zero foundation units** (writing system & pronunciation → numbers → colours → days/time &
-survival), climbs through A1→B2 grammar to a **C1/C2 band** (register, discourse, idiom/collocation,
-nuance), and from B1 adds **mediation, composition, and reading** strands aligned to the exam tasks.
+survival) — the Chinese and Japanese onsets now teach the **full pinyin (416 syllables) and kana
+gojūon (107) charts** as hear-the-sound → type-the-syllable cards (neutral tone, IPA + example word) —
+climbs through A1→B2 grammar to a **C1/C2 band** (register, discourse, idiom/collocation, nuance), and
+from B1 adds **mediation, composition, and reading** strands aligned to the exam tasks. Targeted
+reference-drill decks round out the hardest systems: **measure words** (zh/ja/ko), **verb conjugation**
+(fr/ko/ja), Korean **speech levels** (반말/해요체/하십시오체), **Sino-root word families** (ko/zh), and
+Korean **받침 pronunciation sandhi**._
 SHA-256:
 [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS)._
 

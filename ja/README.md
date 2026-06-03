@@ -2,15 +2,19 @@
 
 > ## 🎓 Japanese Progressive Course — the recommended study path
 >
-> The flagship Japanese product is the **Progressive Course**: **87 units, A1→C2, 33,320 cards,
-> 10,854 vocab words** (~100 MB). It opens with **4 from-zero foundation units** (kana review,
-> numbers incl. native vs Sino-Japanese, colours, survival phrases), then each unit is a CEFR
-> can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with
-> grammar sequenced like a textbook (です → polite forms → **て-form hub** → N3 → N2) and
-> native-speaker audio throughout. The **C1/C2 band** adds register/discourse/idiom/nuance
-> (grounded in the JLPT N1 / C1–C2 standard). Eight card types — incl. B1+ **mediation · composition · reading** and a **kanji-recognition** card (kanji → reading + meaning) — **zero multiple-choice**.
+> The flagship Japanese product is the **Progressive Course**: **87 units, A1→C2, 33,360 cards,
+> 10,854 vocab words** (~101 MB). It opens with **4 from-zero foundation units** — the pronunciation
+> onset now teaches the **full kana gojūon chart (107 hiragana: base + dakuten + yōon)** as
+> hear-the-sound → type-the-rōmaji cards (IPA + example word), with the katakana set alongside — then
+> numbers incl. native vs Sino-Japanese, colours, survival phrases, then each unit is a CEFR can-do
+> lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with grammar
+> sequenced like a textbook (です → polite forms → **て-form hub** → N3 → N2) and native-speaker audio
+> throughout. The **C1/C2 band** adds register/discourse/idiom/nuance (grounded in the JLPT N1 / C1–C2
+> standard). Card types incl. B1+ **mediation · composition · reading**, a **kanji-recognition** card
+> (kanji → reading + meaning), and a reference-drill deck for **counters (助数詞)** with the right
+> sound-changes — **zero multiple-choice**.
 >
-> **[⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg)** (~100 MB) ·
+> **[⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg)** (~101 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 
