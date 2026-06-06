@@ -24,10 +24,10 @@
 > N5–N1 + kana · 2,234 characters**) traces each character **stroke-by-stroke on the iPad** in
 > AnkiMobile (Hanzi Writer for kanji, KanjiVG diagrams for kana; reading + rōmaji + meaning + native
 > audio on every card), and two **spaced-repetition GoodNotes workbooks** drill it by hand — **Regular
-> 楷書** (genkō grid + stroke strips) and **Cursive 行書** (copy-the-model over a faint skeleton).
+> 楷書** (genkō grid + stroke strips) and **Cursive 行書** (freehand-trace the model + ▶ stroke-order reference).
 >
 > **[⬇ Writing-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Japanese.apkg)** (37 MB) ·
-> **[⬇ Regular workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf)** (24 MB) ·
+> **[⬇ Regular workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf)** (25 MB) ·
 > **[⬇ Cursive workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Cursive.pdf)** (6 MB) ·
 > see the Writing Drills section in the [main README](../README.md).
 

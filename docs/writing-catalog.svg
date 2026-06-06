@@ -47,7 +47,7 @@
       <text x="300"  y="26" fill="#8e8aa0">田字格 grid · progressive stroke strips</text>
       <text x="720"  y="26" fill="#7d7a90">2,966 hanzi</text>
       <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
-      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">31 MB</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">33 MB</text>
     </g>
     <g transform="translate(40 310)">
       <rect width="1200" height="40" rx="4" fill="#141f1a"/>
@@ -56,7 +56,7 @@
       <text x="300"  y="26" fill="#8e8aa0">running-script model over faint skeleton</text>
       <text x="720"  y="26" fill="#7d7a90">2,966 hanzi</text>
       <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
-      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">6 MB</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">7 MB</text>
     </g>
     <g transform="translate(40 354)">
       <rect width="1200" height="40" rx="4" fill="#16241c"/>
@@ -65,7 +65,7 @@
       <text x="300"  y="26" fill="#8e8aa0">genkō grid · kanji + kana stroke strips</text>
       <text x="720"  y="26" fill="#7d7a90">2,234 kanji+kana</text>
       <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
-      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">24 MB</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">25 MB</text>
     </g>
     <g transform="translate(40 398)">
       <rect width="1200" height="40" rx="4" fill="#141f1a"/>
@@ -83,11 +83,11 @@
       <text x="300"  y="26" fill="#8e8aa0">Nanum-brush model over faint skeleton</text>
       <text x="720"  y="26" fill="#7d7a90">9,546 words</text>
       <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
-      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">16 MB</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">20 MB</text>
     </g>
   </g>
 
   <line x1="60" y1="502" x2="1220" y2="502" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
-  <text x="60" y="528" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Each <tspan fill="#4ec27e">Session</tspan> introduces new characters + due reviews on an expanding ladder (+1/+2/+4/+8/+16). Cursive = <tspan fill="#d4af37">copy-the-model</tspan> (no free animated cursive data exists).</text>
+  <text x="60" y="528" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Each <tspan fill="#4ec27e">Session</tspan> introduces new characters + due reviews on an expanding ladder (+1/+2/+4/+8/+16). Cursive cards add a <tspan fill="#d4af37">freehand trace canvas</tspan> over the model (no free animated cursive data).</text>
   <text x="60" y="552" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Stroke data: <tspan fill="#a8a4b8">Make Me a Hanzi</tspan> + <tspan fill="#a8a4b8">KanjiVG</tspan> (CC BY-SA). Glyph fonts OFL. Pronunciation audio: Google Cloud TTS. Korean = cursive workbook this release.</text>
 </svg>

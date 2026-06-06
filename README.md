@@ -108,11 +108,11 @@ rōmaji (ja)**, an **English definition**, and a **native-voice audio** clip.
 |---|---|---|---|---|
 | **Writing — Chinese** | hanzi 楷书 + 行书 | HSK 1–9 · 2,966 hanzi · 5,932 cards | Anki · iPad trace | [⬇ Writing-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Chinese.apkg) (43 MB) |
 | **Writing — Japanese** | kanji + kana 楷書 + 行書 | JLPT N5–N1 + kana · 2,234 · 4,438 cards | Anki · iPad trace | [⬇ Writing-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Japanese.apkg) (37 MB) |
-| **Chinese workbook · Regular** | 楷书 · 田字格 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Regular.pdf) (31 MB) |
-| **Chinese workbook · Cursive** | 行书 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Cursive.pdf) (6 MB) |
-| **Japanese workbook · Regular** | 楷書 · genkō | 2,234 · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf) (24 MB) |
+| **Chinese workbook · Regular** | 楷书 · 田字格 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Regular.pdf) (33 MB) |
+| **Chinese workbook · Cursive** | 行书 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Cursive.pdf) (7 MB) |
+| **Japanese workbook · Regular** | 楷書 · genkō | 2,234 · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf) (25 MB) |
 | **Japanese workbook · Cursive** | 行書 | 2,234 · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Cursive.pdf) (6 MB) |
-| **Korean workbook · Cursive** | 흘림체 | TOPIK · 9,546 words · SRS | PDF · GoodNotes | [⬇ Writing-Korean-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Korean-Cursive.pdf) (16 MB) |
+| **Korean workbook · Cursive** | 흘림체 | TOPIK · 9,546 words · SRS | PDF · GoodNotes | [⬇ Writing-Korean-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Korean-Cursive.pdf) (20 MB) |
 
 SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/SHA256SUMS).
 
@@ -122,9 +122,11 @@ two misses; the back reveals a numbered stroke-order diagram. *Workbooks* — op
 and write in the squared grids; each is ordered into **Sessions** that introduce a few new characters
 and re-present earlier ones at expanding intervals (+1/+2/+4/+8/+16 sessions).
 
-> **On cursive.** No freely-licensed *animated* cursive dataset exists, so the cursive decks/workbooks
-> show a real cursive **model glyph** (zh 行书 · ja 行書 · ko 흘림체, OFL fonts) over a faint regular
-> skeleton to **copy** — not stroke-graded. A handful (~30) of rare Japanese kanji ship cursive-only.
+> **On cursive.** No freely-licensed *animated* cursive dataset exists, so cursive isn't stroke-graded.
+> Instead each cursive **deck** card gives a **freehand trace canvas** — the cursive model glyph (zh 行书
+> · ja 行書 · ko 흘림체, OFL fonts) shows faint and you trace it with finger / Apple Pencil, with a
+> **▶ Stroke order** button that animates the underlying regular skeleton; the **workbooks** print the
+> model over a faint skeleton to copy. A handful (~30) of rare Japanese kanji ship cursive-only.
 
 **Sources.** Stroke order from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) (zh) and
 [KanjiVG](http://kanjivg.tagaini.net) (ja, CC BY-SA 3.0) via [Hanzi Writer](https://hanziwriter.org);
