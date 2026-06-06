@@ -18,6 +18,17 @@
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 
+> ## ✍️ Writing Drills (Korean) — cursive workbook
+>
+> A **spaced-repetition GoodNotes workbook** for **Korean cursive (흘림체)**: **9,546 TOPIK-tiered
+> words** rendered in a Nanum-brush model over a faint regular skeleton to copy, ordered into Sessions
+> (a few new words + due reviews each sitting) on squared grids — 12 pt, fully vector for iPad zoom.
+> _(Korean ships as a cursive workbook this release; interactive Hangul tracing is a planned follow-up.)_
+>
+> **[⬇ Writing-Korean-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Korean-Cursive.pdf)** (16 MB) ·
+> SHA-256 [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/SHA256SUMS) ·
+> see the Writing Drills section in the [main README](../README.md).
+
 Comprehensive Korean flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 
 > **▶ Status — content pool / reference drills.** The decks on this page are the **content pool**

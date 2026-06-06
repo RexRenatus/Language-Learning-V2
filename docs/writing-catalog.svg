@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 590" width="1280" height="590">
+  <rect width="1280" height="590" fill="#1a1a2e"/>
+
+  <text x="60" y="52" font-family="Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="700" fill="#d4af37" letter-spacing="5">— W R I T I N G   D R I L L S   ·   S T R O K E   O R D E R —</text>
+  <text x="60" y="78" font-family="Georgia, serif" font-size="13.5" font-style="italic" fill="#a8a4b8">2 interactive Anki decks (AnkiMobile finger-tracing, graded stroke-by-stroke) + 5 spaced-repetition PDF workbooks. pinyin / rōmaji · definitions · native audio.</text>
+  <line x1="60" y1="92" x2="1220" y2="92" stroke="#d4af37" stroke-width="0.7" opacity="0.45"/>
+
+  <!-- header -->
+  <g transform="translate(40 106)">
+    <rect width="1200" height="38" rx="6" fill="#2a2348"/>
+    <text x="24"   y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">PRODUCT</text>
+    <text x="300"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">WHAT IT DRILLS</text>
+    <text x="720"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">SCRIPT</text>
+    <text x="908"  y="25" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">FORMAT</text>
+    <text x="1176" y="25" text-anchor="end" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#d4af37" letter-spacing="2">CARDS / SIZE</text>
+  </g>
+
+  <g font-family="Inter, sans-serif" font-size="15">
+    <!-- DECK: Chinese -->
+    <g transform="translate(40 152)">
+      <rect width="1200" height="42" rx="4" fill="#231f3e"/>
+      <rect width="4" height="42" rx="2" fill="#d4af37"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Writing — Chinese <tspan fill="#8e8aa0" font-weight="400">(Anki)</tspan></text>
+      <text x="300"  y="27" fill="#c8c4d8">Hanzi stroke tracing <tspan font-family="'Noto Sans CJK JP', sans-serif" fill="#6ec6ff">我 字</tspan> + 行书 cursive</text>
+      <text x="720"  y="27" fill="#9aa0b5">HSK 1–9</text>
+      <text x="908"  y="27" fill="#d4af37" font-weight="700">iPad · trace</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">5,932 · 43 MB</text>
+    </g>
+    <!-- DECK: Japanese -->
+    <g transform="translate(40 198)">
+      <rect width="1200" height="42" rx="4" fill="#201d36"/>
+      <rect width="4" height="42" rx="2" fill="#d4af37"/>
+      <text x="24"   y="27" fill="#f0e6d3" font-weight="700">Writing — Japanese <tspan fill="#8e8aa0" font-weight="400">(Anki)</tspan></text>
+      <text x="300"  y="27" fill="#c8c4d8">Kanji + kana stroke order <tspan font-family="'Noto Sans CJK JP', sans-serif" fill="#6ec6ff">日 あ</tspan> + 行書</text>
+      <text x="720"  y="27" fill="#9aa0b5">JLPT N5–N1</text>
+      <text x="908"  y="27" fill="#d4af37" font-weight="700">iPad · trace</text>
+      <text x="1176" y="27" text-anchor="end" fill="#f0e6d3" font-weight="700">4,438 · 37 MB</text>
+    </g>
+    <!-- WORKBOOKS header strip -->
+    <g transform="translate(40 248)">
+      <text x="0" y="14" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#7ee787" letter-spacing="2">SRS PDF WORKBOOKS — write with Apple Pencil in GoodNotes (田字格 · genkō grids, 12 pt, vector)</text>
+    </g>
+    <g transform="translate(40 266)">
+      <rect width="1200" height="40" rx="4" fill="#16241c"/>
+      <rect width="4" height="40" rx="2" fill="#4ec27e"/>
+      <text x="24"   y="26" fill="#cdc8dc" font-weight="700">Chinese · Regular <tspan font-family="'Noto Sans CJK JP', sans-serif">楷书</tspan></text>
+      <text x="300"  y="26" fill="#8e8aa0">田字格 grid · progressive stroke strips</text>
+      <text x="720"  y="26" fill="#7d7a90">2,966 hanzi</text>
+      <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">31 MB</text>
+    </g>
+    <g transform="translate(40 310)">
+      <rect width="1200" height="40" rx="4" fill="#141f1a"/>
+      <rect width="4" height="40" rx="2" fill="#4ec27e"/>
+      <text x="24"   y="26" fill="#cdc8dc" font-weight="700">Chinese · Cursive <tspan font-family="'Noto Sans CJK JP', sans-serif">行书</tspan></text>
+      <text x="300"  y="26" fill="#8e8aa0">running-script model over faint skeleton</text>
+      <text x="720"  y="26" fill="#7d7a90">2,966 hanzi</text>
+      <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">6 MB</text>
+    </g>
+    <g transform="translate(40 354)">
+      <rect width="1200" height="40" rx="4" fill="#16241c"/>
+      <rect width="4" height="40" rx="2" fill="#4ec27e"/>
+      <text x="24"   y="26" fill="#cdc8dc" font-weight="700">Japanese · Regular <tspan font-family="'Noto Sans CJK JP', sans-serif">楷書</tspan></text>
+      <text x="300"  y="26" fill="#8e8aa0">genkō grid · kanji + kana stroke strips</text>
+      <text x="720"  y="26" fill="#7d7a90">2,234 kanji+kana</text>
+      <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">24 MB</text>
+    </g>
+    <g transform="translate(40 398)">
+      <rect width="1200" height="40" rx="4" fill="#141f1a"/>
+      <rect width="4" height="40" rx="2" fill="#4ec27e"/>
+      <text x="24"   y="26" fill="#cdc8dc" font-weight="700">Japanese · Cursive <tspan font-family="'Noto Sans CJK JP', sans-serif">行書</tspan></text>
+      <text x="300"  y="26" fill="#8e8aa0">brush model over faint skeleton</text>
+      <text x="720"  y="26" fill="#7d7a90">2,234 kanji+kana</text>
+      <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">6 MB</text>
+    </g>
+    <g transform="translate(40 442)">
+      <rect width="1200" height="40" rx="4" fill="#16241c"/>
+      <rect width="4" height="40" rx="2" fill="#4ec27e"/>
+      <text x="24"   y="26" fill="#cdc8dc" font-weight="700">Korean · Cursive <tspan font-family="'Noto Sans CJK JP', sans-serif">흘림체</tspan></text>
+      <text x="300"  y="26" fill="#8e8aa0">Nanum-brush model over faint skeleton</text>
+      <text x="720"  y="26" fill="#7d7a90">9,546 words</text>
+      <text x="908"  y="26" fill="#4ec27e">PDF · GoodNotes</text>
+      <text x="1176" y="26" text-anchor="end" fill="#cdc8dc" font-weight="700">16 MB</text>
+    </g>
+  </g>
+
+  <line x1="60" y1="502" x2="1220" y2="502" stroke="#d4af37" stroke-width="0.5" opacity="0.3"/>
+  <text x="60" y="528" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Each <tspan fill="#4ec27e">Session</tspan> introduces new characters + due reviews on an expanding ladder (+1/+2/+4/+8/+16). Cursive = <tspan fill="#d4af37">copy-the-model</tspan> (no free animated cursive data exists).</text>
+  <text x="60" y="552" font-family="Georgia, serif" font-size="12" font-style="italic" fill="#7d7a90">Stroke data: <tspan fill="#a8a4b8">Make Me a Hanzi</tspan> + <tspan fill="#a8a4b8">KanjiVG</tspan> (CC BY-SA). Glyph fonts OFL. Pronunciation audio: Google Cloud TTS. Korean = cursive workbook this release.</text>
+</svg>

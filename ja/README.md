@@ -18,6 +18,19 @@
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 
+> ## ✍️ Writing Drills (Japanese) — stroke order
+>
+> Learn to **write** kana + kanji. The interactive **`Writing-Japanese.apkg`** (**4,438 cards · JLPT
+> N5–N1 + kana · 2,234 characters**) traces each character **stroke-by-stroke on the iPad** in
+> AnkiMobile (Hanzi Writer for kanji, KanjiVG diagrams for kana; reading + rōmaji + meaning + native
+> audio on every card), and two **spaced-repetition GoodNotes workbooks** drill it by hand — **Regular
+> 楷書** (genkō grid + stroke strips) and **Cursive 行書** (copy-the-model over a faint skeleton).
+>
+> **[⬇ Writing-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Japanese.apkg)** (37 MB) ·
+> **[⬇ Regular workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf)** (24 MB) ·
+> **[⬇ Cursive workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Cursive.pdf)** (6 MB) ·
+> see the Writing Drills section in the [main README](../README.md).
+
 Comprehensive Japanese flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 
 > **▶ Status — content pool / reference drills.** The decks on this page are the **content pool**
