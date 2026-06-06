@@ -28,7 +28,7 @@
 >
 > **[⬇ Writing-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Chinese.apkg)** (43 MB) ·
 > **[⬇ Regular workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Regular.pdf)** (33 MB) ·
-> **[⬇ Cursive workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Cursive.pdf)** (7 MB) ·
+> **[⬇ Cursive workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Cursive.pdf)** (8 MB) ·
 > see the Writing Drills section in the [main README](../README.md).
 
 Comprehensive Chinese flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.

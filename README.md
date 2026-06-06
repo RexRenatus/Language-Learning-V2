@@ -109,10 +109,10 @@ rōmaji (ja)**, an **English definition**, and a **native-voice audio** clip.
 | **Writing — Chinese** | hanzi 楷书 + 行书 | HSK 1–9 · 2,966 hanzi · 5,932 cards | Anki · iPad trace | [⬇ Writing-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Chinese.apkg) (43 MB) |
 | **Writing — Japanese** | kanji + kana 楷書 + 行書 | JLPT N5–N1 + kana · 2,234 · 4,438 cards | Anki · iPad trace | [⬇ Writing-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Japanese.apkg) (37 MB) |
 | **Chinese workbook · Regular** | 楷书 · 田字格 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Regular.pdf) (33 MB) |
-| **Chinese workbook · Cursive** | 行书 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Cursive.pdf) (7 MB) |
-| **Japanese workbook · Regular** | 楷書 · genkō | 2,234 · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf) (25 MB) |
-| **Japanese workbook · Cursive** | 行書 | 2,234 · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Cursive.pdf) (6 MB) |
-| **Korean workbook · Cursive** | 흘림체 | TOPIK · 9,546 words · SRS | PDF · GoodNotes | [⬇ Writing-Korean-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Korean-Cursive.pdf) (20 MB) |
+| **Chinese workbook · Cursive** | 行书 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Cursive.pdf) (8 MB) |
+| **Japanese workbook · Regular** | 楷書 · genkō | 2,234 · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf) (26 MB) |
+| **Japanese workbook · Cursive** | 行書 | 2,234 · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Cursive.pdf) (7 MB) |
+| **Korean workbook · Cursive** | 흘림체 | TOPIK · 9,546 words · SRS | PDF · GoodNotes | [⬇ Writing-Korean-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Korean-Cursive.pdf) (25 MB) |
 
 SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/SHA256SUMS).
 

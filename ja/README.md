@@ -27,8 +27,8 @@
 > 楷書** (genkō grid + stroke strips) and **Cursive 行書** (freehand-trace the model + ▶ stroke-order reference).
 >
 > **[⬇ Writing-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Japanese.apkg)** (37 MB) ·
-> **[⬇ Regular workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf)** (25 MB) ·
-> **[⬇ Cursive workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Cursive.pdf)** (6 MB) ·
+> **[⬇ Regular workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf)** (26 MB) ·
+> **[⬇ Cursive workbook](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Cursive.pdf)** (7 MB) ·
 > see the Writing Drills section in the [main README](../README.md).
 
 Comprehensive Japanese flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
