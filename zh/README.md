@@ -2,8 +2,8 @@
 
 > ## 🎓 Chinese Progressive Course — the recommended study path
 >
-> The flagship Chinese product is the **Progressive Course**: **86 units, A1→C2, 40,477 cards,
-> 11,562 vocab words** (~120 MB). It opens with **4 from-zero foundation units** — the pronunciation
+> The flagship Chinese product is the **Progressive Course**: **86 units, A1→C2, 35,119 cards,
+> 11,469 vocab words** (~120 MB). It opens with **4 from-zero foundation units** — the pronunciation
 > onset now teaches the **complete pinyin chart (all 416 syllables)** as hear-the-sound → type-the-syllable
 > cards (neutral tone, IPA + example word) — then numbers incl. 二/两 and 万-grouping, colours, survival
 > phrases, then each unit is a CEFR can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3
@@ -17,6 +17,8 @@
 > **[⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg)** (~120 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
+>
+> 💡 **New —** vocab cards now carry a **back-only memory-aid mnemonic** that never leaks the answer (~35% of vocab notes, A1–B2 core covered; C1/C2 tail backfill pending) — browse via the `has::mnemonic` tag. (SPEC-LANG-011)
 
 > ## ✍️ Writing Drills (Chinese) — stroke order
 >

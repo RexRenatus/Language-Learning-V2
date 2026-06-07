@@ -54,14 +54,17 @@ how-to-study + recommended Anki settings.
 
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
-| **Spanish** | 79 | A1→C2 | 38,111 | 17,774 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (176 MB) |
-| **Japanese** | 87 | A1→C2 | 33,360 | 10,854 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (101 MB) |
-| **French** | 81 | A1→C2 | 34,883 | 16,134 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (132 MB) |
-| **Chinese** | 86 | A1→C2 | 40,477 | 11,562 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (120 MB) |
-| **Korean** | 83 | A1→C2 | 36,616 | 16,243 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (149 MB) |
+| **Spanish** | 79 | A1→C2 | 28,661 | 13,121 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (140 MB) |
+| **Japanese** | 87 | A1→C2 | 33,004 | 10,681 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (104 MB) |
+| **French** | 81 | A1→C2 | 27,867 | 12,702 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (112 MB) |
+| **Chinese** | 86 | A1→C2 | 35,119 | 11,469 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (120 MB) |
+| **Korean** | 83 | A1→C2 | 24,476 | 10,248 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (103 MB) |
 
 _All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **416 units ·
-183,447 cards · 72,567 vocab words**, native-speaker neural audio throughout. Every course opens with
+149,127 cards · 58,221 vocab notes**, native-speaker neural audio throughout. (Card counts dropped
+from the previous 183,447 after the **SPEC-LANG-010** lemma re-mine removed inflected-form /
+proper-noun / junk noise plus a leaner Chinese C2 band — fewer, cleaner cards, same unit coverage.)
+Every course opens with
 **4 from-zero foundation units** (writing system & pronunciation → numbers → colours → days/time &
 survival) — the Chinese and Japanese onsets now teach the **full pinyin (416 syllables) and kana
 gojūon (107) charts** as hear-the-sound → type-the-syllable cards (neutral tone, IPA + example word) —
@@ -72,6 +75,25 @@ reference-drill decks round out the hardest systems: **measure words** (zh/ja/ko
 Korean **받침 pronunciation sandhi**._
 SHA-256:
 [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS)._
+
+### ✨ New in this release
+
+- **💡 MEMORY-AID mnemonics on vocab cards — back only, never leaks the answer.** Coverage by
+  vocab notes: es 34% · fr 39% · ja 38% · ko 26% · zh 35% (A1–B2 core covered; C1/C2 tail backfill
+  pending). Browse via the `has::mnemonic` tag. _(SPEC-LANG-011)_
+- **Grammar cards no longer reveal the answer** — the `{{Pattern}}` moved to the back; a neutral
+  `USE:` category hint now shows on the front. _(SPEC-LANG-010)_
+- **Vocab-Expansion is now drip-interleaved per CEFR band** — study A1 expansion alongside A1
+  units, not all at once after C2.
+- **100% native audio coverage** on es/fr/ja/ko vocab (2,257 clips backfilled) — no blank
+  "Listen" cards.
+- **Reference drills regrouped** under `{Lang}::Reference::` (Counters / Conjugation / Honorifics /
+  Sino-Roots / Sandhi / Contrast / False Friends).
+- **Every card shows visible Level · TYPE · № position labels** plus hierarchical tags
+  (`lang::` / `level::` / `type::` / `unit::`).
+
+Specs: [`SPEC-LANG-010`](docs/specs/) + [`SPEC-LANG-011`](docs/specs/). Files (with `SHA256SUMS`):
+`gs://aol-language-decks-v2/v2/course/`.
 
 ### 🗺️ The full A1→C2 ladder — shipped
 

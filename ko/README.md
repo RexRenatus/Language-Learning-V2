@@ -2,8 +2,8 @@
 
 > ## 🎓 Korean Progressive Course — the recommended study path
 >
-> The flagship Korean product is the **Progressive Course**: **83 units, A1→C2, 36,616 cards,
-> 16,243 vocab words** (~149 MB). It opens with **4 from-zero foundation units** (hangul jamo →
+> The flagship Korean product is the **Progressive Course**: **83 units, A1→C2, 24,476 cards,
+> 10,248 vocab words** (~103 MB). It opens with **4 from-zero foundation units** (hangul jamo →
 > syllable blocks, numbers in both native & Sino-Korean systems, colours, survival phrases), then
 > each unit is a CEFR can-do lesson that runs **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform →
 > 4 Dictation**, grammar sequenced like a textbook (이다 → 해요 → **modifier-ending hub** → TOPIK II)
@@ -14,9 +14,11 @@
 > pronunciation sandhi** (spelling → surface sound) — **zero multiple-choice**. The new
 > **C1/C2 band** adds register/discourse/idiom/nuance (grounded in the TOPIK 6 / NIKL advanced standard).
 >
-> **[⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg)** (~149 MB) ·
+> **[⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg)** (~103 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
+>
+> 💡 **New —** vocab cards now carry a **back-only memory-aid mnemonic** that never leaks the answer (~26% of vocab notes, A1–B2 core covered; C1/C2 tail backfill pending) — browse via the `has::mnemonic` tag. (SPEC-LANG-011)
 
 > ## ✍️ Writing Drills (Korean) — cursive workbook
 >

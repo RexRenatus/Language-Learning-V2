@@ -2,17 +2,19 @@
 
 > ## 🎓 Spanish Progressive Course — the recommended study path
 >
-> The flagship Spanish product is the **Progressive Course**: **79 units, A1→C2, 38,111 cards,
-> 17,774 vocab words** (~176 MB). It opens with **4 from-zero foundation units** (alphabet & sounds
+> The flagship Spanish product is the **Progressive Course**: **79 units, A1→C2, 28,661 cards,
+> 13,121 vocab words** (~140 MB). It opens with **4 from-zero foundation units** (alphabet & sounds
 > with IPA, numbers, colours, survival phrases), then each unit is a CEFR can-do lesson that runs
 > **0 Dialogue → 1 Vocab → 2 Grammar → 3 Transform → 4 Dictation**, with grammar sequenced like a
 > textbook (ser → present → past tenses → **subjunctive hub**) and native-speaker audio throughout.
 > The **C1/C2 band** adds register, discourse, idiom, and nuance (grounded in the PCIC/DELE C1–C2
 > standard). Eight card types — incl. B1+ **mediation · composition · reading**, plus **gender** (type the noun with its article), **ser/estar · por/para · mood contrast**, and **false-friend** drills — **zero multiple-choice**.
 >
-> **[⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg)** (~176 MB) ·
+> **[⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg)** (~140 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
+>
+> 💡 **New —** vocab cards now carry a **back-only memory-aid mnemonic** that never leaks the answer (~34% of vocab notes, A1–B2 core covered; C1/C2 tail backfill pending) — browse via the `has::mnemonic` tag. (SPEC-LANG-011)
 
 Comprehensive Spanish flashcards spanning vocabulary, grammar patterns, and contextual usage. All decks built from the OpenSubtitles 2018 frequency list (top-50K) with rich enrichment.
 
