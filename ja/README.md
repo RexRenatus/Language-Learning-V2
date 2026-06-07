@@ -18,7 +18,7 @@
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 >
-> 💡 **New —** vocab cards now carry a **back-only memory-aid mnemonic** that never leaks the answer (~38% of vocab notes, A1–B2 core covered; C1/C2 tail backfill pending) — browse via the `has::mnemonic` tag. (SPEC-LANG-011)
+> 💡 **New —** vocab cards now carry a **back-only memory-aid mnemonic** that never leaks the answer (~85% of vocab notes — A1–B2 core + full C1/C2 coverage) — browse via the `has::mnemonic` tag. (SPEC-LANG-011, SPEC-LANG-012)
 
 > ## ✍️ Writing Drills (Japanese) — stroke order
 >
