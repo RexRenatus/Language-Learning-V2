@@ -151,6 +151,27 @@ and re-present earlier ones at expanding intervals (+1/+2/+4/+8/+16 sessions).
 > **▶ Stroke order** button that animates the underlying regular skeleton; the **workbooks** print the
 > model over a faint skeleton to copy. A handful (~30) of rare Japanese kanji ship cursive-only.
 
+## 🗣️ Tongue Twisters — pronunciation & syllable mastery (5 languages)
+
+Speech-first **PDF textbooks** that drill **syllable mastery** through tongue twisters. Each twister
+weaves in **minimal pairs · tones/pitch · pronunciation · dictation · syllable production**, and ships
+**5 persona articulation cards** — *sleepy giant · excited child · secret whisper · drill sergeant ·
+robot* — that make you say the same twister different ways (rate, pitch, emotion) to build articulatory
+control and automaticity. **184 twisters** total, hybrid authentic (绕口令 / 早口言葉 / trabalenguas /
+virelangues / 잰말놀이) + generated, ordered easy → hard. Every twister has **tap-to-play native audio**
+(normal + slow) via a link + QR to the hosted MP3.
+
+| Textbook | Twisters | Drills | Download |
+|----------|----------|--------|----------|
+| **Chinese** | 40 | tones · z/zh·c/ch·s/sh · -n/-ng · sandhi | [⬇ TongueTwisters-Chinese.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/TongueTwisters-Chinese.pdf) |
+| **Spanish** | 36 | rr/r · ñ · b=v · diphthongs ie/ue/ei | [⬇ TongueTwisters-Spanish.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/TongueTwisters-Spanish.pdf) |
+| **French** | 36 | nasal vowels · u [y]/ou [u] · r [ʁ] · liaison | [⬇ TongueTwisters-French.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/TongueTwisters-French.pdf) |
+| **Japanese** | 36 | gojūon · yōon · geminate っ · pitch-accent | [⬇ TongueTwisters-Japanese.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/TongueTwisters-Japanese.pdf) |
+| **Korean** | 36 | plain/tense/aspirated · 받침 sandhi · ㅓ/ㅗ | [⬇ TongueTwisters-Korean.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/TongueTwisters-Korean.pdf) |
+
+Open in any PDF reader (GoodNotes/iPad recommended); tap **Listen** or scan the QR for the native
+audio. SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/pronunciation/SHA256SUMS). _(SPEC-LANG-013)_
+
 **Sources.** Stroke order from [Make Me a Hanzi](https://github.com/skishore/makemeahanzi) (zh) and
 [KanjiVG](http://kanjivg.tagaini.net) (ja, CC BY-SA 3.0) via [Hanzi Writer](https://hanziwriter.org);
 kanji glosses from kanjidic; pronunciation audio from Google Cloud TTS; practice fonts under the SIL
