@@ -79,8 +79,8 @@ SHA-256:
 ### ✨ New in this release
 
 - **💡 MEMORY-AID mnemonics on vocab cards — back only, never leaks the answer.** Coverage by
-  vocab notes: es 51% · fr 70% · ja 85% · ko 63% · zh 91% (A1–B2 core **plus full C1/C2 coverage** —
-  ~21.5k C1/C2 aids added via a MIPROv2-optimized prompt + gemini-2.5-flash). Browse via the
+  vocab notes: **100% on every language** — all 58,221 vocab cards across A1–C2 now carry a memory
+  aid (MIPROv2-optimized prompt + gemini-2.5-flash). Browse via the
   `has::mnemonic` tag. _(SPEC-LANG-011, SPEC-LANG-012)_
 - **Grammar cards no longer reveal the answer** — the `{{Pattern}}` moved to the back; a neutral
   `USE:` category hint now shows on the front. _(SPEC-LANG-010)_
