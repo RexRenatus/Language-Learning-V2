@@ -145,11 +145,12 @@ two misses; the back reveals a numbered stroke-order diagram. *Workbooks* — op
 and write in the squared grids; each is ordered into **Sessions** that introduce a few new characters
 and re-present earlier ones at expanding intervals (+1/+2/+4/+8/+16 sessions).
 
-> **On cursive.** No freely-licensed *animated* cursive dataset exists, so cursive isn't stroke-graded.
-> Instead each cursive **deck** card gives a **freehand trace canvas** — the cursive model glyph (zh 行书
-> · ja 行書 · ko 흘림체, OFL fonts) shows faint and you trace it with finger / Apple Pencil, with a
-> **▶ Stroke order** button that animates the underlying regular skeleton; the **workbooks** print the
-> model over a faint skeleton to copy. A handful (~30) of rare Japanese kanji ship cursive-only.
+> **On cursive.** No freely-licensed *animated* cursive dataset exists, so cursive can't be
+> stroke-graded. The skill that matters for cursive is **reading** it — so each cursive **deck** card is
+> a **recognition** card: the cursive glyph (zh 行书 · ja 行書, OFL fonts) shows on the front and you
+> recall the standard character + reading + meaning, revealed on the back with native audio. The
+> **workbooks** still print the cursive model over a faint regular skeleton to copy by hand. A handful
+> (~30) of rare Japanese kanji ship cursive-only.
 
 ## 🗣️ Tongue Twisters — pronunciation & syllable mastery (5 languages)
 
