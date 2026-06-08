@@ -142,8 +142,10 @@ SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/
 **How it works.** *Decks* — import the `.apkg` into **AnkiMobile** (iPad): the front shows the reading
 + meaning (and plays the audio), you trace the character, and each stroke is graded with a hint after
 two misses; the back reveals a numbered stroke-order diagram. *Workbooks* — open the PDF in **GoodNotes**
-and write in the squared grids; each is ordered into **Sessions** that introduce a few new characters
-and re-present earlier ones at expanding intervals (+1/+2/+4/+8/+16 sessions).
+and **trace** in the 田字格 grids: every cell is a faded model in a proper **楷体 / handwriting font**
+(zh LXGW WenKai · ja Klee One), graduating solid → faint across the row (a 字帖 copybook — you trace the
+whole row, not write from a blank box). Each is ordered into **Sessions** that introduce a few new
+characters and re-present earlier ones at expanding intervals (+1/+2/+4/+8/+16 sessions).
 
 > **On cursive.** No freely-licensed *animated* cursive dataset exists, so cursive can't be
 > stroke-graded. The skill that matters for cursive is **reading** it — so each cursive **deck** card is
