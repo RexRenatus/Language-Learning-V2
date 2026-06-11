@@ -23,7 +23,8 @@
 > ## ✍️ Writing Drills (Japanese) — stroke order
 >
 > Learn to **write** kana + kanji. The interactive **`Writing-Japanese.apkg`** (**4,438 cards · JLPT
-> N5–N1 + kana · 2,234 characters**) traces each character **stroke-by-stroke on the iPad** in
+> N5–N1 + kana · 2,234 kanji — 2,062 stroke-trace + 30 recognition-only, no upstream stroke data —
+> plus 142 kana**) traces each character **stroke-by-stroke on the iPad** in
 > AnkiMobile (Hanzi Writer for kanji, KanjiVG diagrams for kana; reading + rōmaji + meaning + native
 > audio on every card), and two **spaced-repetition GoodNotes workbooks** drill it by hand — **Regular
 > 楷書** (genkō grid + stroke strips) and **Cursive 行書** (freehand-trace the model + ▶ stroke-order reference).
