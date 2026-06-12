@@ -130,7 +130,7 @@ rōmaji (ja)**, an **English definition**, and a **native-voice audio** clip.
 | Product | Script | Coverage | Format | Download |
 |---|---|---|---|---|
 | **Writing — Chinese** | hanzi 楷书 + 行书 | HSK 1–9 · 2,966 hanzi · 5,932 cards | Anki · iPad trace | [⬇ Writing-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Chinese.apkg) (43 MB) |
-| **Writing — Japanese** | kanji + kana 楷書 + 行書 | JLPT N5–N1 · 2,234 kanji (2,062 stroke-trace + 30 recognition-only) + 142 kana · 4,438 cards | Anki · iPad trace | [⬇ Writing-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Japanese.apkg) (37 MB) |
+| **Writing — Japanese** | kanji + kana 楷書 + 行書 | JLPT N5–N1 · 2,092 kanji (2,062 stroke-trace + 30 recognition-only) + 142 kana (71 hiragana + 71 katakana, all stroke-trace) · 4,438 cards | Anki · iPad trace | [⬇ Writing-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/Writing-Japanese.apkg) (37 MB) |
 | **Chinese workbook · Regular** | 楷书 · 田字格 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Regular.pdf) (34 MB) |
 | **Chinese workbook · Cursive** | 行书 | 2,966 hanzi · SRS | PDF · GoodNotes | [⬇ Writing-Chinese-Cursive.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Chinese-Cursive.pdf) (9 MB) |
 | **Japanese workbook · Regular** | 楷書 · genkō | 2,062 kanji + 142 kana · SRS | PDF · GoodNotes | [⬇ Writing-Japanese-Regular.pdf](https://storage.googleapis.com/aol-language-decks-v2/v2/writing/workbooks/Writing-Japanese-Regular.pdf) (26 MB) |
