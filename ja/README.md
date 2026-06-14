@@ -3,7 +3,7 @@
 > ## 🎓 Japanese Progressive Course — the recommended study path
 >
 > The flagship Japanese product is the **Progressive Course**: **87 units, A1→C2, 33,004 cards,
-> 10,681 vocab words** (~104 MB). It opens with **4 from-zero foundation units** — the pronunciation
+> 10,681 vocab words** (~152 MB). It opens with **4 from-zero foundation units** — the pronunciation
 > onset now teaches the **full kana gojūon chart (107 hiragana: base + dakuten + yōon)** as
 > hear-the-sound → type-the-rōmaji cards (IPA + example word), with the katakana set alongside — then
 > numbers incl. native vs Sino-Japanese, colours, survival phrases, then each unit is a CEFR can-do
@@ -14,7 +14,7 @@
 > (kanji → reading + meaning), and a reference-drill deck for **counters (助数詞)** with the right
 > sound-changes — **zero multiple-choice**.
 >
-> **[⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg)** (~104 MB) ·
+> **[⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg)** (~152 MB) ·
 > SHA-256: [`SHA256SUMS`](https://storage.googleapis.com/aol-language-decks-v2/v2/course/SHA256SUMS) ·
 > see the [main README](../README.md#-progressive-course--the-flagship).
 >

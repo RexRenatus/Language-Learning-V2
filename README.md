@@ -54,11 +54,11 @@ how-to-study + recommended Anki settings.
 
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
-| **Spanish** | 79 | A1→C2 | 28,661 | 13,121 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (140 MB) |
-| **Japanese** | 87 | A1→C2 | 33,004 | 10,681 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (104 MB) |
-| **French** | 81 | A1→C2 | 27,867 | 12,702 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (112 MB) |
-| **Chinese** | 86 | A1→C2 | 35,119 | 11,469 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (120 MB) |
-| **Korean** | 83 | A1→C2 | 24,476 | 10,248 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (103 MB) |
+| **Spanish** | 79 | A1→C2 | 28,661 | 13,121 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (184 MB) |
+| **Japanese** | 87 | A1→C2 | 33,004 | 10,681 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (152 MB) |
+| **French** | 81 | A1→C2 | 27,867 | 12,702 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (147 MB) |
+| **Chinese** | 86 | A1→C2 | 35,119 | 11,469 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (175 MB) |
+| **Korean** | 83 | A1→C2 | 24,476 | 10,248 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (150 MB) |
 
 _All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **416 units ·
 149,127 cards · 58,221 vocab notes**, native-speaker neural audio throughout. (Card counts dropped
@@ -78,6 +78,10 @@ SHA-256:
 
 ### ✨ New in this release
 
+- **🔊 Spoken audio on every Grammar, Transformation and Contrast practice card** — the correct
+  sentence is now read aloud (native neural voice) on the **back**, after you answer, so the whole
+  practice deck is fully spoken, not just Vocab/Dialogue/Dictation. Added in place (no SRS reset).
+  _(SPEC-LANG-017)_
 - **💡 MEMORY-AID mnemonics on vocab cards — back only, never leaks the answer.** Coverage by
   vocab notes: **100% on every language** — all 58,221 vocab cards across A1–C2 now carry a memory
   aid (MIPROv2-optimized prompt + gemini-2.5-flash). Browse via the
