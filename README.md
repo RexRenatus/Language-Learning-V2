@@ -54,18 +54,19 @@ how-to-study + recommended Anki settings.
 
 | Course | Units | Range | Cards | Vocab words | Download |
 |---|---|------:|------:|------:|---|
-| **Spanish** | 79 | A1→C2 | 28,898 | 13,121 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (198 MB) |
-| **Japanese** | 87 | A1→C2 | 33,351 | 10,681 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (165 MB) |
-| **French** | 81 | A1→C2 | 28,206 | 12,702 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (158 MB) |
-| **Chinese** | 86 | A1→C2 | 35,454 | 11,469 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (189 MB) |
-| **Korean** | 83 | A1→C2 | 24,983 | 10,248 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (163 MB) |
+| **Spanish** | 79 | A1→C2 | 28,928 | 13,121 | [⬇ Course-Spanish.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Spanish.apkg) (199 MB) |
+| **Japanese** | 87 | A1→C2 | 33,437 | 10,681 | [⬇ Course-Japanese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Japanese.apkg) (170 MB) |
+| **French** | 81 | A1→C2 | 28,247 | 12,702 | [⬇ Course-French.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-French.apkg) (160 MB) |
+| **Chinese** | 86 | A1→C2 | 35,583 | 11,469 | [⬇ Course-Chinese.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Chinese.apkg) (197 MB) |
+| **Korean** | 83 | A1→C2 | 25,073 | 10,248 | [⬇ Course-Korean.apkg](https://storage.googleapis.com/aol-language-decks-v2/v2/course/Course-Korean.apkg) (167 MB) |
 
 _All five languages now ship a complete **A1→C2 course** — the full CEFR ladder: **416 units ·
-150,892 cards · 58,221 vocab notes**, native-speaker neural audio throughout. (The lemma re-mine
+151,268 cards · 58,221 vocab notes**, native-speaker neural audio throughout. (The lemma re-mine
 under **SPEC-LANG-010** first cut the deck from 183,447 to 149,127 cards — removing inflected-form /
-proper-noun / junk noise plus a leaner Chinese C2 band; an ongoing per-unit **QA + mastery-enrichment
-pass** has since added back ~1,800 adversarially-verified forced-choice Contrast and productive
-Transform cards, same unit coverage.)
+proper-noun / junk noise plus a leaner Chinese C2 band; a completed per-unit **QA + mastery-enrichment
+pass** — every unit dual-swept for quality + studyability and enriched with ~2,140 adversarially-verified
+forced-choice Contrast and productive Transform cards — has since brought it to its current size, same
+unit coverage.)
 Every course opens with
 **4 from-zero foundation units** (writing system & pronunciation → numbers → colours → days/time &
 survival) — the Chinese and Japanese onsets now teach the **full pinyin (416 syllables) and kana
