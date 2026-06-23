@@ -100,7 +100,7 @@ SHA-256:
 - **Every card shows visible Level · TYPE · № position labels** plus hierarchical tags
   (`lang::` / `level::` / `type::` / `unit::`).
 
-Specs: [`SPEC-LANG-010`](docs/specs/) + [`SPEC-LANG-011`](docs/specs/). Files (with `SHA256SUMS`):
+Specs: `SPEC-LANG-010` + `SPEC-LANG-011`. Files (with `SHA256SUMS`):
 `gs://aol-language-decks-v2/v2/course/`.
 
 ### 🗺️ The full A1→C2 ladder — shipped
